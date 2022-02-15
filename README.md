@@ -1,5 +1,7 @@
 # Wrapper: Offline - Experimental Branch
-**This is an experimental version of Wrapper: Offline that will likely not be usable most of the time. Currently, this repository is being used for saving our progress of v2.0.0, more information in README.md.**
+**This is repository that will hold dev-experiments for Wrapper: Offline, these may include entire versions that are unusable or small code snippets that we plan to work with. See README.md here and in specific files for each experiment for more information.**
 
-# Wrapper: Offline v2.0.0
-Version 2.0.0 of Wrapper: Offline is an update that plans to completely redefine how GoAnimate is used, bringing a new framework for the API as well as a completely remade studio! This "remade studio" will *not* use Adobe Flash, meaning that there's nothing in your way of using GoAnimate's themes! This will also means that many things previously seen undoable or hard to do will be extremely easy. This includes things such as *real* asset importing, and *real* video exporting! This is currently in heavy development, progress can be seen here when committed.
+# Current Dev-Experiments
+
+## Wrapper: Offline v2.0.0
+An update we are working on to completely redefine Wrapper and how GoAnimate's themes are used as a whole.
