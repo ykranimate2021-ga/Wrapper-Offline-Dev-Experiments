@@ -1,5 +1,5 @@
 # Wrapper: Offline - Developer Experiments
-**This is repository that will hold dev-experiments for Wrapper: Offline, these may include entire versions that are unusable or small code snippets that we plan to work with. See README.md here and in specific files for each experiment for more information.**
+**This is a repository that will hold dev-experiments for Wrapper: Offline, these may include entire versions that are unusable or small code snippets that we plan to work with. See README.md here and in specific files for each experiment for more information.**
 
 # Current Dev-Experiments
 
