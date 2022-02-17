@@ -4,4 +4,4 @@
 # Current Dev-Experiments
 
 ## Wrapper: Offline v2.0.0
-An update we are working on to completely redefine Wrapper and how GoAnimate's themes are used as a whole.
+An update we are working on to completely redefine Wrapper and how GoAnimate's themes are used as a whole. [More information can be found here](https://github.com/Wrapper-Offline/Wrapper-Offline-Dev-Experiments/wiki/Wrapper:-Offline-v2.0.0).
