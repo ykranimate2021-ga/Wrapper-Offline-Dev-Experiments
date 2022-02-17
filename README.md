@@ -5,3 +5,6 @@
 
 ## Wrapper: Offline v2.0.0
 An update we are working on to completely redefine Wrapper and how GoAnimate's themes are used as a whole. [More information can be found here](https://github.com/Wrapper-Offline/Wrapper-Offline-Dev-Experiments/wiki/Wrapper:-Offline-v2.0.0).
+
+## Wrapper: Online
+An online version of Wrapper: Offline that lets people not able to use the program have access to it.
