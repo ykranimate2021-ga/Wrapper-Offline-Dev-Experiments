@@ -1,0 +1,48 @@
+extends layout
+
+block extrahead
+  link(rel='stylesheet', href='/stylesheets/swf.css')
+  link(rel='stylesheet', href='/stylesheets/cc.css')
+  script= "var themeId='" + theme + "'; var id='" + id + "'"
+
+block content
+  main
+    .cc
+      .ccheader 
+        a.back.button_small(href="/char/browse/" + theme)= "BACK" 
+      .assettypelist
+        a.assettype.active#1(data-type="shirt" onclick="assettypechosen('shirt', '1')")
+        //  img(src="/images/cc/assettype/shirt.png")
+        a.assettype#2(data-type="pants" onclick="assettypechosen('pants', '2')")
+        //  img(src="/images/cc/assettype/pants.png")
+        a.assettype#3(data-type="headshape" onclick="assettypechosen('headshape', '3')")
+        //  img(src="/images/cc/assettype/headshape.png")
+        a.assettype#4(data-type="hair" onclick="assettypechosen('hair', '4')")
+        //  img(src="/images/cc/assettype/hair.png")
+        a.assettype#5(data-type="beard" onclick="assettypechosen('beard', '5')")
+        //  img(src="/images/cc/assettype/beard.png")
+        a.assettype#6(data-type="mouth" onclick="assettypechosen('mouth', '6')")
+        //  img(src="/images/cc/assettype/mouth.png")
+        a.assettype#7(data-type="ear" onclick="assettypechosen('ear', '7')")
+        //  img(src="/images/cc/assettype/ear.png")
+        a.assettype#8(data-type="mustache" onclick="assettypechosen('mustache', '8')")
+        //  img(src="/images/cc/assettype/mustache.png")
+        a.assettype#9(data-type="eyes" onclick="assettypechosen('eyes', '9')")
+        //  img(src="/images/cc/assettype/eyes.png")
+        a.assettype#10(data-type="eyebrows" onclick="assettypechosen('eyebrows', '10')")
+        //  img(src="/images/cc/assettype/eyebrows.png")
+        a.assettype#11(data-type="nose" onclick="assettypechosen('nose', '11')")
+        //  img(src="/images/cc/assettype/nose.png")
+        a.assettype#12(data-type="glasses" onclick="assettypechosen('glasses', '12')")
+        //  img(src="/images/cc/assettype/glasses.png")
+        a.assettype#13(data-type="facedecoration" onclick="assettypechosen('facedecoration', '13')")
+        //  img(src="/images/cc/assettype/facedecoration.png")
+  script. 
+    var prevnum = "1";
+    function assettypechosen(type, num) {
+      if (prevnum !== num) {
+        document.getElementById(num).setAttribute('class', 'assettype active');
+        document.getElementById(prevnum).setAttribute('class', 'assettype');
+        prevnum = num;
+      }
+    }

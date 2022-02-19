@@ -1,0 +1,189 @@
+extends layout
+
+block extrahead
+  link(rel='stylesheet', href='/stylesheets/swf.css')
+  link(rel='stylesheet', href='/stylesheets/cc_browser.css')
+  script= "var themeId='" + theme + "';"
+
+block content
+  main 
+    .browser#browser
+      .browserheader
+        .newchartypes.none#typelist 
+          if theme == 'custom' || 'family'
+            a(href='/char/create/custom/adam')= "Adam"
+            a(href='/char/create/custom/eve')= "Eve"
+            a(href='/char/create/custom/bob')= "Bob"
+            a(href='/char/create/custom/rocky')= "Rocky"
+          if theme == 'business'
+            a(href='/char/create/business/default')= "Man"
+            a(href='/char/create/business/kid')= "Heavy"
+            a(href='/char/create/business/heavy')= "Kid"
+          if theme == 'anime'
+            a(href='/char/create/anime/guy')= "Guy"
+            a(href='/char/create/anime/girl')= "Girl"
+          if theme == 'ninjaanime'
+            a(href='/char/create/ninjaanime/guy')= "Guy"
+            a(href='/char/create/ninjaanime/girl')= "Girl"
+        .listchartype
+          a#cpluscont(onclick="listNewCharTypes()")
+            .customplus#cplus
+          a.listtype.active#custom(onclick="showCustom()")
+            h1.custom= "Custom Characters"
+          a.listtype.right#stock(onclick="showStock()")
+            h1.stock= "Stock Characters"
+      .list#customlist
+        if customchars == false 
+          h1.emptytext= "No custom characters for this theme."
+        each char in customchars
+          .char(data-id= char.id)
+            .imgholder
+              .backgroundcont
+              .charoptions.fix
+                .char.option
+                  a(onclick='editCharInfo("' + char.id + '", "' + char.name + '", "' + char.category + '")' data-updateid= char.id)
+                    img.optionimg(src="/images/icons/edit.png" alt="Edit Info" title="Edit Info")
+                .char.option
+                  a(onclick='deleteChar("' + char.id + '")')
+                    img.optionimg(src="/images/icons/delete.png" alt="Delete" title="Delete")
+                .char.option
+                  a(href="/char/create/" + char.theme + "/copy/" + char.id)
+                    img.optionimg(src="/images/icons/char_copy.png" alt="Copy" title="Copy")
+              img.charimg(src=char.thumb alt=char.name title=char.name)
+            .charname(data-nameid= char.id)= char.name
+      .list.right.hidden#stocklist
+        if stockchars == false 
+          h1.emptytext= "No stock characters for this theme."
+        each char in stockchars
+          .char 
+            .imgholder
+              .backgroundcont
+              .charoptions
+                .char.option
+                  a(href="/char/create/" + char.theme + "/copy/" + char.id)
+                    img.optionimg(src="/images/icons/char_copy.png" alt="Copy" title="Copy")
+              // i get that this wouldn't show up if you haven't scrolled down in the flash cc_browser but i'll have these rendered soon i swear
+              img.charimg(src=char.thumb alt=char.name title=char.name)
+            .charname= char.name
+      .clickstop.none#clickstop
+    .editinfo.none#editinfo
+      .infoheader 
+        h1.htext= "Edit Info"
+        a.closeinfo(onclick="closeEdit()")= "X"
+      form.infoform
+        p.label= "ID:"
+        input#id(type="text", disabled, name="id")
+        p.label= "Name:"
+        input#name(type="text", maxlength="15", name="name")
+        p.label= "Category:"
+        input#category(type="text", maxlength="15", name="category")
+      .infofooter
+        button.cancelinfo(onclick="closeEdit()")= "CANCEL"
+        button.updateinfo(onclick="updateInfo()")= "UPDATE"
+
+    script. 
+      function showCustom() {
+        document.getElementById('custom').setAttribute("class", "listtype active");
+        document.getElementById('stock').setAttribute("class", "listtype right");
+        document.getElementById('stocklist').setAttribute("class", "list right hidden");
+        document.getElementById('customlist').setAttribute("class", "list");
+        setTimeout(function () {
+          document.getElementById('cplus').setAttribute("class", "customplus");
+        }, 500);
+      }
+
+      function showStock() {
+        cancelNewChar();
+        document.getElementById('cplus').setAttribute("class", "customplus hidden");
+        setTimeout(function () {
+          document.getElementById('stock').setAttribute("class", "listtype active");
+          document.getElementById('custom').setAttribute("class", "listtype left");
+          document.getElementById('customlist').setAttribute("class", "list left hidden");
+          document.getElementById('stocklist').setAttribute("class", "list");
+        }, 100);
+      }
+
+      function listNewCharTypes() {
+        switch (themeId) {
+          case "family":
+          case "business":
+          case "anime":
+          case "ninjaanime": {
+            document.getElementById('cplus').setAttribute("class", "customplus active");
+            document.getElementById('cpluscont').setAttribute("onclick", "cancelNewChar()");
+            document.getElementById('typelist').setAttribute("class", "newchartypes hidden");
+            setTimeout(function() { document.getElementById('typelist').setAttribute("class", "newchartypes") }, 1);
+            break;
+          }
+          default: {
+            window.location.href = `/char/create/${themeId}/default`;
+            break;
+          }
+        }
+      }
+
+      function cancelNewChar() {
+        document.getElementById('cplus').setAttribute("class", "customplus");
+        document.getElementById('cpluscont').setAttribute("onclick", "listNewCharTypes()");
+        document.getElementById('typelist').setAttribute("class", "newchartypes hidden");
+      }
+
+      function editCharInfo(id, name, category) {
+        if (category == "0") {
+          category = ""
+        }
+        document.getElementById("id").value = id 
+        document.getElementById("name").value = name 
+        document.getElementById("category").value = category
+        document.getElementById('editinfo').setAttribute("class", "editinfo hidden");
+        setTimeout(function() { document.getElementById('editinfo').setAttribute("class", "editinfo") }, 1);
+        document.getElementById('clickstop').setAttribute("class", "clickstop");
+        document.getElementById('browser').setAttribute("class", "browser filter");
+      }
+
+      function closeEdit() {
+        document.getElementById("id").value = ""
+        document.getElementById("name").value = ""
+        document.getElementById("category").value = ""
+        document.getElementById('editinfo').setAttribute("class", "editinfo hidden");
+        document.getElementById('clickstop').setAttribute("class", "clickstop none");
+        document.getElementById('browser').setAttribute("class", "browser");
+      }
+
+      function updateInfo() {
+        var id = document.getElementById("id").value
+        var name = document.getElementById("name").value
+        var category = document.getElementById("category").value
+        var http = new XMLHttpRequest();
+        http.open('POST', "/goapi/updateAsset", true);
+
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function() {
+            if(http.readyState == 4 && http.status == 200) {
+                closeEdit();
+                var charnameele = document.querySelector("[data-nameid='" + id + "']")
+                charnameele.innerHTML= name
+                var charupdateele = document.querySelector("[data-updateid='" + id + "']")
+                charupdateele.setAttribute('onclick', `editCharInfo('${id}', '${name}', '${category}')`)
+                showNotif('ok', `Character <span class="notifspan">${name}</span>'s info edited successfully!`);
+            }
+        }
+        http.send(`id=${id}&name=${name}&category=${category}`);
+      }
+
+      function deleteChar(id) {
+        var http = new XMLHttpRequest();
+        http.open('POST', "/goapi/deleteAsset", true);
+
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function() {
+            if(http.readyState == 4 && http.status == 200) {
+                var chardiv = document.querySelector("[data-id='" + id + "']")
+                chardiv.parentNode.removeChild(chardiv);
+                showNotif('ok', 'Character successfully deleted!');
+            }
+        }
+        http.send(`assetId=${id}`);
+      }

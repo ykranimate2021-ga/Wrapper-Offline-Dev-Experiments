@@ -1,0 +1,83 @@
+extends layout
+
+block extrahead
+  link(rel='stylesheet', href='/stylesheets/list.css')
+
+block content
+  .announcement.hidden#announcement
+    p.announcetext#announcetext
+    a.announceclose(onclick="closeAnnouncement()")= 'x'
+  main 
+    .listheader
+      h1= "Videos"
+    .videolist
+      if videolist == false 
+        h1.emptytext= "No videos."
+      each video in videolist
+        .video(data-id= video.id)
+          .imgholder
+            .videoduration
+              span= video.duration
+            .videooptions.fix
+              .video.option
+                a(onclick="playVideo('" + video.id + "')")
+                  img.optionimg(src="/images/icons/play.png" alt="Play" title="Play")
+              .video.option
+                a(href="/studio/" + video.theme + "/" + video.id)
+                  img.optionimg(src="/images/icons/edit.png" alt="Edit" title="Edit")
+              .video.option
+                a(onclick="showNotif('alert', 'Video saved as JSON. Video exporting coming soon!')")
+                  img.optionimg(src="/images/icons/download.png" alt="Download" title="Download")
+              .video.option
+                a(onclick="deleteVideo('" + video.id + "')")
+                  img.optionimg(src="/images/icons/delete.png" alt="Delete" title="Delete")
+            img.videothumb(src=video.thumb alt=video.name title=video.name)
+          .videoname(data-nameid= video.id)= video.name
+    script. 
+      if(!localStorage.getItem('dontshow')) {
+        localStorage.setItem('dontshow', 'false');
+      }
+      function getAnnouncement() {
+        var http = new XMLHttpRequest();
+        http.open('GET', "https://static.comedy-studio.ga/json/announcement.json", true);
+        http.onreadystatechange = function() {
+          if(http.readyState == 4 && http.status == 200) {
+            var json = JSON.parse(http.responseText);
+            if (localStorage.getItem('dontshow') == 'true' && localStorage.getItem('num') !== json["offline"]["num"]) {
+              localStorage.setItem('dontshow', 'false');
+            }
+            if (json["offline"]["full"] == "false") {
+              document.getElementById('announcetext').innerHTML = json["offline"]["text"];
+            } else {
+              document.getElementById('announcement').innerHTML = json["offline"]["extra"]["structure"];
+            }
+            if (localStorage.getItem('dontshow') == 'false') {
+              document.getElementById('announcement').setAttribute('class', `announcement ${json["offline"]["color"]}`)
+              localStorage.setItem('num', `${json["offline"]["num"]}`);
+            }
+          } else if(http.readyState == 4 && http.status !== 200) {
+            showNotif('error', 'Could not fetch announcement!')
+          }
+        }
+        http.send();
+      }
+      function closeAnnouncement() {
+        var currentClass = document.getElementById('announcement').getAttribute('class')
+        document.getElementById('announcement').setAttribute('class', `${currentClass} hidden`);
+        localStorage.setItem('dontshow', 'true');
+      }
+      function deleteVideo(id) {
+        var http = new XMLHttpRequest();
+        http.open('POST', "/goapi/deleteUgc", true);
+
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+        http.onreadystatechange = function() {
+            if(http.readyState == 4 && http.status == 200) {
+                var videodiv = document.querySelector("[data-id='" + id + "']")
+                videodiv.parentNode.removeChild(chardiv);
+                showNotif('ok', 'Movie <span class="notifspan">${id}</span> was deleted successfully!');
+            }
+        }
+        http.send(`id=${id}`);
+      }

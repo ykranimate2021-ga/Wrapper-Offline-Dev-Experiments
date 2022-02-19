@@ -1,0 +1,40 @@
+{
+  "background": [
+      {
+          "@attributes": {
+              "id": "ncc_sci07bg.swf",
+              "name": "Alien planet",
+              "enable": "Y",
+              "default": "Y",
+              "is_premium": "N",
+              "aid": "17342",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_sci08bg.swf",
+              "name": "Alien planet",
+              "enable": "Y",
+              "default": "Y",
+              "is_premium": "N",
+              "aid": "17343",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_sci10bg.swf",
+              "name": "Cemetery",
+              "enable": "Y",
+              "default": "Y",
+              "is_premium": "N",
+              "aid": "17344",
+              "money": "0",
+              "sharing": "0"
+          }
+      }
+  ]
+}

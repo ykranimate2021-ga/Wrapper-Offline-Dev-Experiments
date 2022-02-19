@@ -1,0 +1,85 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/modern-normalize.css')
+    link(rel='stylesheet', href='/stylesheets/global.css')
+    link(rel='icon', href='/images/favicon.ico')
+    script. 
+      var uploadtoggle = false;
+      function uploadDropdown() {
+        if (!uploadtoggle) {
+          document.getElementById('uploaddropdown').setAttribute("class", "dropdown hidden");
+          setTimeout(function() { document.getElementById('uploaddropdown').setAttribute("class", "dropdown") }, 1);
+          uploadtoggle = true;
+        } else {
+          document.getElementById('uploaddropdown').setAttribute("class", "dropdown hidden");
+          uploadtoggle = false;
+        }
+      }
+      function hideNotif() {
+        setTimeout(function() {
+          document.getElementById('notif').setAttribute('class', 'notification hidden')
+        }, 5000)
+      }
+      function showNotif(type, string) {
+        var typestr = "Alert";
+        switch (type) {
+          case "ok": {
+            typestr = "Success";
+            break;
+          }
+          case "alert": {
+            typestr = "Alert";
+            break;
+          }
+          case "error": {
+            typestr = "Error";
+            break;
+          }
+        }
+        document.getElementById('notif').setAttribute('class', 'notification hidden')
+        setTimeout(function() {
+          document.getElementById('notificon').setAttribute('class', `notificon ${type}`);
+          document.getElementById('notiftype').innerHTML= `${typestr}`;
+          document.getElementById('notifdesc').innerHTML= `${string}`;
+          document.getElementById('notif').setAttribute('class', 'notification')
+          hideNotif()
+        }, 500)
+      }
+    block extrahead
+  if onloadfunction !== false 
+    body(onload= onloadfunction)
+  else
+    body#body
+  if fullscreen !== true
+    header
+      a(href='/')
+        h1(style='margin:0')
+          img#logo(src='/images/list_logo.svg', alt='Wrapper: Offline')
+      nav#headbuttons
+        a.button_small(onclick="uploadDropdown()")= "UPLOAD"
+        .dropdown.none#uploaddropdown
+          a(onclick="document.getElementById('file').click()")= "Movie"
+          a(onclick="document.getElementById('file2').click()")= "Character"
+        a.button_big(href='/create')= 'CREATE'
+
+  block content
+  
+  form.none(enctype='multipart/form-data' action='/upload_movie' method='post')
+    input#file(type="file" onchange="this.form.submit()" name='import' accept=".xml")
+
+  form.none(enctype='multipart/form-data' action='/upload_character' method='post')
+    input#file2(type="file" onchange="this.form.submit()" name='import' accept=".xml")
+
+  .notification.hidden#notif
+    .notifcontents
+      .notificon.alert#notificon
+      h2.notiftype#notiftype= "Alert"
+      p.notifdesc#notifdesc= ""
+  if fullscreen !== true
+    footer#footer
+      nav#foot-left
+        span(title='Wrapper: Offline v1.3.0')= "v1.3.0"
+        a(href='https://localhost:4664/faq.html')= "FAQ"
+        a(href="https://discord.gg/yhGAetN")= "Wrapper: Offline Discord"

@@ -1,0 +1,5485 @@
+{
+  "background": [
+      {
+          "@attributes": {
+              "id": "ncc_floor01.swf",
+              "name": "Interior",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14773",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jpschool_outside.swf",
+              "name": "School outdoors",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14774",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jpschoolfront.swf",
+              "name": "Interior",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14775",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_floor02.swf",
+              "name": "Interior",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14776",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_view_cus.swf",
+              "name": "Interior",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14777",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jpschool_outside2.swf",
+              "name": "Outdoor",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14778",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "wall11.swf",
+              "name": "wallpaper",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14779",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "wall12.swf",
+              "name": "wallpaper",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14780",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "wall13.swf",
+              "name": "wallpaper",
+              "enable": "Y",
+              "default": "N",
+              "is_premium": "N",
+              "aid": "14781",
+              "money": "0",
+              "sharing": "0"
+          }
+      }
+  ],
+  "compositebg": [
+      {
+          "@attributes": {
+              "id": "cbg_chibi_street02",
+              "name": "City street",
+              "enable": "Y",
+              "default": "Y",
+              "thumb": "chibi_street02.png",
+              "display_order": "90",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "15045"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "cbg_chibi_street02_BG336",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_jpschool_outside2.swf",
+              "color": "3355443"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP26",
+                      "index": "8"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "36",
+                  "y": "187.9",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP28",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_jpwall01.msp_jpwall01_ncc_jpwall01_front.swf",
+                  "x": "627",
+                  "y": "187.9",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP29",
+                      "index": "1"
+                  },
+                  "file": "chibi.ncc_jp_house01.swf",
+                  "x": "293",
+                  "y": "33",
+                  "xscale": "1.75",
+                  "yscale": "1.75",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP30",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_jp_road01.msp_jp_road01_ncc_jp_road01_front.swf",
+                  "x": "305.8",
+                  "y": "248",
+                  "xscale": "0.24",
+                  "yscale": "0.24",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP31",
+                      "index": "7"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "480.2",
+                  "y": "226.5",
+                  "xscale": "1.83",
+                  "yscale": "1.83",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP32",
+                      "index": "3"
+                  },
+                  "file": "chibi.ncc_jp_grasscover.swf",
+                  "x": "329.5",
+                  "y": "260.8",
+                  "xscale": "0.55",
+                  "yscale": "0.21",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP33",
+                      "index": "5"
+                  },
+                  "file": "chibi.ncc_jp_grass.swf",
+                  "x": "417.3",
+                  "y": "204.2",
+                  "xscale": "0.47",
+                  "yscale": "0.47",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "6723942"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP34",
+                      "index": "2"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "90.7",
+                  "y": "29.6",
+                  "xscale": "0.97",
+                  "yscale": "0.97",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street02_PROP36",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf",
+                  "x": "492.8",
+                  "y": "169.5",
+                  "xscale": "0.52",
+                  "yscale": "0.52",
+                  "face": "1",
+                  "rotation": "-90.7",
+                  "color": "16777215"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_chibi_street01",
+              "name": "City street",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "chibi_street01.png",
+              "display_order": "91",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "15041"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "cbg_chibi_street01_BG339",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_jpschool_outside2.swf",
+              "color": "3355443"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP26",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "69",
+                  "y": "203",
+                  "xscale": "0.74",
+                  "yscale": "0.74",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP27",
+                      "index": "8"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "339",
+                  "y": "203",
+                  "xscale": "0.74",
+                  "yscale": "0.74",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP28",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "608",
+                  "y": "203",
+                  "xscale": "0.74",
+                  "yscale": "0.74",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP29",
+                      "index": "5"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "474.5",
+                  "y": "138.8",
+                  "xscale": "0.75",
+                  "yscale": "0.75",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP30",
+                      "index": "4"
+                  },
+                  "file": "chibi.ncc_jptree02.swf",
+                  "x": "579",
+                  "y": "74",
+                  "xscale": "1.3",
+                  "yscale": "1.3",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP31",
+                      "index": "2"
+                  },
+                  "file": "chibi.ncc_jp_house01.swf",
+                  "x": "-14.5",
+                  "y": "94.8",
+                  "xscale": "1.32",
+                  "yscale": "1.32",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP32",
+                      "index": "1"
+                  },
+                  "file": "chibi.ncc_jp_house02.swf",
+                  "x": "410.8",
+                  "y": "111.6",
+                  "xscale": "1.07",
+                  "yscale": "1.07",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP33",
+                      "index": "10"
+                  },
+                  "file": "chibi.ncc_jp_deco01.swf",
+                  "x": "188.6",
+                  "y": "139.8",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_chibi_street01_PROP34",
+                      "index": "3"
+                  },
+                  "file": "chibi.ncc_jptree02.swf",
+                  "x": "241",
+                  "y": "114",
+                  "xscale": "0.94",
+                  "yscale": "0.94",
+                  "face": "-1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_chibi_street03",
+              "name": "City street",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "chibi_street03.png",
+              "display_order": "92",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "15046"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG351",
+                  "index": "0"
+              },
+              "file": "chibi.wall11.swf",
+              "color": "3355443"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP60",
+                      "index": "1"
+                  },
+                  "file": "chibi.ncc_jp_grasscover.swf",
+                  "x": "431",
+                  "y": "63",
+                  "xscale": "0.61",
+                  "yscale": "0.61",
+                  "face": "1",
+                  "rotation": "6.9"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP61",
+                      "index": "2"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "284.6",
+                  "y": "37.3",
+                  "xscale": "0.76",
+                  "yscale": "0.76",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP50",
+                      "index": "3"
+                  },
+                  "file": "chibi.ncc_jptree02.swf",
+                  "x": "381.5",
+                  "y": "76.7",
+                  "xscale": "1.11",
+                  "yscale": "1.11",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP51",
+                      "index": "4"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "497.2",
+                  "y": "99.5",
+                  "xscale": "0.76",
+                  "yscale": "0.76",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP52",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_ninja_wall03.msp_ninja_wall03_ncc_ninja_wall03_side.swf",
+                  "x": "218.9",
+                  "y": "109.5",
+                  "xscale": "0.59",
+                  "yscale": "0.59",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP53",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_side.swf",
+                  "x": "165.2",
+                  "y": "156",
+                  "xscale": "0.64",
+                  "yscale": "0.64",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP54",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_ninja_wall03.msp_ninja_wall03_ncc_ninja_wall03_side.swf",
+                  "x": "341.3",
+                  "y": "169.8",
+                  "xscale": "0.59",
+                  "yscale": "0.59",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP55",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_ninja_wall03.msp_ninja_wall03_ncc_ninja_wall03_front.swf",
+                  "x": "500.8",
+                  "y": "201.6",
+                  "xscale": "0.59",
+                  "yscale": "0.59",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP56",
+                      "index": "10"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "91.5",
+                  "y": "84.8",
+                  "xscale": "0.97",
+                  "yscale": "0.97",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP57",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jpwall01.msp_jpwall01_ncc_jpwall01_front.swf",
+                  "x": "151.3",
+                  "y": "209.3",
+                  "xscale": "0.7",
+                  "yscale": "0.7",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP58",
+                      "index": "8"
+                  },
+                  "file": "chibi.ncc_jp_deco01.swf",
+                  "x": "442.8",
+                  "y": "160.9",
+                  "xscale": "0.78",
+                  "yscale": "0.78",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_chibi_tv_room",
+              "name": "Dining room",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "chibi_tv_room.png",
+              "display_order": "93",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "15044"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG341",
+                  "index": "0"
+              },
+              "file": "chibi.wall12.swf"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP40",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf",
+                  "x": "492",
+                  "y": "217",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP28",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_jpwall04.msp_jpwall04_ncc_jpwall04_front.swf",
+                  "x": "435.7",
+                  "y": "69.3",
+                  "xscale": "1.46",
+                  "yscale": "1.46",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP36",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf",
+                  "x": "-8.1",
+                  "y": "170.4",
+                  "xscale": "1.46",
+                  "yscale": "1.46",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP33",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "324.7",
+                  "y": "269.6",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP34",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "675.7",
+                  "y": "269.1",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP29",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf",
+                  "x": "46.7",
+                  "y": "364.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP30",
+                      "index": "8"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "377.8",
+                  "y": "333.4",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP31",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "250.1",
+                  "y": "396.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP32",
+                      "index": "10"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf",
+                  "x": "578.7",
+                  "y": "364.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP23",
+                      "index": "11"
+                  },
+                  "file": "chibi.ncc_ninja_drawer01.swf",
+                  "x": "252.5",
+                  "y": "208.9",
+                  "xscale": "1.16",
+                  "yscale": "1.16",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP24",
+                      "index": "12"
+                  },
+                  "file": "chibi.msp_ninja_tv.msp_ninja_tv_ncc_ninja_tv01_front.swf",
+                  "x": "253.1",
+                  "y": "146.2",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP39",
+                      "index": "13"
+                  },
+                  "file": "chibi.msp_ninja_door01.msp_ninja_door01_ncc_ninja_door01_close.swf",
+                  "x": "524",
+                  "y": "128",
+                  "xscale": "1.51",
+                  "yscale": "1.51",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "10066278"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP41",
+                      "index": "14"
+                  },
+                  "file": "chibi.ncc_jp_warmtable.swf",
+                  "x": "373.6",
+                  "y": "301.7",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP44",
+                      "index": "16"
+                  },
+                  "file": "chibi.ncc_ninja_lamp01.swf",
+                  "x": "380.4",
+                  "y": "62.9",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP42",
+                      "index": "15"
+                  },
+                  "file": "chibi.ncc_ninja_flower.swf",
+                  "x": "376.1",
+                  "y": "212.7",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP43",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_ninja_window.msp_ninja_window_ncc_ninja_window01.swf",
+                  "x": "44.6",
+                  "y": "148.9",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_chibi_bedroom01",
+              "name": "Study room",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "chibi_bedroom01.png",
+              "display_order": "94",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "15043"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG341",
+                  "index": "0"
+              },
+              "file": "chibi.wall12.swf"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP37",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_ninja_window.msp_ninja_window_ncc_ninja_window02.swf",
+                  "x": "83.6",
+                  "y": "113.8",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP33",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "320.7",
+                  "y": "269.6",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP34",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "675.7",
+                  "y": "269.1",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP29",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf",
+                  "x": "46.7",
+                  "y": "364.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP30",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "377.8",
+                  "y": "333.4",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP31",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "250.1",
+                  "y": "396.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP32",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf",
+                  "x": "578.7",
+                  "y": "364.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP35",
+                      "index": "8"
+                  },
+                  "file": "chibi.msp_ninja_door01.msp_ninja_door01_ncc_ninja_door01_close.swf",
+                  "x": "507",
+                  "y": "124",
+                  "xscale": "1.55",
+                  "yscale": "1.55",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP36",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_ninja_desk01.msp_ninja_desk01_ncc_ninja_desk01.swf",
+                  "x": "194",
+                  "y": "218",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP38",
+                      "index": "12"
+                  },
+                  "file": "chibi.ncc_ninja_lamp01.swf",
+                  "x": "419",
+                  "y": "40.1",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP39",
+                      "index": "10"
+                  },
+                  "file": "chibi.ncc_ninja_chair01.swf",
+                  "x": "325",
+                  "y": "204.8",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_chibi_bedroom02",
+              "name": "Bedroom",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "chibi_bedroom02.png",
+              "display_order": "95",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "15042"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG341",
+                  "index": "0"
+              },
+              "file": "chibi.wall12.swf"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP37",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_ninja_window.msp_ninja_window_ncc_ninja_window01.swf",
+                  "x": "83.6",
+                  "y": "113.8",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP33",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "320.7",
+                  "y": "269.6",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP34",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "675.7",
+                  "y": "269.1",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP29",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf",
+                  "x": "46.7",
+                  "y": "364.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP30",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "377.8",
+                  "y": "333.4",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP31",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf",
+                  "x": "250.1",
+                  "y": "396.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP32",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf",
+                  "x": "578.7",
+                  "y": "364.5",
+                  "xscale": "1.58",
+                  "yscale": "1.58",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP35",
+                      "index": "8"
+                  },
+                  "file": "chibi.msp_ninja_door01.msp_ninja_door01_ncc_ninja_door01_close.swf",
+                  "x": "507",
+                  "y": "124",
+                  "xscale": "1.55",
+                  "yscale": "1.55",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP38",
+                      "index": "10"
+                  },
+                  "file": "chibi.ncc_ninja_lamp01.swf",
+                  "x": "419",
+                  "y": "40.1",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP22",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_ninja_bed.msp_ninja_bed_ncc_ninja_bed02.swf",
+                  "x": "360.6",
+                  "y": "297.8",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_school_front",
+              "name": "School gate",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_schoolfront.png",
+              "display_order": "100",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14782"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG8",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_jpschool_outside.swf",
+              "color": "3381708"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP123",
+                      "index": "1"
+                  },
+                  "file": "chibi.ncc_jp_cloud02.swf",
+                  "x": "101.6",
+                  "y": "36.3",
+                  "xscale": "0.27",
+                  "yscale": "0.27",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP24",
+                      "index": "2"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "303",
+                  "y": "136",
+                  "xscale": "0.7",
+                  "yscale": "0.7",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP23",
+                      "index": "3"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "274",
+                  "y": "225.9",
+                  "xscale": "0.84",
+                  "yscale": "0.84",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP22",
+                      "index": "4"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "244",
+                  "y": "134",
+                  "xscale": "0.75",
+                  "yscale": "0.75",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP20",
+                      "index": "5"
+                  },
+                  "file": "chibi.ncc_jp_schoolentrance01.swf",
+                  "x": "441.3",
+                  "y": "187.2",
+                  "xscale": "0.33",
+                  "yscale": "0.33",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP17",
+                      "index": "6"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "231",
+                  "y": "230.9",
+                  "xscale": "0.84",
+                  "yscale": "0.84",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP15",
+                      "index": "7"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "194",
+                  "y": "237.9",
+                  "xscale": "0.88",
+                  "yscale": "0.88",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP11",
+                      "index": "8"
+                  },
+                  "file": "chibi.ncc_jptree02.swf",
+                  "x": "70",
+                  "y": "141.6",
+                  "xscale": "1.28",
+                  "yscale": "1.28",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP16",
+                      "index": "9"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "187",
+                  "y": "130",
+                  "xscale": "0.92",
+                  "yscale": "0.92",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP19",
+                      "index": "10"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "146",
+                  "y": "245.9",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP59",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "531.5",
+                  "y": "198.3",
+                  "xscale": "0.75",
+                  "yscale": "0.75",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP311",
+                      "index": "12"
+                  },
+                  "file": "chibi.msp_jpwall01.msp_jpwall01_ncc_jpwall01_front.swf",
+                  "x": "40.6",
+                  "y": "198.6",
+                  "xscale": "0.76",
+                  "yscale": "0.76",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP323",
+                      "index": "13"
+                  },
+                  "file": "chibi.ncc_jp_sign_school_front.swf",
+                  "x": "503.7",
+                  "y": "205",
+                  "xscale": "0.57",
+                  "yscale": "0.57",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_shoes_locker",
+              "name": "School lockers",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_shoeslocker.png",
+              "display_order": "101",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14783"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG54",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_floor01.swf",
+              "color": "9806485"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP429",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "359.9",
+                  "y": "48.9",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "13354160"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP430",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "370.3",
+                  "y": "90.5",
+                  "xscale": "0.86",
+                  "yscale": "0.86",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP431",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "100.4",
+                  "y": "89.2",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP432",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "421.9",
+                  "y": "90.5",
+                  "xscale": "0.87",
+                  "yscale": "0.87",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP435",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf",
+                  "x": "194",
+                  "y": "234",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP436",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf",
+                  "x": "633",
+                  "y": "234",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP433",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_jpwall03.msp_jpwall03_ncc_jpwall03_front.swf",
+                  "x": "442.5",
+                  "y": "89.3",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP434",
+                      "index": "8"
+                  },
+                  "file": "chibi.ncc_jpmemoboard.swf",
+                  "x": "546.6",
+                  "y": "135.8",
+                  "xscale": "0.72",
+                  "yscale": "0.72",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP437",
+                      "index": "10"
+                  },
+                  "file": "chibi.msp_jplocker01.msp_jplocker01_ncc_jplocker01_side.swf",
+                  "x": "143.7",
+                  "y": "198.3",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP438",
+                      "index": "9"
+                  },
+                  "file": "chibi.ncc_jpposter01.swf",
+                  "x": "487.6",
+                  "y": "123.7",
+                  "xscale": "0.36",
+                  "yscale": "0.36",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP439",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf",
+                  "x": "179.4",
+                  "y": "322.7",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_classroom01",
+              "name": "Classroom",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_classroom01.png",
+              "display_order": "102",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14784"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG322",
+                  "index": "0"
+              },
+              "file": "chibi.wall12.swf"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP536",
+                      "index": "32"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back2.swf",
+                  "x": "486.4",
+                  "y": "356.5",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP537",
+                      "index": "31"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf",
+                  "x": "624.3",
+                  "y": "354.3",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP538",
+                      "index": "30"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf",
+                  "x": "569",
+                  "y": "358.4",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP539",
+                      "index": "29"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf",
+                  "x": "466.4",
+                  "y": "356.5",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP540",
+                      "index": "28"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf",
+                  "x": "411.1",
+                  "y": "360.6",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP541",
+                      "index": "27"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf",
+                  "x": "307.7",
+                  "y": "353.5",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP542",
+                      "index": "26"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf",
+                  "x": "252.2",
+                  "y": "357.6",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP543",
+                      "index": "25"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf",
+                  "x": "568.5",
+                  "y": "289.9",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP544",
+                      "index": "24"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf",
+                  "x": "513.2",
+                  "y": "294",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP545",
+                      "index": "23"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf",
+                  "x": "409.9",
+                  "y": "286.9",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP546",
+                      "index": "22"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf",
+                  "x": "354.4",
+                  "y": "291",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP547",
+                      "index": "21"
+                  },
+                  "file": "chibi.ncc_jpbook_front.swf",
+                  "x": "174",
+                  "y": "248.7",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP548",
+                      "index": "20"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf",
+                  "x": "648.9",
+                  "y": "237.3",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP549",
+                      "index": "19"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf",
+                  "x": "593.6",
+                  "y": "241.4",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP550",
+                      "index": "18"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf",
+                  "x": "490.3",
+                  "y": "234.3",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP551",
+                      "index": "17"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf",
+                  "x": "434.8",
+                  "y": "238.4",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP552",
+                      "index": "16"
+                  },
+                  "file": "chibi.msp_jpcrmtable01.msp_jpcrmtable01_ncc_jpcrmtable01_front.swf",
+                  "x": "172.1",
+                  "y": "279.5",
+                  "xscale": "0.73",
+                  "yscale": "0.73",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP553",
+                      "index": "15"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "364.1",
+                  "y": "30.3",
+                  "xscale": "1.58",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP554",
+                      "index": "14"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "271",
+                  "y": "30.3",
+                  "xscale": "1.58",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP555",
+                      "index": "13"
+                  },
+                  "file": "chibi.square01.swf",
+                  "x": "317",
+                  "y": "30.3",
+                  "xscale": "3.04",
+                  "yscale": "0.58",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "13421772"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP556",
+                      "index": "12"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "469.9",
+                  "y": "29.3",
+                  "xscale": "1.28",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP557",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "545.3",
+                  "y": "29.3",
+                  "xscale": "1.28",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP558",
+                      "index": "10"
+                  },
+                  "file": "chibi.msp_cork_jpboard.msp_cork_jpboard_ncc_cork_jpboard_side.swf",
+                  "x": "34.9",
+                  "y": "189.9",
+                  "xscale": "1.12",
+                  "yscale": "1.12",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP559",
+                      "index": "8"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "468.6",
+                  "y": "118.3",
+                  "xscale": "1.31",
+                  "yscale": "1.31",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP560",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf",
+                  "x": "167.1",
+                  "y": "320.4",
+                  "xscale": "0.66",
+                  "yscale": "0.66",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP561",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf",
+                  "x": "91.1",
+                  "y": "320.4",
+                  "xscale": "0.66",
+                  "yscale": "0.66",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP562",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_jpdoubledoor.msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf",
+                  "x": "317.2",
+                  "y": "153.7",
+                  "xscale": "1.28",
+                  "yscale": "1.28",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP563",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "546.4",
+                  "y": "118.3",
+                  "xscale": "1.31",
+                  "yscale": "1.31",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP564",
+                      "index": "4"
+                  },
+                  "file": "chibi.square01.swf",
+                  "x": "508.4",
+                  "y": "29.1",
+                  "xscale": "2.42",
+                  "yscale": "0.58",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "13421772"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP565",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_jpwall05.msp_jpwall05_ncc_jpwall05_front.swf",
+                  "x": "403.3",
+                  "y": "99.4",
+                  "xscale": "1.27",
+                  "yscale": "1.27",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP566",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front2.swf",
+                  "x": "410.6",
+                  "y": "94.7",
+                  "xscale": "0.99",
+                  "yscale": "0.99",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "12630179"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP567",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf",
+                  "x": "-9.8",
+                  "y": "192.9",
+                  "xscale": "1.35",
+                  "yscale": "1.35",
+                  "face": "-1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_blackboard",
+              "name": "Blackboard",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_blackboard.png",
+              "display_order": "103",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14785"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG339",
+                  "index": "0"
+              },
+              "file": "chibi.wall11.swf",
+              "color": "14867141"
+          },
+          "prop": {
+              "@attributes": {
+                  "id": "PROP2",
+                  "index": "1"
+              },
+              "file": "chibi.msp_cork_jpboard.msp_cork_jpboard_ncc_cork_jpboard_front.swf",
+              "x": "324.6",
+              "y": "193",
+              "xscale": "2.22",
+              "yscale": "2.22",
+              "face": "-1",
+              "rotation": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_classroom02",
+              "name": "Classroom",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_classroom02.png",
+              "display_order": "104",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14786"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG437",
+                  "index": "0"
+              },
+              "file": "chibi.wall13.swf"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP119",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf",
+                  "x": "615.4",
+                  "y": "171.1",
+                  "xscale": "1.24",
+                  "yscale": "1.24",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP120",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front2.swf",
+                  "x": "196.3",
+                  "y": "77.8",
+                  "xscale": "1.01",
+                  "yscale": "1.01",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "12630179"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP121",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_jpwall05.msp_jpwall05_ncc_jpwall05_front.swf",
+                  "x": "210.8",
+                  "y": "97.2",
+                  "xscale": "1.27",
+                  "yscale": "1.27",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP122",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_jpdoubledoor.msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf",
+                  "x": "297.7",
+                  "y": "150.9",
+                  "xscale": "1.27",
+                  "yscale": "1.27",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP123",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "457.7",
+                  "y": "211.2",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP124",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "476.5",
+                  "y": "220.5",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP126",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "142.7",
+                  "y": "115.6",
+                  "xscale": "1.31",
+                  "yscale": "1.31",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP127",
+                      "index": "8"
+                  },
+                  "file": "chibi.ncc_jpposter01.swf",
+                  "x": "441.7",
+                  "y": "100.2",
+                  "xscale": "0.29",
+                  "yscale": "0.29",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP128",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "495.5",
+                  "y": "229.8",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP129",
+                      "index": "10"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "514.7",
+                  "y": "239.4",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP130",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "534.3",
+                  "y": "249",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP131",
+                      "index": "12"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "553.9",
+                  "y": "258.7",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP132",
+                      "index": "23"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "276.4",
+                  "y": "234.7",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP133",
+                      "index": "24"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "230.4",
+                  "y": "247.5",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP134",
+                      "index": "25"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "136",
+                  "y": "238",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP135",
+                      "index": "26"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "90",
+                  "y": "250.8",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP136",
+                      "index": "27"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "363.5",
+                  "y": "288.4",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP137",
+                      "index": "28"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "223.1",
+                  "y": "291.7",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP138",
+                      "index": "29"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "177.1",
+                  "y": "304.5",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP139",
+                      "index": "30"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "317.5",
+                  "y": "301.2",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP140",
+                      "index": "31"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "88.7",
+                  "y": "288.4",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP141",
+                      "index": "32"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "42.7",
+                  "y": "301.2",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP142",
+                      "index": "33"
+                  },
+                  "file": "chibi.ncc_jpbook_front.swf",
+                  "x": "181",
+                  "y": "270.8",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP143",
+                      "index": "13"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "573.5",
+                  "y": "268.4",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP144",
+                      "index": "14"
+                  },
+                  "file": "chibi.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                  "x": "593",
+                  "y": "277.8",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP145",
+                      "index": "34"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "449.8",
+                  "y": "347.3",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP146",
+                      "index": "35"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "403.8",
+                  "y": "360.1",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP147",
+                      "index": "36"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "309.4",
+                  "y": "350.6",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP148",
+                      "index": "37"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "263.4",
+                  "y": "363.4",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP149",
+                      "index": "38"
+                  },
+                  "file": "chibi.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf",
+                  "x": "175",
+                  "y": "347.3",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP150",
+                      "index": "39"
+                  },
+                  "file": "chibi.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf",
+                  "x": "129",
+                  "y": "360.1",
+                  "xscale": "0.82",
+                  "yscale": "0.82",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP151",
+                      "index": "16"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "64.8",
+                  "y": "115.5",
+                  "xscale": "1.31",
+                  "yscale": "1.31",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP152",
+                      "index": "17"
+                  },
+                  "file": "chibi.square01.swf",
+                  "x": "100.9",
+                  "y": "22.3",
+                  "xscale": "2.34",
+                  "yscale": "0.56",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "13421772"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP153",
+                      "index": "19"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "63.9",
+                  "y": "22.3",
+                  "xscale": "1.28",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP154",
+                      "index": "18"
+                  },
+                  "file": "chibi.square01.swf",
+                  "x": "295.4",
+                  "y": "23.1",
+                  "xscale": "2.96",
+                  "yscale": "0.59",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "13421772"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP155",
+                      "index": "21"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "250",
+                  "y": "23.3",
+                  "xscale": "1.58",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP156",
+                      "index": "22"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "343.1",
+                  "y": "23.3",
+                  "xscale": "1.58",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP157",
+                      "index": "20"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "139.3",
+                  "y": "22.3",
+                  "xscale": "1.28",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP158",
+                      "index": "15"
+                  },
+                  "file": "chibi.msp_cork_jpboard.msp_cork_jpboard_ncc_cork_jpboard_side.swf",
+                  "x": "560.3",
+                  "y": "110",
+                  "xscale": "0.88",
+                  "yscale": "0.88",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "9667678"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_hallway01",
+              "name": "Hallway",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_hallway01.png",
+              "display_order": "105",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14787"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG54",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_floor01.swf",
+              "color": "7454691"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP317",
+                      "index": "1"
+                  },
+                  "file": "chibi.ncc_jp_cloud01.swf",
+                  "x": "462",
+                  "y": "88.8",
+                  "xscale": "0.28",
+                  "yscale": "0.28",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP316",
+                      "index": "2"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "260.5",
+                  "y": "205.2",
+                  "xscale": "1.22",
+                  "yscale": "1.22",
+                  "face": "1",
+                  "rotation": "31.2"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP315",
+                      "index": "3"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "184.3",
+                  "y": "183.7",
+                  "xscale": "1.22",
+                  "yscale": "1.22",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP313",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front.swf",
+                  "x": "181.2",
+                  "y": "140.7",
+                  "xscale": "1.12",
+                  "yscale": "1.12",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP314",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front.swf",
+                  "x": "589.6",
+                  "y": "140",
+                  "xscale": "1.12",
+                  "yscale": "1.12",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_classroom_outside",
+              "name": "Hallway",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_classroom_outside.png",
+              "display_order": "106",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14788"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG54",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_floor01.swf",
+              "color": "13421772"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP202",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_jpwall05.msp_jpwall05_ncc_jpwall05_front.swf",
+                  "x": "-14",
+                  "y": "141",
+                  "xscale": "1.16",
+                  "yscale": "1.16",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP34",
+                      "index": "2"
+                  },
+                  "file": "chibi.square01.swf",
+                  "x": "81.1",
+                  "y": "71.3",
+                  "xscale": "2.28",
+                  "yscale": "0.59",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "13421772"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP205",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_jpwall06.msp_jpwall06_ncc_jpwall06_front.swf",
+                  "x": "410.4",
+                  "y": "140.7",
+                  "xscale": "1.16",
+                  "yscale": "1.16",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP36",
+                      "index": "5"
+                  },
+                  "file": "chibi.square01.swf",
+                  "x": "479.7",
+                  "y": "73.2",
+                  "xscale": "2.56",
+                  "yscale": "0.59",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "13421772"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP35",
+                      "index": "6"
+                  },
+                  "file": "chibi.square01.swf",
+                  "x": "313.5",
+                  "y": "73.2",
+                  "xscale": "2.28",
+                  "yscale": "0.59",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "13421772"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP204",
+                      "index": "7"
+                  },
+                  "file": "chibi.msp_jpdoubledoor.msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf",
+                  "x": "481",
+                  "y": "189.4",
+                  "xscale": "1.17",
+                  "yscale": "1.17",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP210",
+                      "index": "8"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "279.6",
+                  "y": "158",
+                  "xscale": "1.17",
+                  "yscale": "1.17",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP211",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "349.6",
+                  "y": "158",
+                  "xscale": "1.17",
+                  "yscale": "1.17",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP207",
+                      "index": "10"
+                  },
+                  "file": "chibi.msp_jp_sign_class.msp_jp_sign_class_ncc_jp_sign_class_side.swf",
+                  "x": "550.2",
+                  "y": "127.2",
+                  "xscale": "0.49",
+                  "yscale": "0.49",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP214",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "47.6",
+                  "y": "157",
+                  "xscale": "1.17",
+                  "yscale": "1.17",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP209",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "117.6",
+                  "y": "157",
+                  "xscale": "1.17",
+                  "yscale": "1.17",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP219",
+                      "index": "12"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "277.9",
+                  "y": "73.3",
+                  "xscale": "1.18",
+                  "yscale": "0.42",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP220",
+                      "index": "13"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "347.3",
+                  "y": "73.3",
+                  "xscale": "1.18",
+                  "yscale": "0.42",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP221",
+                      "index": "14"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "440",
+                  "y": "73.3",
+                  "xscale": "1.38",
+                  "yscale": "0.42",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP213",
+                      "index": "15"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "521.2",
+                  "y": "73.3",
+                  "xscale": "1.38",
+                  "yscale": "0.42",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP224",
+                      "index": "16"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "115.3",
+                  "y": "71.3",
+                  "xscale": "1.18",
+                  "yscale": "0.42",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP225",
+                      "index": "17"
+                  },
+                  "file": "chibi.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf",
+                  "x": "45.9",
+                  "y": "71.3",
+                  "xscale": "1.18",
+                  "yscale": "0.42",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_stair",
+              "name": "Hallway",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_stair.png",
+              "display_order": "107",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14789"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG432",
+                  "index": "0"
+              },
+              "file": "chibi.wall12.swf"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP14",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "414.2",
+                  "y": "122.5",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "11446163"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP15",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf",
+                  "x": "-30.1",
+                  "y": "215.1",
+                  "xscale": "1.3",
+                  "yscale": "1.3",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP16",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_jpwall04.msp_jpwall04_ncc_jpwall04_front.swf",
+                  "x": "384.2",
+                  "y": "133.1",
+                  "xscale": "1.3",
+                  "yscale": "1.3",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP17",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_jp_sign_exit.msp_jp_sign_exit_ncc_jp_sign_exit_front.swf",
+                  "x": "462.9",
+                  "y": "77.7",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP18",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_jpsllocker02.msp_jpsllocker02_ncc_jpsllocker02_close.swf",
+                  "x": "213.4",
+                  "y": "213.9",
+                  "xscale": "0.64",
+                  "yscale": "0.64",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP19",
+                      "index": "6"
+                  },
+                  "file": "chibi.msp_jpsllocker02.msp_jpsllocker02_ncc_jpsllocker02_close.swf",
+                  "x": "262.7",
+                  "y": "213.5",
+                  "xscale": "0.64",
+                  "yscale": "0.64",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP20",
+                      "index": "7"
+                  },
+                  "file": "chibi.ncc_jpslfire.swf",
+                  "x": "327.4",
+                  "y": "210.2",
+                  "xscale": "0.46",
+                  "yscale": "0.46",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_roof",
+              "name": "School rooftop",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_roof.png",
+              "display_order": "108",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14790"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG281",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_floor02.swf",
+              "color": "13421772"
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP42",
+                      "index": "4"
+                  },
+                  "file": "chibi.backdrop.swf",
+                  "x": "133.9",
+                  "y": "204.3",
+                  "xscale": "0.38",
+                  "yscale": "0.38",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP43",
+                      "index": "5"
+                  },
+                  "file": "chibi.backdrop.swf",
+                  "x": "346.4",
+                  "y": "204",
+                  "xscale": "0.38",
+                  "yscale": "0.38",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP44",
+                      "index": "6"
+                  },
+                  "file": "chibi.backdrop.swf",
+                  "x": "556.4",
+                  "y": "204.3",
+                  "xscale": "0.38",
+                  "yscale": "0.38",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP307",
+                      "index": "1"
+                  },
+                  "file": "chibi.ncc_jp_cloud02.swf",
+                  "x": "116.7",
+                  "y": "52.2",
+                  "xscale": "0.45",
+                  "yscale": "0.45",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP308",
+                      "index": "2"
+                  },
+                  "file": "chibi.ncc_jp_cloud01.swf",
+                  "x": "482.2",
+                  "y": "70.9",
+                  "xscale": "0.44",
+                  "yscale": "0.44",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP309",
+                      "index": "3"
+                  },
+                  "file": "chibi.ncc_jp_cloud03.swf",
+                  "x": "552.6",
+                  "y": "83.3",
+                  "xscale": "0.57",
+                  "yscale": "0.57",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP318",
+                      "index": "7"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "579.1",
+                  "y": "225.1",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "-19.4"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP320",
+                      "index": "8"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "200.4",
+                  "y": "229.2",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "20.6"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP321",
+                      "index": "9"
+                  },
+                  "file": "chibi.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf",
+                  "x": "94.4",
+                  "y": "241.8",
+                  "xscale": "0.87",
+                  "yscale": "0.87",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP322",
+                      "index": "10"
+                  },
+                  "file": "chibi.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf",
+                  "x": "86.8",
+                  "y": "182.6",
+                  "xscale": "0.54",
+                  "yscale": "0.54",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP324",
+                      "index": "11"
+                  },
+                  "file": "chibi.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf",
+                  "x": "210.6",
+                  "y": "241.9",
+                  "xscale": "0.88",
+                  "yscale": "0.88",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP325",
+                      "index": "12"
+                  },
+                  "file": "chibi.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf",
+                  "x": "205.8",
+                  "y": "182.6",
+                  "xscale": "0.54",
+                  "yscale": "0.54",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP326",
+                      "index": "13"
+                  },
+                  "file": "chibi.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf",
+                  "x": "327",
+                  "y": "241.9",
+                  "xscale": "0.88",
+                  "yscale": "0.88",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP327",
+                      "index": "14"
+                  },
+                  "file": "chibi.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf",
+                  "x": "325",
+                  "y": "182.6",
+                  "xscale": "0.54",
+                  "yscale": "0.54",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP354",
+                      "index": "15"
+                  },
+                  "file": "chibi.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf",
+                  "x": "443.2",
+                  "y": "241.9",
+                  "xscale": "0.88",
+                  "yscale": "0.88",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP357",
+                      "index": "16"
+                  },
+                  "file": "chibi.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf",
+                  "x": "444",
+                  "y": "182.6",
+                  "xscale": "0.54",
+                  "yscale": "0.54",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP360",
+                      "index": "17"
+                  },
+                  "file": "chibi.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf",
+                  "x": "559.4",
+                  "y": "242.1",
+                  "xscale": "0.88",
+                  "yscale": "0.88",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP361",
+                      "index": "18"
+                  },
+                  "file": "chibi.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf",
+                  "x": "562.9",
+                  "y": "182.6",
+                  "xscale": "0.54",
+                  "yscale": "0.54",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP40",
+                      "index": "19"
+                  },
+                  "file": "chibi.msp_sniper_rooftop.msp_sniper_rooftop_ncc_sniper_rooftop03.swf",
+                  "x": "77.8",
+                  "y": "272.6",
+                  "xscale": "0.64",
+                  "yscale": "0.64",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "10066329"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP41",
+                      "index": "20"
+                  },
+                  "file": "chibi.msp_sniper_rooftop.msp_sniper_rooftop_ncc_sniper_rooftop02.swf",
+                  "x": "77.9",
+                  "y": "272.3",
+                  "xscale": "0.64",
+                  "yscale": "0.64",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "10066329"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_exit",
+              "name": "School entrance",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_exit.png",
+              "display_order": "109",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14791"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "BG553",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_jpschoolfront.swf",
+              "color": [
+                  "10066329",
+                  "8486739",
+                  "10590079"
+              ]
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "PROP20",
+                      "index": "1"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf",
+                  "x": "183.8",
+                  "y": "132.7",
+                  "xscale": "0.49",
+                  "yscale": "0.49",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP21",
+                      "index": "2"
+                  },
+                  "file": "chibi.msp_jplocker01.msp_jplocker01_ncc_jplocker01_side.swf",
+                  "x": "222.5",
+                  "y": "125.2",
+                  "xscale": "0.52",
+                  "yscale": "0.52",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP22",
+                      "index": "3"
+                  },
+                  "file": "chibi.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf",
+                  "x": "174.1",
+                  "y": "169.6",
+                  "xscale": "0.42",
+                  "yscale": "0.42",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP23",
+                      "index": "4"
+                  },
+                  "file": "chibi.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf",
+                  "x": "803.7",
+                  "y": "117.8",
+                  "xscale": "1.39",
+                  "yscale": "1.39",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP24",
+                      "index": "5"
+                  },
+                  "file": "chibi.msp_jpwall04.msp_jpwall04_ncc_jpwall04_front.swf",
+                  "x": "294.9",
+                  "y": "116.9",
+                  "xscale": "1.38",
+                  "yscale": "1.38",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP25",
+                      "index": "6"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "475.6",
+                  "y": "261.7",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP26",
+                      "index": "7"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "357.8",
+                  "y": "261.2",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP27",
+                      "index": "8"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "428.2",
+                  "y": "262.2",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP28",
+                      "index": "9"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "83.5",
+                  "y": "262.3",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP33",
+                      "index": "10"
+                  },
+                  "file": "chibi.msp_jprectangle02.msp_jprectangle02_ncc_jprectangle02_front.swf",
+                  "x": "570.9",
+                  "y": "306",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP34",
+                      "index": "11"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "608.3",
+                  "y": "263.2",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP35",
+                      "index": "12"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "541.6",
+                  "y": "266.1",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP31",
+                      "index": "13"
+                  },
+                  "file": "chibi.ncc_jp_schoolentrance01.swf",
+                  "x": "277.6",
+                  "y": "199.6",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "14867141"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP32",
+                      "index": "14"
+                  },
+                  "file": "chibi.msp_jprectangle02.msp_jprectangle02_ncc_jprectangle02_front.swf",
+                  "x": "45.7",
+                  "y": "306.5",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "-1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP36",
+                      "index": "15"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "83",
+                  "y": "263.7",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "PROP37",
+                      "index": "16"
+                  },
+                  "file": "chibi.ncc_jp_plants02.swf",
+                  "x": "16.3",
+                  "y": "266.6",
+                  "xscale": "1",
+                  "yscale": "1",
+                  "face": "1",
+                  "rotation": "0"
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "cbg_sch_sakura",
+              "name": "sakura",
+              "enable": "Y",
+              "default": "N",
+              "thumb": "sch_sakura.png",
+              "display_order": "110",
+              "is_premium": "N",
+              "money": "0",
+              "sharing": "0",
+              "aid": "14975"
+          },
+          "bg": {
+              "@attributes": {
+                  "id": "cbg_sch_sakura_BG337",
+                  "index": "0"
+              },
+              "file": "chibi.ncc_floor02.swf",
+              "color": [
+                  "16764057",
+                  "10079436"
+              ]
+          },
+          "prop": [
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP26",
+                      "index": "7"
+                  },
+                  "file": "chibi.ncc_jp_grasscover.swf",
+                  "x": "332",
+                  "y": "402",
+                  "xscale": "1.06",
+                  "yscale": "1.02",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP27",
+                      "index": "4"
+                  },
+                  "file": "chibi.backdrop.swf",
+                  "x": "320.8",
+                  "y": "244.4",
+                  "xscale": "1",
+                  "yscale": "0.93",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": [
+                      "13421772",
+                      "10066329"
+                  ]
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP28",
+                      "index": "9"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "105.1",
+                  "y": "91.4",
+                  "xscale": "1.76",
+                  "yscale": "1.76",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "16751001"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP29",
+                      "index": "5"
+                  },
+                  "file": "chibi.ncc_jptree01.swf",
+                  "x": "458",
+                  "y": "121",
+                  "xscale": "1.26",
+                  "yscale": "1.26",
+                  "face": "-1",
+                  "rotation": "0",
+                  "color": "16751001"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP30",
+                      "index": "10"
+                  },
+                  "file": "chibi.ncc_jptree02.swf",
+                  "x": "579.8",
+                  "y": "33.2",
+                  "xscale": "3.13",
+                  "yscale": "3.13",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "16764108"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP31",
+                      "index": "11"
+                  },
+                  "file": "chibi.ncc_jp_grass.swf",
+                  "x": "581.8",
+                  "y": "280.2",
+                  "xscale": "0.64",
+                  "yscale": "0.64",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP32",
+                      "index": "12"
+                  },
+                  "file": "chibi.ncc_jp_grass.swf",
+                  "x": "55.9",
+                  "y": "294.2",
+                  "xscale": "1.06",
+                  "yscale": "1.06",
+                  "face": "1",
+                  "rotation": "0"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP33",
+                      "index": "3"
+                  },
+                  "file": "chibi.ncc_jp_cloud01.swf",
+                  "x": "159",
+                  "y": "209",
+                  "xscale": "0.31",
+                  "yscale": "0.31",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "16764057"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP34",
+                      "index": "2"
+                  },
+                  "file": "chibi.ncc_jp_cloud03.swf",
+                  "x": "308",
+                  "y": "161",
+                  "xscale": "0.25",
+                  "yscale": "0.25",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "16764057"
+              },
+              {
+                  "@attributes": {
+                      "id": "cbg_sch_sakura_PROP35",
+                      "index": "1"
+                  },
+                  "file": "chibi.ncc_jp_cloud02.swf",
+                  "x": "399",
+                  "y": "211",
+                  "xscale": "0.51",
+                  "yscale": "0.51",
+                  "face": "1",
+                  "rotation": "0",
+                  "color": "16764057"
+              }
+          ]
+      }
+  ],
+  "prop": [
+      {
+          "@attributes": {
+              "id": "ncc_jptree02.swf",
+              "name": "Tree",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14652",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jptree01.swf",
+              "name": "Tree",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14653",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_jptable01",
+              "name": "School desk",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jptable01_ncc_jptable01_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14654",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jptable01_ncc_jptable01_front.swf",
+                      "name": "side",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jptable01_ncc_jptable01_back.swf",
+                      "name": "side - back",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jptable01_ncc_jptable01_cus.swf",
+                      "name": "front",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpcabinet02",
+              "name": "Shelves",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpcabinet02_ncc_jpcabinet02_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14658",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet02_ncc_jpcabinet02_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet02_ncc_jpcabinet02_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet02_ncc_jpcabinet02_cus.swf",
+                      "name": "flattened",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpcabinet03",
+              "name": "Shelves",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpcabinet03_ncc_jpstorage01_cus.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14662",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet03_ncc_jpstorage01_cus.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet03_ncc_jpstorage02_cus.swf",
+                      "name": "individual block",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jprectangle02",
+              "name": "Brick wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jprectangle02_ncc_jprectangle02_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14665",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jprectangle02_ncc_jprectangle02_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jprectangle02_ncc_jprectangle02_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jprectangle",
+              "name": "Concrete wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jprectangle_ncc_jprectangle_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14668",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jprectangle_ncc_jprectangle_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jprectangle_ncc_jprectangle_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jpposter01.swf",
+              "name": "Poster",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14671",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpplatform",
+              "name": "Wooden planks",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpplatform_ncc_jpplatform_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14672",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpplatform_ncc_jpplatform_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpplatform_ncc_jpplaform_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jpmemoboard.swf",
+              "name": "Corkboard",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14675",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_jplocker01",
+              "name": "Lockers",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jplocker01_ncc_jplocker01_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14676",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jplocker01_ncc_jplocker01_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jplocker01_ncc_jplocker01_cus.swf",
+                      "name": "front - flattened",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jplocker01_ncc_jplocker01_open.swf",
+                      "name": "side - opened",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jplocker01_ncc_jplocker01_side.swf",
+                      "name": "side - closed",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpfence01",
+              "name": "Fences",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpfence01_ncc_jpfence01.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14681",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpfence01_ncc_jpfence01.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpfence01_ncc_jpfence03.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpfence01_ncc_jpfence02.swf",
+                      "name": "corner",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpdoubledoor",
+              "name": "Sliding doors",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14685",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf",
+                      "name": "side - open",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpdoubledoor_ncc_jpdoubledoor_side_closed.swf",
+                      "name": "side - closed",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpdoubledoor_ncc_jpdoubledoor_front_open.swf",
+                      "name": "front - opened",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf",
+                      "name": "front - closed",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpcupboard02",
+              "name": "Cupboard",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpcupboard02_ncc_jpcupboard02_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14690",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpcupboard02_ncc_jpcupboard02_front.swf",
+                      "name": "front - closed",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcupboard02_ncc_jpcupboard02_frontopen.swf",
+                      "name": "front - opened",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcupboard02_ncc_jpcupboard02_sideopen.swf",
+                      "name": "side - opened",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcupboard02_ncc_jpcupboard02_side.swf",
+                      "name": "side - closed",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpcrmtable01",
+              "name": "Desk",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpcrmtable01_ncc_jpcrmtable01_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14695",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpcrmtable01_ncc_jpcrmtable01_front.swf",
+                      "name": "side",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcrmtable01_ncc_jpcrmtable01_cus.swf",
+                      "name": "side 2",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpchair",
+              "name": "School chair",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpchair_ncc_jpchair_side.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14698",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpchair_ncc_jpchair_side.swf",
+                      "name": "side",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpchair_ncc_jpchair_back.swf",
+                      "name": "back",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpchair_ncc_jpchair_back2.swf",
+                      "name": "back of the chair",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpchair_ncc_jpchair_cus.swf",
+                      "name": "front",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpcabinet",
+              "name": "Drawers",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpcabinet_ncc_jpcabinet_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14703",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet_ncc_jpcabinet_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet_ncc_jpcabinet_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpcabinet_ncc_jpcabinet_cus.swf",
+                      "name": "flattened",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_sign_school_front.swf",
+              "name": "Empty sign",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14707",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_jp_sign_exit",
+              "name": "Exit sign",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jp_sign_exit_ncc_jp_sign_exit_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14708",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jp_sign_exit_ncc_jp_sign_exit_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jp_sign_exit_ncc_jp_sign_exit_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jp_sign_class",
+              "name": "Classroom sign",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jp_sign_class_ncc_jp_sign_class_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14711",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jp_sign_class_ncc_jp_sign_class_front.swf",
+                      "name": "front - 1A",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jp_sign_class_ncc_jp_sign_class2_front.swf",
+                      "name": "front - empty",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jp_sign_class_ncc_jp_sign_class_side.swf",
+                      "name": "side - right",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jp_sign_class_ncc_jp_sign_class_cus.swf",
+                      "name": "side - left",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_cloud03.swf",
+              "name": "Cloud",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14716",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_cloud02.swf",
+              "name": "Cloud",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14717",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_cloud01.swf",
+              "name": "Cloud",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14718",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpsllocker01",
+              "name": "Lockers",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpsllocker01_ncc_jpsllocker01_close.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14719",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpsllocker01_ncc_jpsllocker01_close.swf",
+                      "name": "front - closed",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpsllocker01_ncc_jpsllocker01_open.swf",
+                      "name": "front - opened",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall03",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall03_ncc_jpwall03_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14722",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall03_ncc_jpwall03_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall03_ncc_jpwall03_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall04",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall04_ncc_jpwall04_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14725",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall04_ncc_jpwall04_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall04_ncc_jpwall04_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall01",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall01_ncc_jpwall01_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14728",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall01_ncc_jpwall01_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall01_ncc_jpwall01_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall02",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall02_ncc_jpwall02_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14731",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall02_ncc_jpwall02_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall02_ncc_jpwall02_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall05",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall05_ncc_jpwall05_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14734",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall05_ncc_jpwall05_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall05_ncc_jpwall05_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall06",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall06_ncc_jpwall06_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14737",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall06_ncc_jpwall06_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall06_ncc_jpwall06_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall07",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall07_ncc_jpwall07_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14740",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall07_ncc_jpwall07_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall07_ncc_jpwall07_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall08",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall08_ncc_jpwall08_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14743",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall08_ncc_jpwall08_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall08_ncc_jpwall08_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpwall09",
+              "name": "Wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpwall09_ncc_jpwall09_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14746",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall09_ncc_jpwall09_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall09_ncc_jpwall09_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpwall09_ncc_jpwall09_front2.swf",
+                      "name": "front 2",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jp_window_display",
+              "name": "Window",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jp_window_display_ncc_jp_window_display.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14750",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jp_window_display_ncc_jp_window_display.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jp_window_display_ncc_jp_window_display_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jp_window_display_ncc_jp_window_display_cus.swf",
+                      "name": "side 2",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_schoolentrance01.swf",
+              "name": "School entrance",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14754",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_jp_road01",
+              "name": "Pavement",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jp_road01_ncc_jp_road01_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14755",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jp_road01_ncc_jp_road01_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jp_road01_ncc_jp_road01_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_plants02.swf",
+              "name": "Bush",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14758",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_cork_jpboard",
+              "name": "Blackboard",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_cork_jpboard_ncc_cork_jpboard_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14759",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_cork_jpboard_ncc_cork_jpboard_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_cork_jpboard_ncc_cork_jpboard_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_jpsllocker02",
+              "name": "Locker",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_jpsllocker02_ncc_jpsllocker02_close.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14762",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_jpsllocker02_ncc_jpsllocker02_close.swf",
+                      "name": "closed",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpsllocker02_ncc_jpsllocker02_open.swf",
+                      "name": "opened",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_jpsllocker02_ncc_jpsllocker02_cus.swf",
+                      "name": "opened - mops",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jpbook_front.swf",
+              "name": "Notebook",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14766",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jpslfire.swf",
+              "name": "Fire extinguisher",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14767",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "square01.swf",
+              "name": "jp_square",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14768",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "backdrop.swf",
+              "name": "jp_backdrop",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14769",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_sniper_rooftop",
+              "name": "jp_sniper_rooftop",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_sniper_rooftop_ncc_sniper_rooftop03.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14770",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_sniper_rooftop_ncc_sniper_rooftop02.swf",
+                      "name": "half",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_sniper_rooftop_ncc_sniper_rooftop03.swf",
+                      "name": "full",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_grasscover.swf",
+              "name": "patch of grass",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14973",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_grass.swf",
+              "name": "Grass",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "14974",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_bear.swf",
+              "name": "Teddy bear",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15003",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_cake.swf",
+              "name": "Cake",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15004",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_deco01.swf",
+              "name": "Street light",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15005",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_warmtable.swf",
+              "name": "Table",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15006",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_ninja_aircon01.swf",
+              "name": "Air conditioning",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15007",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_ninja_bamboo.swf",
+              "name": "Bamboo decoration",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15008",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_ninja_bed",
+              "name": "Bed",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_ninja_bed_ncc_ninja_bed02.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15009",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_bed_ncc_ninja_bed01.swf",
+                      "name": "Bed only",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_bed_ncc_ninja_bed02.swf",
+                      "name": "Bed with blanket",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_bed_ncc_ninja_blanket01.swf",
+                      "name": "Blanket only",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_bed_ncc_ninja_blanket02.swf",
+                      "name": "Blanket only - someone under",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_ninja_chair01.swf",
+              "name": "Office chair",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15014",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_ninja_desk01",
+              "name": "Desk",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_ninja_desk01_ncc_ninja_desk01.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15015",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_desk01_ncc_ninja_desk01.swf",
+                      "name": "side - books",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_desk01_ncc_ninja_desk02.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "ncc_ninja_drawer01.swf",
+              "name": "Drawers",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15018",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_ninja_flower.swf",
+              "name": "Flower",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15019",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_house01.swf",
+              "name": "House",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15020",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_house02.swf",
+              "name": "House",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15021",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_jp_house03.swf",
+              "name": "House",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15022",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "ncc_ninja_lamp01.swf",
+              "name": "Lamp",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15023",
+              "money": "0",
+              "sharing": "0"
+          }
+      },
+      {
+          "@attributes": {
+              "id": "msp_ninja_tatami",
+              "name": "Tatami",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_ninja_tatami_ncc_ninja_tatami.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15024",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_tatami_ncc_ninja_tatami.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_tatami_ncc_ninja_tatami2.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_ninja_tv",
+              "name": "Old TV set",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_ninja_tv_ncc_ninja_tv01_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15027",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_tv_ncc_ninja_tv01_front.swf",
+                      "name": "front - off",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_tv_ncc_ninja_tv01_side.swf",
+                      "name": "side - off",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_tv_ncc_ninja_tv02_front.swf",
+                      "name": "front - on",
+                      "enable": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_tv_ncc_ninja_tv02_side.swf",
+                      "name": "side - on",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_ninja_window",
+              "name": "Window",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_ninja_window_ncc_ninja_window01.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15032",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_window_ncc_ninja_window01.swf",
+                      "name": "side - closed",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_window_ncc_ninja_window02.swf",
+                      "name": "side - opened",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_ninja_wall03",
+              "name": "Wooden wall",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_ninja_wall03_ncc_ninja_wall03_front.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15035",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_wall03_ncc_ninja_wall03_front.swf",
+                      "name": "front",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_wall03_ncc_ninja_wall03_side.swf",
+                      "name": "side",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      },
+      {
+          "@attributes": {
+              "id": "msp_ninja_door01",
+              "name": "Sliding doors",
+              "holdable": "0",
+              "placeable": "1",
+              "wearable": "0",
+              "facing": "left",
+              "thumb": "msp_ninja_door01_ncc_ninja_door01_close.swf",
+              "enable": "Y",
+              "is_premium": "N",
+              "aid": "15038",
+              "money": "0",
+              "sharing": "0"
+          },
+          "state": [
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_door01_ncc_ninja_door01_close.swf",
+                      "name": "close",
+                      "enable": "Y",
+                      "default": "Y"
+                  }
+              },
+              {
+                  "@attributes": {
+                      "id": "msp_ninja_door01_ncc_ninja_door01_open.swf",
+                      "name": "open",
+                      "enable": "Y"
+                  }
+              }
+          ]
+      }
+  ],
+  "effect": {
+      "@attributes": {
+          "id": "ncc_jp_sakura.swf",
+          "type": "ANIME",
+          "resize": "false",
+          "move": "false",
+          "name": "Sakura",
+          "enable": "Y",
+          "is_premium": "N",
+          "aid": "14976",
+          "money": "0",
+          "sharing": "0",
+          "display_order": "0"
+      }
+  }
+}

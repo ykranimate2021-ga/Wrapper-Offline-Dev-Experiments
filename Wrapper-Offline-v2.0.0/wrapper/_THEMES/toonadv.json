@@ -1,0 +1,3816 @@
+{
+    "@attributes": {
+        "id": "toonadv",
+        "name": "Toon Adventure"
+    },
+    "char": [
+        {
+            "@attributes": {
+                "id": "blossom",
+                "name": "Blossom",
+                "thumb": "standing.swf",
+                "facing": "left",
+                "default": "standing.swf",
+                "motion": "walk.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10245",
+                "money": "200",
+                "sharing": "100"
+            },
+            "category": [
+                {
+                    "@attributes": {
+                        "name": "Emotion"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "excited.swf",
+                                "name": "Excited",
+                                "loop": "Y",
+                                "totalframe": "38",
+                                "enable": "Y",
+                                "aid": "10246"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "cry.swf",
+                                "name": "Cry",
+                                "loop": "Y",
+                                "totalframe": "23",
+                                "enable": "Y",
+                                "aid": "10247"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "sad.swf",
+                                "name": "Sad",
+                                "loop": "Y",
+                                "totalframe": "31",
+                                "enable": "Y",
+                                "aid": "10248"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "angry.swf",
+                                "name": "Angry",
+                                "loop": "Y",
+                                "totalframe": "27",
+                                "enable": "Y",
+                                "aid": "10249"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "shocked.swf",
+                                "name": "Shocked",
+                                "loop": "Y",
+                                "totalframe": "34",
+                                "enable": "Y",
+                                "aid": "10250"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "thinking.swf",
+                                "name": "Thinking",
+                                "loop": "Y",
+                                "totalframe": "60",
+                                "enable": "Y",
+                                "aid": "10251"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "laugh.swf",
+                                "name": "Laugh",
+                                "loop": "Y",
+                                "totalframe": "21",
+                                "enable": "Y",
+                                "aid": "10252"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Fight"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "fight.swf",
+                                "name": "Punch",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10253"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "get_hit.swf",
+                                "name": "Get hit",
+                                "loop": "Y",
+                                "totalframe": "40",
+                                "enable": "Y",
+                                "aid": "10254"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "combo_punch.swf",
+                                "name": "Combo punch",
+                                "loop": "Y",
+                                "totalframe": "100",
+                                "enable": "Y",
+                                "aid": "10255"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "kick.swf",
+                                "name": "Kick",
+                                "loop": "Y",
+                                "totalframe": "100",
+                                "enable": "Y",
+                                "aid": "10256"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Standing"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "standing.swf",
+                                "name": "Frontview",
+                                "loop": "Y",
+                                "totalframe": "1",
+                                "enable": "Y",
+                                "aid": "10257"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "backview.swf",
+                                "name": "Backview",
+                                "loop": "Y",
+                                "totalframe": "70",
+                                "enable": "Y",
+                                "aid": "10258"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Super Powers"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "laser_eye.swf",
+                                "name": "Heat vision",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10259"
+                            },
+                            "prop": {
+                                "@attributes": {
+                                    "id": "msp_laser.msp_laser_laser_med.swf",
+                                    "aid": "10201"
+                                }
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "ice_breathe.swf",
+                                "name": "Ice-Breathe",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10260"
+                            },
+                            "prop": {
+                                "@attributes": {
+                                    "id": "msp_ice.msp_ice_ice_med.swf",
+                                    "aid": "10197"
+                                }
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "sonic_scream.swf",
+                                "name": "Sonic Scream",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10261"
+                            },
+                            "prop": {
+                                "@attributes": {
+                                    "id": "msp_sonic.msp_sonic_sonic_med.swf",
+                                    "aid": "10206"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "@attributes": {
+                        "id": "sitting.swf",
+                        "name": "Sitting",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10262"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "talk.swf",
+                        "name": "Talk",
+                        "loop": "Y",
+                        "totalframe": "100",
+                        "enable": "Y",
+                        "aid": "10263"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "point_at.swf",
+                        "name": "Point at",
+                        "loop": "Y",
+                        "totalframe": "26",
+                        "enable": "Y",
+                        "aid": "10264"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "hover.swf",
+                        "name": "Hover",
+                        "loop": "Y",
+                        "totalframe": "28",
+                        "enable": "Y",
+                        "aid": "10265"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "crossed_arms.swf",
+                        "name": "Crossed arms",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10266"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "take_off.swf",
+                        "name": "Take off",
+                        "loop": "Y",
+                        "totalframe": "52",
+                        "enable": "Y",
+                        "aid": "10267"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "fighting_stance.swf",
+                        "name": "Stare at camera",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10268"
+                    }
+                }
+            ],
+            "motion": [
+                {
+                    "@attributes": {
+                        "id": "walk.swf",
+                        "name": "Walk",
+                        "loop": "Y",
+                        "totalframe": "20",
+                        "enable": "Y",
+                        "aid": "10269"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "run.swf",
+                        "name": "Run",
+                        "loop": "Y",
+                        "totalframe": "16",
+                        "enable": "Y",
+                        "aid": "10270"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "fly.swf",
+                        "name": "Fly",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10271"
+                    }
+                }
+            ],
+            "facial": [
+                {
+                    "@attributes": {
+                        "id": "head_talk_happy.swf",
+                        "name": "Talk happy",
+                        "enable": "Y",
+                        "aid": "10272"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_angry.swf",
+                        "name": "Talk angry",
+                        "enable": "Y",
+                        "aid": "10273"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_sad.swf",
+                        "name": "Talk sad",
+                        "enable": "Y",
+                        "aid": "10274"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk.swf",
+                        "name": "Talk",
+                        "enable": "Y",
+                        "aid": "10275"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_confused.swf",
+                        "name": "Confused",
+                        "enable": "Y",
+                        "aid": "10276"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_shocked.swf",
+                        "name": "Shocked",
+                        "enable": "Y",
+                        "aid": "10277"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_sad.swf",
+                        "name": "Sad",
+                        "enable": "Y",
+                        "aid": "10278"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_angry.swf",
+                        "name": "Angry",
+                        "enable": "Y",
+                        "aid": "10279"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_happy.swf",
+                        "name": "Happy",
+                        "enable": "Y",
+                        "aid": "10280"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_neutral.swf",
+                        "name": "Neutral",
+                        "enable": "Y",
+                        "aid": "10281"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_cry.swf",
+                        "name": "Cry",
+                        "enable": "Y",
+                        "aid": "10282"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_surprised.swf",
+                        "name": "Surprised",
+                        "enable": "Y",
+                        "aid": "10283"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "bubble",
+                "name": "Bubbles",
+                "thumb": "standing.swf",
+                "facing": "left",
+                "default": "standing.swf",
+                "motion": "walk.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10284",
+                "money": "200",
+                "sharing": "100"
+            },
+            "category": [
+                {
+                    "@attributes": {
+                        "name": "Emotion"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "excited.swf",
+                                "name": "Excited",
+                                "loop": "Y",
+                                "totalframe": "40",
+                                "enable": "Y",
+                                "aid": "10285"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "cry.swf",
+                                "name": "Cry",
+                                "loop": "Y",
+                                "totalframe": "34",
+                                "enable": "Y",
+                                "aid": "10286"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "sad.swf",
+                                "name": "Sad",
+                                "loop": "Y",
+                                "totalframe": "60",
+                                "enable": "Y",
+                                "aid": "10287"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "angry.swf",
+                                "name": "Angry",
+                                "loop": "Y",
+                                "totalframe": "29",
+                                "enable": "Y",
+                                "aid": "10288"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "shocked.swf",
+                                "name": "Shocked",
+                                "loop": "Y",
+                                "totalframe": "1",
+                                "enable": "Y",
+                                "aid": "10289"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "thinking.swf",
+                                "name": "Thinking",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10290"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "laugh.swf",
+                                "name": "Laugh",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10291"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Fight"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "fight.swf",
+                                "name": "Punch",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10292"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "get_hit.swf",
+                                "name": "Get hit",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10293"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "combo_punch.swf",
+                                "name": "Combo punch",
+                                "loop": "Y",
+                                "totalframe": "40",
+                                "enable": "Y",
+                                "aid": "10294"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "kick.swf",
+                                "name": "Kick",
+                                "loop": "Y",
+                                "totalframe": "21",
+                                "enable": "Y",
+                                "aid": "10295"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Standing"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "standing.swf",
+                                "name": "Frontview",
+                                "loop": "Y",
+                                "totalframe": "1",
+                                "enable": "Y",
+                                "aid": "10296"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "backview.swf",
+                                "name": "Backview",
+                                "loop": "Y",
+                                "totalframe": "70",
+                                "enable": "Y",
+                                "aid": "10297"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Super powers"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "laser_eye.swf",
+                                "name": "Heat vision",
+                                "loop": "Y",
+                                "totalframe": "1",
+                                "enable": "Y",
+                                "aid": "10298"
+                            },
+                            "prop": {
+                                "@attributes": {
+                                    "id": "msp_laser.msp_laser_laser_med.swf",
+                                    "aid": "10201"
+                                }
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "sonic_scream.swf",
+                                "name": "Sonic Scream",
+                                "loop": "Y",
+                                "totalframe": "80",
+                                "enable": "Y",
+                                "aid": "10299"
+                            },
+                            "prop": {
+                                "@attributes": {
+                                    "id": "msp_sonic.msp_sonic_sonic_med.swf",
+                                    "aid": "10206"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "@attributes": {
+                        "id": "sitting.swf",
+                        "name": "Sitting",
+                        "loop": "Y",
+                        "totalframe": "20",
+                        "enable": "Y",
+                        "aid": "10300"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "talk.swf",
+                        "name": "Talk",
+                        "loop": "Y",
+                        "totalframe": "16",
+                        "enable": "Y",
+                        "aid": "10301"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "point_at.swf",
+                        "name": "Point at",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10302"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "hover.swf",
+                        "name": "Hovering",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10303"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "hug.swf",
+                        "name": "Hug soft toy",
+                        "loop": "Y",
+                        "totalframe": "100",
+                        "enable": "Y",
+                        "aid": "10304"
+                    },
+                    "prop": {
+                        "@attributes": {
+                            "id": "octi.swf",
+                            "aid": "10203"
+                        }
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "hug_shake.swf",
+                        "name": "Hug and shake toy",
+                        "loop": "Y",
+                        "totalframe": "8",
+                        "enable": "Y",
+                        "aid": "10305"
+                    },
+                    "prop": {
+                        "@attributes": {
+                            "id": "octi.swf",
+                            "aid": "10203"
+                        }
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "crossed_arms.swf",
+                        "name": "Crossed arms",
+                        "loop": "Y",
+                        "totalframe": "70",
+                        "enable": "Y",
+                        "aid": "10306"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "shy.swf",
+                        "name": "Shy",
+                        "loop": "Y",
+                        "totalframe": "23",
+                        "enable": "Y",
+                        "aid": "10307"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "take_off.swf",
+                        "name": "Take off",
+                        "loop": "Y",
+                        "totalframe": "31",
+                        "enable": "Y",
+                        "aid": "10308"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "fighting_stance.swf",
+                        "name": "Stare at camera",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10309"
+                    }
+                }
+            ],
+            "motion": [
+                {
+                    "@attributes": {
+                        "id": "walk.swf",
+                        "name": "Walk",
+                        "loop": "Y",
+                        "totalframe": "52",
+                        "enable": "Y",
+                        "aid": "10310"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "run.swf",
+                        "name": "Run",
+                        "loop": "Y",
+                        "totalframe": "100",
+                        "enable": "Y",
+                        "aid": "10311"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "fly.swf",
+                        "name": "Fly",
+                        "loop": "Y",
+                        "totalframe": "100",
+                        "enable": "Y",
+                        "aid": "10312"
+                    }
+                }
+            ],
+            "facial": [
+                {
+                    "@attributes": {
+                        "id": "head_talk_happy.swf",
+                        "name": "Talk happy",
+                        "enable": "Y",
+                        "aid": "10313"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_angry.swf",
+                        "name": "Talk angry",
+                        "enable": "Y",
+                        "aid": "10314"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_sad.swf",
+                        "name": "Talk sad",
+                        "enable": "Y",
+                        "aid": "10315"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk.swf",
+                        "name": "Talk",
+                        "enable": "Y",
+                        "aid": "10316"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_confused.swf",
+                        "name": "Confused",
+                        "enable": "Y",
+                        "aid": "10317"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_shocked.swf",
+                        "name": "Shocked",
+                        "enable": "Y",
+                        "aid": "10318"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_sad.swf",
+                        "name": "Sad",
+                        "enable": "Y",
+                        "aid": "10319"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_angry.swf",
+                        "name": "Angry",
+                        "enable": "Y",
+                        "aid": "10320"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_happy.swf",
+                        "name": "Happy",
+                        "enable": "Y",
+                        "aid": "10321"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_neutral.swf",
+                        "name": "Neutral",
+                        "enable": "Y",
+                        "aid": "10322"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_cry.swf",
+                        "name": "Cry",
+                        "enable": "Y",
+                        "aid": "10323"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_surprised.swf",
+                        "name": "Surprised",
+                        "enable": "Y",
+                        "aid": "10324"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "buttercup",
+                "name": "Buttercup",
+                "thumb": "standing.swf",
+                "facing": "left",
+                "default": "standing.swf",
+                "motion": "walk.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10325",
+                "money": "200",
+                "sharing": "100"
+            },
+            "category": [
+                {
+                    "@attributes": {
+                        "name": "Emotion"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "sad.swf",
+                                "name": "Sad",
+                                "loop": "Y",
+                                "totalframe": "31",
+                                "enable": "Y",
+                                "aid": "10326"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "shocked.swf",
+                                "name": "Shocked",
+                                "loop": "Y",
+                                "totalframe": "34",
+                                "enable": "Y",
+                                "aid": "10327"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "excited.swf",
+                                "name": "Excited",
+                                "loop": "Y",
+                                "totalframe": "20",
+                                "enable": "Y",
+                                "aid": "10328"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "cry.swf",
+                                "name": "Cry",
+                                "loop": "Y",
+                                "totalframe": "23",
+                                "enable": "Y",
+                                "aid": "10329"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "angry.swf",
+                                "name": "Angry",
+                                "loop": "Y",
+                                "totalframe": "40",
+                                "enable": "Y",
+                                "aid": "10330"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "thinking.swf",
+                                "name": "Thinking",
+                                "loop": "Y",
+                                "totalframe": "60",
+                                "enable": "Y",
+                                "aid": "10331"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "laugh.swf",
+                                "name": "Laugh",
+                                "loop": "Y",
+                                "totalframe": "21",
+                                "enable": "Y",
+                                "aid": "10332"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Fight"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "fight.swf",
+                                "name": "Punch",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10333"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "get_hit.swf",
+                                "name": "Get hit",
+                                "loop": "Y",
+                                "totalframe": "40",
+                                "enable": "Y",
+                                "aid": "10334"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "kick.swf",
+                                "name": "Kick",
+                                "loop": "Y",
+                                "totalframe": "100",
+                                "enable": "Y",
+                                "aid": "10335"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "combo_punch.swf",
+                                "name": "Combo punch",
+                                "loop": "Y",
+                                "totalframe": "100",
+                                "enable": "Y",
+                                "aid": "10336"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Standing"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "standing.swf",
+                                "name": "Frontview",
+                                "loop": "Y",
+                                "totalframe": "1",
+                                "enable": "Y",
+                                "aid": "10337"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "backview.swf",
+                                "name": "Backview",
+                                "loop": "Y",
+                                "totalframe": "70",
+                                "enable": "Y",
+                                "aid": "10338"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Super powers"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "sonic_scream.swf",
+                                "name": "Sonic scream",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10339"
+                            },
+                            "prop": {
+                                "@attributes": {
+                                    "id": "msp_sonic.msp_sonic_sonic_med.swf",
+                                    "aid": "10206"
+                                }
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "laser_eye.swf",
+                                "name": "Heat vision",
+                                "loop": "Y",
+                                "totalframe": "28",
+                                "enable": "Y",
+                                "aid": "10340"
+                            },
+                            "prop": {
+                                "@attributes": {
+                                    "id": "msp_laser.msp_laser_laser_med.swf",
+                                    "aid": "10201"
+                                }
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "taunt.swf",
+                                "name": "Tongue roll",
+                                "loop": "Y",
+                                "totalframe": "70",
+                                "enable": "Y",
+                                "aid": "10341"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "@attributes": {
+                        "id": "talk.swf",
+                        "name": "Talk",
+                        "loop": "Y",
+                        "totalframe": "100",
+                        "enable": "Y",
+                        "aid": "10342"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "point_at.swf",
+                        "name": "Point at",
+                        "loop": "Y",
+                        "totalframe": "29",
+                        "enable": "Y",
+                        "aid": "10343"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "crossed_arms.swf",
+                        "name": "Crossed arms",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10344"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "take_off.swf",
+                        "name": "Take off",
+                        "loop": "Y",
+                        "totalframe": "52",
+                        "enable": "Y",
+                        "aid": "10345"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "fighting_stance.swf",
+                        "name": "Stare at camera",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10346"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "sitting.swf",
+                        "name": "Sitting",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10347"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "hover.swf",
+                        "name": "Hovering",
+                        "loop": "Y",
+                        "totalframe": "28",
+                        "enable": "Y",
+                        "aid": "10348"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "yes.swf",
+                        "name": "Victory",
+                        "loop": "Y",
+                        "totalframe": "49",
+                        "enable": "Y",
+                        "aid": "10349"
+                    }
+                }
+            ],
+            "motion": [
+                {
+                    "@attributes": {
+                        "id": "walk.swf",
+                        "name": "Walk",
+                        "loop": "Y",
+                        "totalframe": "20",
+                        "enable": "Y",
+                        "aid": "10350"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "run.swf",
+                        "name": "Run",
+                        "loop": "Y",
+                        "totalframe": "16",
+                        "enable": "Y",
+                        "aid": "10351"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "fly.swf",
+                        "name": "Fly",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10352"
+                    }
+                }
+            ],
+            "facial": [
+                {
+                    "@attributes": {
+                        "id": "head_talk_happy.swf",
+                        "name": "Talk happy",
+                        "enable": "Y",
+                        "aid": "10353"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_angry.swf",
+                        "name": "Talk angry",
+                        "enable": "Y",
+                        "aid": "10354"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_sad.swf",
+                        "name": "Talk sad",
+                        "enable": "Y",
+                        "aid": "10355"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk.swf",
+                        "name": "Talk",
+                        "enable": "Y",
+                        "aid": "10356"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_confused.swf",
+                        "name": "Confused",
+                        "enable": "Y",
+                        "aid": "10357"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_shocked.swf",
+                        "name": "Shocked",
+                        "enable": "Y",
+                        "aid": "10358"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_sad.swf",
+                        "name": "Sad",
+                        "enable": "Y",
+                        "aid": "10359"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_angry.swf",
+                        "name": "Angry",
+                        "enable": "Y",
+                        "aid": "10360"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_happy.swf",
+                        "name": "Happy",
+                        "enable": "Y",
+                        "aid": "10361"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_neutral.swf",
+                        "name": "Neutral",
+                        "enable": "Y",
+                        "aid": "10362"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_cry.swf",
+                        "name": "Cry",
+                        "enable": "Y",
+                        "aid": "10363"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_surprised.swf",
+                        "name": "Surprised",
+                        "enable": "Y",
+                        "aid": "10364"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_taunt.swf",
+                        "name": "Taunt",
+                        "enable": "Y",
+                        "aid": "10365"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_scheming.swf",
+                        "name": "Talk scheming",
+                        "enable": "Y",
+                        "aid": "10366"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "mojojojo",
+                "name": "Mojo jojo",
+                "thumb": "standing.swf",
+                "facing": "left",
+                "default": "standing.swf",
+                "motion": "walk.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10367",
+                "money": "200",
+                "sharing": "100"
+            },
+            "category": [
+                {
+                    "@attributes": {
+                        "name": "Emotion"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "happy.swf",
+                                "name": "Happy",
+                                "loop": "Y",
+                                "totalframe": "59",
+                                "enable": "Y",
+                                "aid": "10368"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "cry.swf",
+                                "name": "Cry",
+                                "loop": "Y",
+                                "totalframe": "100",
+                                "enable": "Y",
+                                "aid": "10369"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "sad.swf",
+                                "name": "Sad",
+                                "loop": "Y",
+                                "totalframe": "135",
+                                "enable": "Y",
+                                "aid": "10370"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "angry.swf",
+                                "name": "Angry",
+                                "loop": "Y",
+                                "totalframe": "5",
+                                "enable": "Y",
+                                "aid": "10371"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "shocked.swf",
+                                "name": "Shocked",
+                                "loop": "Y",
+                                "totalframe": "70",
+                                "enable": "Y",
+                                "aid": "10372"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "thinking.swf",
+                                "name": "Thinking",
+                                "loop": "Y",
+                                "totalframe": "123",
+                                "enable": "Y",
+                                "aid": "10373"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "laugh.swf",
+                                "name": "Laugh",
+                                "loop": "Y",
+                                "totalframe": "7",
+                                "enable": "Y",
+                                "aid": "10374"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Fight"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "get_hit_punch.swf",
+                                "name": "Get hit",
+                                "loop": "Y",
+                                "totalframe": "93",
+                                "enable": "Y",
+                                "aid": "10375"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "get_hit_laser.swf",
+                                "name": "Zapped",
+                                "loop": "Y",
+                                "totalframe": "35",
+                                "enable": "Y",
+                                "aid": "10376"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Standing"
+                    },
+                    "action": [
+                        {
+                            "@attributes": {
+                                "id": "standing.swf",
+                                "name": "Frontview",
+                                "loop": "Y",
+                                "totalframe": "1",
+                                "enable": "Y",
+                                "aid": "10377"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "id": "backview.swf",
+                                "name": "Backview",
+                                "loop": "Y",
+                                "totalframe": "1",
+                                "enable": "Y",
+                                "aid": "10378"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "@attributes": {
+                        "id": "sitting.swf",
+                        "name": "Sitting",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10379"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "talk.swf",
+                        "name": "Talk",
+                        "loop": "Y",
+                        "totalframe": "131",
+                        "enable": "Y",
+                        "aid": "10380"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "point_at.swf",
+                        "name": "Point at",
+                        "loop": "Y",
+                        "totalframe": "27",
+                        "enable": "Y",
+                        "aid": "10381"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "hold_gun.swf",
+                        "name": "Hold gun",
+                        "loop": "Y",
+                        "totalframe": "16",
+                        "enable": "Y",
+                        "aid": "10382"
+                    },
+                    "prop": {
+                        "@attributes": {
+                            "id": "gun.swf",
+                            "aid": "10194"
+                        }
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "roar.swf",
+                        "name": "roar",
+                        "loop": "Y",
+                        "totalframe": "24",
+                        "enable": "Y",
+                        "aid": "10383"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "crossed_arms.swf",
+                        "name": "crossed arms",
+                        "loop": "Y",
+                        "totalframe": "1",
+                        "enable": "Y",
+                        "aid": "10384"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "posing.swf",
+                        "name": "posing",
+                        "loop": "Y",
+                        "totalframe": "29",
+                        "enable": "Y",
+                        "aid": "10385"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "talk_complain.swf",
+                        "name": "Talk fervently",
+                        "loop": "Y",
+                        "totalframe": "84",
+                        "enable": "Y",
+                        "aid": "10386"
+                    }
+                }
+            ],
+            "motion": [
+                {
+                    "@attributes": {
+                        "id": "walk.swf",
+                        "name": "Walk",
+                        "loop": "Y",
+                        "totalframe": "16",
+                        "enable": "Y",
+                        "aid": "10387"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "run.swf",
+                        "name": "Run",
+                        "loop": "Y",
+                        "totalframe": "16",
+                        "enable": "Y",
+                        "aid": "10388"
+                    }
+                }
+            ],
+            "facial": [
+                {
+                    "@attributes": {
+                        "id": "head_talk_scheming.swf",
+                        "name": "Talk scheming",
+                        "enable": "Y",
+                        "aid": "10389"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_angry.swf",
+                        "name": "Talk angry",
+                        "enable": "Y",
+                        "aid": "10390"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk_sad.swf",
+                        "name": "Talk sad",
+                        "enable": "Y",
+                        "aid": "10391"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_talk.swf",
+                        "name": "Talk",
+                        "enable": "Y",
+                        "aid": "10392"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_evil_grin.swf",
+                        "name": "Evil grin",
+                        "enable": "Y",
+                        "aid": "10393"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_shocked.swf",
+                        "name": "Shocked",
+                        "enable": "Y",
+                        "aid": "10394"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_sad.swf",
+                        "name": "Sad",
+                        "enable": "Y",
+                        "aid": "10395"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_angry.swf",
+                        "name": "Angry",
+                        "enable": "Y",
+                        "aid": "10396"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_happy.swf",
+                        "name": "Happy",
+                        "enable": "Y",
+                        "aid": "10397"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "head_neutral.swf",
+                        "name": "Neutral",
+                        "enable": "Y",
+                        "aid": "10398"
+                    }
+                }
+            ]
+        }
+    ],
+    "background": [
+        {
+            "@attributes": {
+                "id": "indo_bg.swf",
+                "name": "Taj Mahal",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10399",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "street_day_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10442",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "lliving_rm_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10441",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "beach_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10440",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "thailand_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10439",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "taiwan_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10409",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "kid_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10408",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "sydney_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10407",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "malaysia_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10406",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "space_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10404",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "mojojojo_lair_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10403",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "flapjacks_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10402",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "townsville_hall_bg.swf",
+                "name": "Townsville hall",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10401",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "police_station_bg.swf",
+                "name": "Police station",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10400",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "street_night_bg.swf",
+                "name": "",
+                "enable": "N",
+                "default": "N",
+                "is_premium": "N",
+                "aid": "10443",
+                "money": "0",
+                "sharing": "0"
+            }
+        }
+    ],
+    "compositebg": [
+        {
+            "@attributes": {
+                "id": "cbg_st_night",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "street_night.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10453"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.street_night_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP7",
+                        "index": "5"
+                    },
+                    "file": "toonadv.street_night_bin.swf",
+                    "x": "105",
+                    "y": "291.7",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP8",
+                        "index": "6"
+                    },
+                    "file": "toonadv.street_night_tape.swf",
+                    "x": "347.4",
+                    "y": "341.5",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_st_day",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "street_day.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10452"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.street_day_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP6",
+                        "index": "5"
+                    },
+                    "file": "toonadv.street_day_sign02.swf",
+                    "x": "507.2",
+                    "y": "305.3",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP7",
+                        "index": "6"
+                    },
+                    "file": "toonadv.street_day_sign01.swf",
+                    "x": "96",
+                    "y": "287",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_living_rm",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "living_room.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10451"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.lliving_rm_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP8",
+                        "index": "5"
+                    },
+                    "file": "toonadv.living_rm_sofa.swf",
+                    "x": "261",
+                    "y": "228",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP9",
+                        "index": "6"
+                    },
+                    "file": "toonadv.living_rm_tv.swf",
+                    "x": "446",
+                    "y": "235",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP10",
+                        "index": "7"
+                    },
+                    "file": "toonadv.living_rm_chair.swf",
+                    "x": "205",
+                    "y": "273",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_beach",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "beach.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10450"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.beach_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP6",
+                        "index": "5"
+                    },
+                    "file": "toonadv.beach_prop01.swf",
+                    "x": "113.1",
+                    "y": "143.9",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP7",
+                        "index": "6"
+                    },
+                    "file": "toonadv.beach_prop02.swf",
+                    "x": "235.2",
+                    "y": "167.8",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_thai",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "thailand.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10449"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.thailand_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP6",
+                        "index": "5"
+                    },
+                    "file": "toonadv.thailand_boat01.swf",
+                    "x": "163",
+                    "y": "233",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP7",
+                        "index": "6"
+                    },
+                    "file": "toonadv.thailand_boat02.swf",
+                    "x": "86",
+                    "y": "270",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP8",
+                        "index": "7"
+                    },
+                    "file": "toonadv.thailand_bridge.swf",
+                    "x": "306",
+                    "y": "418",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_sydney",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "sydney.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10448"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.sydney_bg.swf"
+            },
+            "prop": {
+                "@attributes": {
+                    "id": "PROP6",
+                    "index": "5"
+                },
+                "file": "toonadv.sydney_fence.swf",
+                "x": "306.7",
+                "y": "251.6",
+                "xscale": "1",
+                "yscale": "1",
+                "face": "1",
+                "rotation": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "cbg_taiwan",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "taiwan.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10447"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.taiwan_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP8",
+                        "index": "2"
+                    },
+                    "file": "toonadv.taiwan_tree.swf",
+                    "x": "136.8",
+                    "y": "286.3",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP9",
+                        "index": "4"
+                    },
+                    "file": "toonadv.taiwan_platform.swf",
+                    "x": "401.6",
+                    "y": "311.8",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP10",
+                        "index": "5"
+                    },
+                    "file": "toonadv.taiwan_bamboo.swf",
+                    "x": "581.8",
+                    "y": "262.3",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_malaysia",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "malaysia.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10446"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG18",
+                    "index": "0"
+                },
+                "file": "toonadv.malaysia_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP12",
+                        "index": "2"
+                    },
+                    "file": "toonadv.malaysia_bushes.swf",
+                    "x": "98.8",
+                    "y": "293.1",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP13",
+                        "index": "3"
+                    },
+                    "file": "toonadv.malaysia_bushes.swf",
+                    "x": "383.7",
+                    "y": "293.8",
+                    "xscale": "0.99",
+                    "yscale": "1.12",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_space",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "space.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10445"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "cbg_space_BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.space_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP192",
+                        "index": "2"
+                    },
+                    "file": "toonadv.space_earth.swf",
+                    "x": "136.2",
+                    "y": "149.2",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP193",
+                        "index": "3"
+                    },
+                    "file": "toonadv.space_ball02.swf",
+                    "x": "536.2",
+                    "y": "212.2",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP194",
+                        "index": "4"
+                    },
+                    "file": "toonadv.satellite.swf",
+                    "x": "369.2",
+                    "y": "204.2",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "-1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP195",
+                        "index": "5"
+                    },
+                    "file": "toonadv.space_ball01.swf",
+                    "x": "146.2",
+                    "y": "536.2",
+                    "xscale": "2.58",
+                    "yscale": "2.58",
+                    "face": "1",
+                    "rotation": "24.9"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_mojojojo",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "mojojojo_lair.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10444"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.mojojojo_lair_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "PROP7",
+                        "index": "2"
+                    },
+                    "file": "toonadv.mojojojo_mach01.swf",
+                    "x": "429.4",
+                    "y": "204.5",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP9",
+                        "index": "3"
+                    },
+                    "file": "toonadv.mojojojo_table.swf",
+                    "x": "161",
+                    "y": "272",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP8",
+                        "index": "4"
+                    },
+                    "file": "toonadv.mojojojo_chair.swf",
+                    "x": "429",
+                    "y": "246",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "PROP6",
+                        "index": "5"
+                    },
+                    "file": "toonadv.mojojojo_mach02.swf",
+                    "x": "234",
+                    "y": "202",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_kid",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "kid.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10414"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "cbg_kid_BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.kid_bg.swf"
+            },
+            "prop": {
+                "@attributes": {
+                    "id": "cbg_kid_PROP6",
+                    "index": "2"
+                },
+                "file": "toonadv.kids_jelly.swf",
+                "x": "314",
+                "y": "250",
+                "xscale": "1",
+                "yscale": "1",
+                "face": "1",
+                "rotation": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "cbg_flapjacks",
+                "name": "",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "flapjacks.jpg",
+                "display_order": "0",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10413"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "cbg_flapjacks_BG8",
+                    "index": "0"
+                },
+                "file": "toonadv.flapjacks_bg.swf"
+            },
+            "prop": {
+                "@attributes": {
+                    "id": "cbg_flapjacks_PROP7",
+                    "index": "2"
+                },
+                "file": "toonadv.flapjacks_barrel.swf",
+                "x": "208",
+                "y": "120",
+                "xscale": "1",
+                "yscale": "1",
+                "face": "1",
+                "rotation": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "cbg_tai",
+                "name": "Taj Mahal",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "indo.jpg",
+                "display_order": "1",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10410"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "cbg_tai_BG5",
+                    "index": "0"
+                },
+                "file": "toonadv.indo_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "cbg_tai_PROP0",
+                        "index": "2"
+                    },
+                    "file": "toonadv.indo_tree.swf",
+                    "x": "152.6",
+                    "y": "272.1",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "cbg_tai_PROP1",
+                        "index": "3"
+                    },
+                    "file": "toonadv.indo_tree.swf",
+                    "x": "498.6",
+                    "y": "270.1",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "-1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_police_station",
+                "name": "Police station",
+                "enable": "Y",
+                "default": "N",
+                "thumb": "police_station.jpg",
+                "display_order": "2",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10411"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "cbg_police_station_BG1",
+                    "index": "0"
+                },
+                "file": "toonadv.police_station_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "cbg_police_station_PROP0",
+                        "index": "2"
+                    },
+                    "file": "toonadv.police_car.swf",
+                    "x": "140",
+                    "y": "342",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "-1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "cbg_police_station_PROP1",
+                        "index": "3"
+                    },
+                    "file": "toonadv.police_car.swf",
+                    "x": "239",
+                    "y": "340",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "-1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "cbg_police_station_PROP2",
+                        "index": "4"
+                    },
+                    "file": "toonadv.police_margue.swf",
+                    "x": "478",
+                    "y": "336",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "cbg_townsville_hall",
+                "name": "Townsville hall",
+                "enable": "Y",
+                "default": "Y",
+                "thumb": "townsville_hall.jpg",
+                "display_order": "3",
+                "is_premium": "N",
+                "money": "0",
+                "sharing": "0",
+                "aid": "10412"
+            },
+            "bg": {
+                "@attributes": {
+                    "id": "cbg_townsville_hall_BG1",
+                    "index": "0"
+                },
+                "file": "toonadv.townsville_hall_bg.swf"
+            },
+            "prop": [
+                {
+                    "@attributes": {
+                        "id": "cbg_townsville_hall_PROP0",
+                        "index": "2"
+                    },
+                    "file": "toonadv.town_hall_trash.swf",
+                    "x": "147",
+                    "y": "324",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                },
+                {
+                    "@attributes": {
+                        "id": "cbg_townsville_hall_PROP1",
+                        "index": "3"
+                    },
+                    "file": "toonadv.town_pickles_cart.swf",
+                    "x": "502",
+                    "y": "276",
+                    "xscale": "1",
+                    "yscale": "1",
+                    "face": "1",
+                    "rotation": "0"
+                }
+            ]
+        }
+    ],
+    "prop": [
+        {
+            "@attributes": {
+                "id": "msp_flashlight_ver",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_flashlight_ver_flashlight_ver_off.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10460",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_flashlight_ver_flashlight_ver_off.swf",
+                        "name": "off",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_flashlight_ver_flashlight_ver_on.swf",
+                        "name": "on",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "taiwan_tree.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10425",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "taiwan_platform.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10424",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "taiwan_bamboo.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10423",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "malaysia_bushes.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10422",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "space_ball02.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10421",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "space_ball01.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10420",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "space_earth.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10419",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "mojojojo_mach02.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10418",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "mojojojo_mach01.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10417",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "mojojojo_chair.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10416",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "mojojojo_table.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10415",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "kids_jelly.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10244",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "flapjacks_barrel.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10243",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "sydney_fence.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10426",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "thailand_bridge.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10427",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "msp_flashlight_hor",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_flashlight_hor_flashlight_hor_off.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10457",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_flashlight_hor_flashlight_hor_off.swf",
+                        "name": "off",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_flashlight_hor_flashlight_hor_on.swf",
+                        "name": "on",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "msp_cam",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_cam_cam_off.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10454",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_cam_cam_off.swf",
+                        "name": "off",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_cam_cam_on.swf",
+                        "name": "on",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "street_night_tape.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10438",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "street_night_bin.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10437",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "street_day_sign02.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10436",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "street_day_sign01.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10435",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "living_rm_tv.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10434",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "living_rm_sofa.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10433",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "living_rm_chair.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10432",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "beach_prop02.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10431",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "beach_prop01.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10430",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "thailand_boat02.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10429",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "thailand_boat01.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10428",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "durian_explode.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10242",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "msp_barrel",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_barrel_barrel_empty.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10239",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_barrel_barrel_empty.swf",
+                        "name": "empty",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_barrel_barrel_full.swf",
+                        "name": "full",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "tuktuk.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10238",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "town_tree02.swf",
+                "name": "Tree",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10216",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "town_tree01.swf",
+                "name": "Tree",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10215",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "town_hall_trash.swf",
+                "name": "Trash",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10214",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "police_tree03.swf",
+                "name": "Tree",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10213",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "police_tree02.swf",
+                "name": "Tree",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10212",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "police_tree01.swf",
+                "name": "Tree",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10211",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "police_margue.swf",
+                "name": "Margue van",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10210",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "police_car.swf",
+                "name": "Police car",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10209",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "indo_tree.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10208",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "msp_sonic",
+                "name": "",
+                "holdable": "1",
+                "placeable": "0",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_sonic_sonic_med.swf",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10204",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_sonic_sonic_long.swf",
+                        "name": "long",
+                        "enable": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_sonic_sonic_med.swf",
+                        "name": "medium",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_sonic_sonic_short.swf",
+                        "name": "short",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "octi.swf",
+                "name": "Octi",
+                "holdable": "1",
+                "placeable": "0",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10203",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "msp_laser",
+                "name": "",
+                "holdable": "1",
+                "placeable": "0",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_laser_laser_med.swf",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10199",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_laser_laser_long.swf",
+                        "name": "long",
+                        "enable": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_laser_laser_med.swf",
+                        "name": "medium",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_laser_laser_short.swf",
+                        "name": "short",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "msp_ice",
+                "name": "",
+                "holdable": "1",
+                "placeable": "0",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_ice_ice_med.swf",
+                "enable": "N",
+                "is_premium": "N",
+                "aid": "10195",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_ice_ice_long.swf",
+                        "name": "long",
+                        "enable": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_ice_ice_med.swf",
+                        "name": "medium",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_ice_ice_short.swf",
+                        "name": "short",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "town_pickles_cart.swf",
+                "name": "Pickles cart",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10217",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "circket_bat.swf",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10218",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "jeepney.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10237",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "elephant_ride.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10236",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "satellite.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10235",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "command_module.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10234",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "msp_tech",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_tech_tech_manual_closed.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10231",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_tech_tech_manual_closed.swf",
+                        "name": "closed",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_tech_tech_manual_opened.swf",
+                        "name": "open",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "telescope.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10230",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "remote_controlled.swf",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10229",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "chemical_x.swf",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10228",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "secret_plan.swf",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10227",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "msp_bubble",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_bubble_bubble_gun_still.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10224",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_bubble_bubble_gun_still.swf",
+                        "name": "still",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_bubble_bubble_gun_shoot.swf",
+                        "name": "shoot",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "saw_gun.swf",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10223",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "msp_boom",
+                "name": "",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "msp_boom_boomerang_still.swf",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10220",
+                "money": "0",
+                "sharing": "0"
+            },
+            "state": [
+                {
+                    "@attributes": {
+                        "id": "msp_boom_boomerang_still.swf",
+                        "name": "still",
+                        "enable": "Y",
+                        "default": "Y"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "id": "msp_boom_boomerang_rotate.swf",
+                        "name": "rotate",
+                        "enable": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "id": "surfboard.swf",
+                "name": "",
+                "holdable": "0",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10219",
+                "money": "0",
+                "sharing": "0"
+            }
+        },
+        {
+            "@attributes": {
+                "id": "gun.swf",
+                "name": "Gun",
+                "holdable": "1",
+                "placeable": "1",
+                "wearable": "0",
+                "facing": "left",
+                "thumb": "",
+                "enable": "Y",
+                "is_premium": "N",
+                "aid": "10194",
+                "money": "0",
+                "sharing": "0"
+            }
+        }
+    ]
+}

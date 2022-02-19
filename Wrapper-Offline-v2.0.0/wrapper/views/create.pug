@@ -1,0 +1,51 @@
+extends layout 
+
+block extrahead
+  link(rel='stylesheet', href='/stylesheets/create.css')
+
+block content 
+  - var n = 0
+  main 
+    .themeheader
+      h1= "Themes"
+      a.filter(onclick="filter()")
+        .theme.pick_creation#unchecked
+          img.checkimg(src='/images/themelist/tick.png')
+        p.ftext= "Filter Non-CC Themes"
+    .themes
+      each theme in themelist
+        if theme.has_cc 
+          - var ccstr = 'has-cc'
+        else
+          - var ccstr = 'no-cc'
+        .theme(data-tags=ccstr)
+          .imgholder
+            .pick
+              if theme.has_cc == true
+                .theme.pick_creation
+                  a(href='/char/browse/' + theme.cc_id)
+                    img.pickimg(src='/images/themelist/Character.png', alt="Create a character" title="Create a character")
+              .theme.pick_creation
+                a(href='/studio/' + theme.vm_id)
+                  img.pickimg(src='/images/themelist/Movie.png', alt="Make a movie" title="Make a movie")
+            img.themeimg(src='/images/themelist/' + theme.thumb, alt=theme.name title=theme.name)
+          p.themename= theme.name
+  script. 
+    var filterOn = false;
+    function filter() {
+      if (!filterOn) {
+        document.getElementById('unchecked').setAttribute('id', 'checked');
+        var themedivs = document.querySelectorAll("[data-tags='no-cc']")
+        themedivs.forEach(function(div) {
+          div.setAttribute('style', 'display: none;')
+        });
+        filterOn = true;
+      } else {
+        document.getElementById('checked').setAttribute('id', 'unchecked');
+        var themedivs = document.querySelectorAll("[data-tags='no-cc']")
+        themedivs.forEach(function(div) {
+          div.setAttribute('style', '')
+        });
+        filterOn = false;
+      }
+    }

@@ -1,0 +1,52 @@
+html, body {
+	overflow-x: hidden;
+}
+.filter {
+	filter: blur(2px) brightness(50%);
+	backdrop-filter: blur(2px);
+	transition: all 0.5s;
+}
+main {
+	padding: 20px 40px;
+	display: inline-block;
+	text-align: -webkit-center;
+}
+.cc {
+	width: 1200px;
+	position: relative;
+}
+.ccheader {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #ccc;
+}
+.back {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+.assettypelist {
+	position: absolute;
+	margin: 0;
+	width: 100px;
+}
+.assettype {
+	opacity: 0.75;
+	transition: all 0.5s;
+}
+.assettype.active {
+	opacity: 1;
+}
+.assettype>* {
+	height: 55px;
+	transition: all 0.5s;
+}
+.assettype.active>* {
+	height: 80px;
+}
+@media (max-width: 1280px) {
+  .cc {
+      width: 100%;
+  }
+}

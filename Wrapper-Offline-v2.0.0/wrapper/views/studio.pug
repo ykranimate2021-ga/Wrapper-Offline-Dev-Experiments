@@ -1,0 +1,129 @@
+extends layout 
+
+block extrahead
+  link(rel='stylesheet', href='/stylesheets/swf.css')
+  script(src='/javascripts/stuff.js')
+  script= "flashvars = { " + flash_vars + " }"
+
+block content 
+  object(id=page data='https://localhost:4664/animation/414827163ad4eb60/' + source + '.swf', type='application/x-shockwave-flash' style="height: 100%;")
+    param(name='flashvars', value=url_fv )
+    param(name='allowScriptAccess' value='always')
+    param(name='allowFullScreen' value='true')
+  if page == 'video_maker'
+    #previewPlayerContainer(style='display: none;')
+      .preview-player#previewPlayer
+        h2= "Preview Video"
+        #playerdiv
+        #h5-playerdiv
+        .buttons.clearfix 
+          button.preview-button.edit(type='button', onclick='switchBackToStudio()')= "Back to editing"
+          //- button.preview-button.save(type='button', onclick='publishStudio()')= "Save Now"
+        a.close_btn(href='#', onclick='switchBackToStudio();return false')= "x"
+    script.
+      interactiveTutorial = {
+        neverDisplay: function() {
+          return true
+        }
+      };
+      function studioLoaded(a) {
+        console.log(a)
+      }
+      function savePreviewData(b) {
+        previewPlayerTempData=b
+      }
+      function retrievePreviewPlayerData() {
+        var b = previewPlayerTempData;previewPlayerTempData='';
+        return b
+      }
+      function switchBackToStudio() {
+        $('#previewPlayerContainer').hide();
+        $('#playerdiv').empty();
+        $('#video_maker').height('100%');
+        $('#video_maker').width('100%')
+      }
+      function publishStudio() {
+        try {
+          ($("#previewPlayerContainer #Player").get(0) || {pause:function(){}}).pause();
+        } catch (err) {};
+
+        $('#previewPlayerContainer').hide();
+        $('#playerdiv').empty();
+        $('#video_maker').height('100%');
+        $('#video_maker').width('100%')
+        document.getElementById("video_maker").onExternalPreviewPlayerPublish();
+      }
+      function loadLegacyPreview() {
+        if(movieDataXmlStr===null) {
+          return
+        }
+        savePreviewData(movieDataXmlStr);
+        createPreviewPlayer('playerdiv', {
+          height:360,
+          width:640,
+          player_url:'https://localhost:4664/animation/414827163ad4eb60/player.swf',
+          quality:'high',
+          wmode:'transparent'
+        },
+        {
+          movieId:flashvars['presaveId'],
+          ut:'60',
+          movieLid:'13',
+          apiserver:'/',
+          copyable:'0',
+          isPublished:'0',
+          ctc:'go',
+          tlang:'en_US',
+          autostart:'1',
+          appCode:'go',
+          is_slideshow:'0',
+          originalId:'0',
+          is_emessage:'0',
+          isEmbed:'1',
+          refuser:'',
+          utm_source:'',
+          uid:'',
+          isTemplate:'1',
+          showButtons:'1',
+          chain_mids:'',
+          showshare:'1',
+          averageRating:'',
+          ratingCount:'',
+          numContact:0,
+          isInitFromExternal:1,
+          storePath:'https://localhost:4664/store/3a981f5cb2739137/<store>',
+          clientThemePath:'https://localhost:4664/static/ad44370a650793d9/<client_theme>',
+          startFrame:previewStartFrame
+        });
+        $('body').css('background-color: #0f0f0f');
+        $('#video_maker').height('1px');
+        $('#video_maker').width('1px')
+      }
+      function checkPreviewServer() {
+        return previewPlayer._connectionState === PreviewPlayerConstants.STATE_READY
+      }
+      function initPreviewPlayer(d,c,b,a) {
+        movieDataXmlStr = d;
+        previewStartFrame = c;
+        filmXmlStr = d.split('<filmxml>')[1].split('</filmxml>')[0];
+        if(typeof c=='undefined') {
+          c=1
+        } else {
+          c=Math.max(1,parseInt(c))
+        }
+        document.getElementById('previewPlayerContainer').setAttribute('style','');
+        loadLegacyPreview();
+        if (!checkPreviewServer()&&(previewPlayerRetryCount>0)) {
+          previewPlayer.connect();
+          previewPlayerRetryCount--
+        }
+      }
+      function exitStudio() {
+        window.location='/'
+      };
+
+  if page == 'char_creator'
+    script.
+      function characterSaved() {
+        window.location='/'
+      }

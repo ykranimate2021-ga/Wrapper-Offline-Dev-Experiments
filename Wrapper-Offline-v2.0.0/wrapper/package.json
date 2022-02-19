@@ -1,0 +1,21 @@
+{
+  "name": "wrapper-offline",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^14.3.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^4.3.1",
+    "morgan": "~1.9.1",
+    "node-zip": "github:kyriosli/node-zip",
+    "pug": "^3.0.2"
+  }
+}
