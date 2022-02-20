@@ -30,7 +30,7 @@ router.get('/', function(req, res, next) {
   }
 
   if (settings.discord_rpc == "true") {
-    util.setRpcActivity('Browsing videos', 'list')
+    util.setRpcActivity('Browsing videos', 'list', `${videos.length || "No" } videos`)
   }
   res.render('index', { title: 'Video List', videolist: videos, onloadfunction: 'getAnnouncement()' });
 });

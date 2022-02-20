@@ -1,12 +1,12 @@
 {
-    "@attributes": {
+    "attributes": {
         "id": "cctoonadventure",
         "studio_theme_id": "toonadv",
         "name": "Toon Adventure"
     },
     "color": [
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccSkinColor",
                 "oc": "0xFFDDBB",
                 "component_type": "bodyshape",
@@ -24,7 +24,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccEyeLib",
                 "component_type": "eye",
                 "parent_color_r": "ccSkinColor",
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccEyeIris",
                 "component_type": "eye",
                 "enable": "Y"
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccGlassesFrame",
                 "component_type": "glasses",
                 "enable": "Y"
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccGlassesLens",
                 "component_type": "glasses",
                 "enable": "Y"
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccMouthLip",
                 "component_type": "mouth",
                 "enable": "Y"
@@ -110,7 +110,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccEyebrow",
                 "component_type": "eyebrow",
                 "enable": "Y"
@@ -127,7 +127,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccHairMajor",
                 "component_type": "hair",
                 "enable": "Y"
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccHairMinor",
                 "component_type": "hair",
                 "enable": "Y"
@@ -161,7 +161,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccUpperMain",
                 "oc": "0x456789",
                 "component_type": "upper_body",
@@ -175,7 +175,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccUpperMinor",
                 "oc": "0xABCDEF",
                 "component_type": "upper_body",
@@ -189,7 +189,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccLowerMain",
                 "oc": "0x654321",
                 "component_type": "lower_body",
@@ -203,7 +203,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccLowerMinor",
                 "oc": "0xCCBBAA",
                 "component_type": "lower_body",
@@ -217,7 +217,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccDecMajor",
                 "component_type": "facedecoration",
                 "enable": "Y"
@@ -234,7 +234,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "r": "ccDecMinor",
                 "component_type": "facedecoration",
                 "enable": "Y"
@@ -253,62 +253,62 @@
     ],
     "facial": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_neutral",
                 "name": "Neutral",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -316,62 +316,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_happy",
                 "name": "Happy",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "happy"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "happy"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -379,62 +379,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_laugh",
                 "name": "Laugh",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "happy"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "happy"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "laugh"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -442,62 +442,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_angry",
                 "name": "Angry",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "angry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "angry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "angry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -505,62 +505,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_sad",
                 "name": "Sad",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -568,62 +568,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_cry",
                 "name": "Cry",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "cry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "cry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -631,62 +631,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_shocked",
                 "name": "Shocked",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "shock"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "shock"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "shock"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -694,62 +694,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_surprised",
                 "name": "Surprised",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "shock"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "shock"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "surprised"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -757,62 +757,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_thinking",
                 "name": "Thinking",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "thinking"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "thinking"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "thinking"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -820,62 +820,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_talk",
                 "name": "Talk",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "talk"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -883,62 +883,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_talkhappy",
                 "name": "Talk happy",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "happy"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "happy"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "talk_happy"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -946,62 +946,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_talkangry",
                 "name": "Talk angry",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "angry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "angry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "talk_angry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -1009,62 +1009,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_talksad",
                 "name": "Talk sad",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "talk_sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -1072,62 +1072,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_talkcry",
                 "name": "Talk cry",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "cry"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "talk_sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -1135,62 +1135,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_sick",
                 "name": "Sick",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "sick"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "sad"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "sick"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -1198,62 +1198,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_hit",
                 "name": "Get hit",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "get_hit"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "get_hit"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "get_hit"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -1261,62 +1261,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_closedeye",
                 "name": "Closed eye",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "closed_eye"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -1324,62 +1324,62 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "head_lookdown",
                 "name": "Look down",
                 "enable": "Y"
             },
             "selection": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "state_id": "look_down"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "facedecoration",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "glasses",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "state_id": "default"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "state_id": "default"
                     }
@@ -1388,7 +1388,7 @@
         }
     ],
     "bodyshape": {
-        "@attributes": {
+        "attributes": {
             "id": "default",
             "name": "Default",
             "default_action": "stand",
@@ -1418,7 +1418,7 @@
             ],
             "component": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "ear",
                         "component_id": "001",
                         "theme_id": "cctoonadventure",
@@ -1431,7 +1431,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "bodyshape",
                         "component_id": "default",
                         "theme_id": "cctoonadventure",
@@ -1444,7 +1444,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "skeleton",
                         "component_id": "default",
                         "theme_id": "cctoonadventure",
@@ -1457,7 +1457,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "faceshape",
                         "component_id": "001",
                         "theme_id": "cctoonadventure",
@@ -1470,7 +1470,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "lower_body",
                         "component_id": "002",
                         "theme_id": "cctoonadventure",
@@ -1483,7 +1483,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "hair",
                         "component_id": "005",
                         "theme_id": "cctoonadventure",
@@ -1496,7 +1496,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eyebrow",
                         "component_id": "002",
                         "theme_id": "cctoonadventure",
@@ -1509,7 +1509,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "nose",
                         "component_id": "001",
                         "theme_id": "cctoonadventure",
@@ -1522,7 +1522,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "mouth",
                         "component_id": "001",
                         "theme_id": "cctoonadventure",
@@ -1535,7 +1535,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "upper_body",
                         "component_id": "002",
                         "theme_id": "cctoonadventure",
@@ -1548,7 +1548,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "type": "eye",
                         "component_id": "001",
                         "theme_id": "cctoonadventure",
@@ -1561,7 +1561,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "ID7834",
                         "type": "facedecoration",
                         "component_id": "005",
@@ -1575,7 +1575,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "ID9274",
                         "type": "facedecoration",
                         "component_id": "005",
@@ -1592,7 +1592,7 @@
         },
         "action": [
             {
-                "@attributes": {
+                "attributes": {
                     "id": "stand",
                     "name": "Standing",
                     "loop": "Y",
@@ -1602,25 +1602,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "stand"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "stand"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "stand"
                         }
@@ -1628,7 +1628,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "sit",
                     "name": "Sitting",
                     "loop": "Y",
@@ -1638,25 +1638,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "sit"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "sit"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "sit"
                         }
@@ -1664,7 +1664,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "talk",
                     "name": "Talk",
                     "loop": "Y",
@@ -1674,25 +1674,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_talk"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "stand"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "talk"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "talk"
                         }
@@ -1700,7 +1700,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "walk",
                     "name": "Walk",
                     "loop": "Y",
@@ -1710,25 +1710,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "walk"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "walk"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "walk"
                         }
@@ -1736,7 +1736,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "run",
                     "name": "Run",
                     "loop": "Y",
@@ -1746,25 +1746,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "run"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "run"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "run"
                         }
@@ -1772,7 +1772,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "angry",
                     "name": "Angry",
                     "loop": "Y",
@@ -1783,25 +1783,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_angry"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "angry"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "angry"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "angry"
                         }
@@ -1809,7 +1809,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "laugh",
                     "name": "Laugh",
                     "loop": "Y",
@@ -1820,25 +1820,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_laugh"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "laugh"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "laugh"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "laugh"
                         }
@@ -1846,7 +1846,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "sad",
                     "name": "Sad",
                     "loop": "Y",
@@ -1857,25 +1857,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_sad"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "sad"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "sad"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "sad"
                         }
@@ -1883,7 +1883,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "excited",
                     "name": "Excited",
                     "loop": "Y",
@@ -1894,25 +1894,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_happy"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "excited"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "excited"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "excited"
                         }
@@ -1920,7 +1920,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "shocked",
                     "name": "Shocked",
                     "loop": "Y",
@@ -1931,25 +1931,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_shocked"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "shock"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "shock"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "shock"
                         }
@@ -1957,7 +1957,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "uppercut",
                     "name": "Uppercut",
                     "loop": "Y",
@@ -1968,25 +1968,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_angry"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "attack_a"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "attack_a"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "attack_a"
                         }
@@ -1994,7 +1994,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "punch",
                     "name": "Straight punch",
                     "loop": "Y",
@@ -2005,25 +2005,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_angry"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "attack_b"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "attack_b"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "attack_b"
                         }
@@ -2031,7 +2031,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "hit",
                     "name": "Get hit",
                     "loop": "Y",
@@ -2042,25 +2042,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_hit"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "get_hit"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "get_hit"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "get_hit"
                         }
@@ -2068,7 +2068,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "lie",
                     "name": "Lie down",
                     "loop": "Y",
@@ -2078,25 +2078,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_closedeye"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "lie_down"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "lie_down"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "lie_down"
                         }
@@ -2104,7 +2104,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "block",
                     "name": "Block",
                     "loop": "Y",
@@ -2115,25 +2115,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "defend"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "defend"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "defend"
                         }
@@ -2141,7 +2141,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "think",
                     "name": "Thinking",
                     "loop": "Y",
@@ -2152,25 +2152,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_thinking"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "stand"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "thinking"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "thinking"
                         }
@@ -2178,7 +2178,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "jump",
                     "name": "Jump",
                     "loop": "Y",
@@ -2188,25 +2188,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "jump"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "jump"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "jump"
                         }
@@ -2214,7 +2214,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "pt_at",
                     "name": "Point at",
                     "loop": "Y",
@@ -2224,25 +2224,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "stand"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "point_at"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "point_at"
                         }
@@ -2250,7 +2250,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "read",
                     "name": "Read",
                     "loop": "Y",
@@ -2261,25 +2261,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_neutral"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "stand"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "inspect_prop"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "inspect_prop"
                         }
@@ -2287,7 +2287,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "id": "interact",
                     "name": "Interact",
                     "loop": "Y",
@@ -2298,25 +2298,25 @@
                 },
                 "selection": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "facial",
                             "facial_id": "head_lookdown"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "lower_body",
                             "state_id": "stand"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "skeleton",
                             "state_id": "touch_pad"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "type": "upper_body",
                             "state_id": "touch_pad"
                         }
@@ -2326,7 +2326,7 @@
         ],
         "component": [
             {
-                "@attributes": {
+                "attributes": {
                     "type": "lower_body",
                     "id": "001",
                     "path": "001",
@@ -2338,91 +2338,91 @@
                 },
                 "state": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "angry",
                             "filename": "angry.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_a",
                             "filename": "attack_a.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_b",
                             "filename": "attack_b.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "defend",
                             "filename": "defend.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "excited",
                             "filename": "excited.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "get_hit",
                             "filename": "get_hit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "jump",
                             "filename": "jump.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "laugh",
                             "filename": "laugh.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "lie_down",
                             "filename": "lie_down.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "run",
                             "filename": "run.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sad",
                             "filename": "sad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "shock",
                             "filename": "shock.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sit",
                             "filename": "sit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "stand",
                             "filename": "stand.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "walk",
                             "filename": "walk.swf"
                         }
@@ -2430,7 +2430,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "type": "lower_body",
                     "id": "002",
                     "path": "002",
@@ -2442,91 +2442,91 @@
                 },
                 "state": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "angry",
                             "filename": "angry.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_a",
                             "filename": "attack_a.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_b",
                             "filename": "attack_b.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "defend",
                             "filename": "defend.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "excited",
                             "filename": "excited.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "get_hit",
                             "filename": "get_hit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "jump",
                             "filename": "jump.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "laugh",
                             "filename": "laugh.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "lie_down",
                             "filename": "lie_down.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "run",
                             "filename": "run.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sad",
                             "filename": "sad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "shock",
                             "filename": "shock.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sit",
                             "filename": "sit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "stand",
                             "filename": "stand.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "walk",
                             "filename": "walk.swf"
                         }
@@ -2534,7 +2534,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "type": "skeleton",
                     "id": "default",
                     "path": "default",
@@ -2546,121 +2546,121 @@
                 },
                 "state": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "angry",
                             "filename": "angry.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_a",
                             "filename": "attack_a.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_b",
                             "filename": "attack_b.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "defend",
                             "filename": "defend.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "excited",
                             "filename": "excited.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "get_hit",
                             "filename": "get_hit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "inspect_prop",
                             "filename": "inspect_prop.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "jump",
                             "filename": "jump.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "laugh",
                             "filename": "laugh.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "lie_down",
                             "filename": "lie_down.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "point_at",
                             "filename": "point_at.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "run",
                             "filename": "run.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sad",
                             "filename": "sad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "shock",
                             "filename": "shock.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sit",
                             "filename": "sit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "stand",
                             "filename": "stand.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "talk",
                             "filename": "talk.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "thinking",
                             "filename": "thinking.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "touch_pad",
                             "filename": "touch_pad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "walk",
                             "filename": "walk.swf"
                         }
@@ -2668,7 +2668,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "type": "upper_body",
                     "id": "001",
                     "path": "001",
@@ -2680,121 +2680,121 @@
                 },
                 "state": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "angry",
                             "filename": "angry.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_a",
                             "filename": "attack_a.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_b",
                             "filename": "attack_b.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "defend",
                             "filename": "defend.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "excited",
                             "filename": "excited.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "get_hit",
                             "filename": "get_hit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "inspect_prop",
                             "filename": "inspect_prop.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "jump",
                             "filename": "jump.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "laugh",
                             "filename": "laugh.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "lie_down",
                             "filename": "lie_down.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "point_at",
                             "filename": "point_at.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "run",
                             "filename": "run.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sad",
                             "filename": "sad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "shock",
                             "filename": "shock.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sit",
                             "filename": "sit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "stand",
                             "filename": "stand.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "talk",
                             "filename": "talk.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "thinking",
                             "filename": "thinking.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "touch_pad",
                             "filename": "touch_pad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "walk",
                             "filename": "walk.swf"
                         }
@@ -2802,7 +2802,7 @@
                 ]
             },
             {
-                "@attributes": {
+                "attributes": {
                     "type": "upper_body",
                     "id": "002",
                     "path": "002",
@@ -2814,121 +2814,121 @@
                 },
                 "state": [
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "angry",
                             "filename": "angry.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_a",
                             "filename": "attack_a.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "attack_b",
                             "filename": "attack_b.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "defend",
                             "filename": "defend.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "excited",
                             "filename": "excited.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "get_hit",
                             "filename": "get_hit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "inspect_prop",
                             "filename": "inspect_prop.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "jump",
                             "filename": "jump.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "laugh",
                             "filename": "laugh.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "lie_down",
                             "filename": "lie_down.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "point_at",
                             "filename": "point_at.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "run",
                             "filename": "run.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sad",
                             "filename": "sad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "shock",
                             "filename": "shock.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "sit",
                             "filename": "sit.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "stand",
                             "filename": "stand.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "talk",
                             "filename": "talk.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "thinking",
                             "filename": "thinking.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "touch_pad",
                             "filename": "touch_pad.swf"
                         }
                     },
                     {
-                        "@attributes": {
+                        "attributes": {
                             "id": "walk",
                             "filename": "walk.swf"
                         }
@@ -2939,7 +2939,7 @@
     },
     "component": [
         {
-            "@attributes": {
+            "attributes": {
                 "type": "ear",
                 "id": "000",
                 "path": "000",
@@ -2951,14 +2951,14 @@
                 "random_able": "N"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "ear",
                 "id": "001",
                 "path": "001",
@@ -2969,14 +2969,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "ear",
                 "id": "002",
                 "path": "002",
@@ -2987,14 +2987,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "ear",
                 "id": "003",
                 "path": "003",
@@ -3005,14 +3005,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "ear",
                 "id": "004",
                 "path": "004",
@@ -3023,14 +3023,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eye",
                 "id": "000",
                 "path": "000",
@@ -3043,67 +3043,67 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "closed_eye",
                         "filename": "closed_eye.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "look_down",
                         "filename": "look_down.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3111,7 +3111,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eye",
                 "id": "001",
                 "path": "001",
@@ -3123,67 +3123,67 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "closed_eye",
                         "filename": "closed_eye.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "look_down",
                         "filename": "look_down.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3191,7 +3191,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eye",
                 "id": "002",
                 "path": "002",
@@ -3203,67 +3203,67 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "closed_eye",
                         "filename": "closed_eye.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "look_down",
                         "filename": "look_down.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3271,7 +3271,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eye",
                 "id": "003",
                 "path": "003",
@@ -3283,67 +3283,67 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "closed_eye",
                         "filename": "closed_eye.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "look_down",
                         "filename": "look_down.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3351,7 +3351,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eye",
                 "id": "004",
                 "path": "004",
@@ -3363,67 +3363,67 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "closed_eye",
                         "filename": "closed_eye.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "look_down",
                         "filename": "look_down.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3431,7 +3431,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eyebrow",
                 "id": "001",
                 "path": "001",
@@ -3443,43 +3443,43 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3487,7 +3487,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eyebrow",
                 "id": "002",
                 "path": "002",
@@ -3499,43 +3499,43 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3543,7 +3543,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eyebrow",
                 "id": "003",
                 "path": "003",
@@ -3555,43 +3555,43 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3599,7 +3599,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "eyebrow",
                 "id": "004",
                 "path": "004",
@@ -3611,43 +3611,43 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -3655,7 +3655,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "001",
                 "path": "001",
@@ -3666,14 +3666,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "002",
                 "path": "002",
@@ -3684,14 +3684,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "003",
                 "path": "003",
@@ -3702,14 +3702,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "004",
                 "path": "004",
@@ -3720,14 +3720,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "005",
                 "path": "005",
@@ -3738,14 +3738,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "006",
                 "path": "006",
@@ -3756,14 +3756,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "007",
                 "path": "007",
@@ -3774,14 +3774,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "008",
                 "path": "008",
@@ -3792,14 +3792,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "009",
                 "path": "009",
@@ -3810,14 +3810,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "010",
                 "path": "010",
@@ -3828,14 +3828,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "011",
                 "path": "011",
@@ -3846,14 +3846,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "012",
                 "path": "012",
@@ -3864,14 +3864,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "013",
                 "path": "013",
@@ -3882,14 +3882,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "014",
                 "path": "014",
@@ -3900,14 +3900,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "015",
                 "path": "015",
@@ -3918,14 +3918,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "016",
                 "path": "016",
@@ -3936,14 +3936,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "017",
                 "path": "017",
@@ -3954,14 +3954,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "018",
                 "path": "018",
@@ -3972,14 +3972,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "019",
                 "path": "019",
@@ -3990,14 +3990,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "020",
                 "path": "020",
@@ -4008,14 +4008,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "021",
                 "path": "021",
@@ -4026,14 +4026,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "022",
                 "path": "022",
@@ -4044,14 +4044,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "023",
                 "path": "023",
@@ -4062,14 +4062,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "024",
                 "path": "024",
@@ -4080,14 +4080,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "025",
                 "path": "025",
@@ -4098,14 +4098,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "026",
                 "path": "026",
@@ -4116,14 +4116,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "027",
                 "path": "027",
@@ -4134,14 +4134,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "028",
                 "path": "028",
@@ -4152,14 +4152,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "029",
                 "path": "029",
@@ -4170,14 +4170,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "facedecoration",
                 "id": "030",
                 "path": "030",
@@ -4188,14 +4188,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "000",
                 "path": "000",
@@ -4207,14 +4207,14 @@
                 "random_able": "N"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "001",
                 "path": "001",
@@ -4225,14 +4225,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "002",
                 "path": "002",
@@ -4243,14 +4243,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "003",
                 "path": "003",
@@ -4261,14 +4261,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "004",
                 "path": "004",
@@ -4279,14 +4279,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "005",
                 "path": "005",
@@ -4297,14 +4297,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "006",
                 "path": "006",
@@ -4315,14 +4315,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "007",
                 "path": "007",
@@ -4333,14 +4333,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "faceshape",
                 "id": "008",
                 "path": "008",
@@ -4351,14 +4351,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "001",
                 "path": "001",
@@ -4369,14 +4369,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "002",
                 "path": "002",
@@ -4387,14 +4387,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "003",
                 "path": "003",
@@ -4405,14 +4405,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "004",
                 "path": "004",
@@ -4423,14 +4423,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "005",
                 "path": "005",
@@ -4441,14 +4441,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "006",
                 "path": "006",
@@ -4459,14 +4459,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "007",
                 "path": "007",
@@ -4477,14 +4477,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "008",
                 "path": "008",
@@ -4495,14 +4495,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "009",
                 "path": "009",
@@ -4513,14 +4513,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "010",
                 "path": "010",
@@ -4531,14 +4531,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "011",
                 "path": "011",
@@ -4549,14 +4549,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "glasses",
                 "id": "012",
                 "path": "012",
@@ -4567,14 +4567,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "001",
                 "path": "001",
@@ -4585,14 +4585,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "002",
                 "path": "002",
@@ -4603,14 +4603,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "003",
                 "path": "003",
@@ -4621,14 +4621,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "004",
                 "path": "004",
@@ -4639,14 +4639,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "005",
                 "path": "005",
@@ -4657,14 +4657,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "006",
                 "path": "006",
@@ -4675,14 +4675,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "007",
                 "path": "007",
@@ -4693,14 +4693,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "008",
                 "path": "008",
@@ -4711,14 +4711,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "009",
                 "path": "009",
@@ -4729,14 +4729,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "010",
                 "path": "010",
@@ -4747,14 +4747,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "011",
                 "path": "011",
@@ -4765,14 +4765,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "012",
                 "path": "012",
@@ -4783,14 +4783,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "013",
                 "path": "013",
@@ -4801,14 +4801,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "014",
                 "path": "014",
@@ -4819,14 +4819,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "015",
                 "path": "015",
@@ -4837,14 +4837,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "016",
                 "path": "016",
@@ -4855,14 +4855,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "017",
                 "path": "017",
@@ -4873,14 +4873,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "018",
                 "path": "018",
@@ -4891,14 +4891,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "019",
                 "path": "019",
@@ -4909,14 +4909,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "020",
                 "path": "020",
@@ -4927,14 +4927,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "021",
                 "path": "021",
@@ -4945,14 +4945,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "022",
                 "path": "022",
@@ -4963,14 +4963,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "023",
                 "path": "023",
@@ -4981,14 +4981,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "024",
                 "path": "024",
@@ -4999,14 +4999,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "025",
                 "path": "025",
@@ -5017,14 +5017,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "026",
                 "path": "026",
@@ -5035,14 +5035,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "028",
                 "path": "028",
@@ -5053,14 +5053,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "029",
                 "path": "029",
@@ -5071,14 +5071,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "030",
                 "path": "030",
@@ -5089,14 +5089,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "031",
                 "path": "031",
@@ -5107,14 +5107,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "032",
                 "path": "032",
@@ -5125,14 +5125,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "033",
                 "path": "033",
@@ -5143,14 +5143,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "034",
                 "path": "034",
@@ -5161,14 +5161,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "035",
                 "path": "035",
@@ -5179,14 +5179,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "036",
                 "path": "036",
@@ -5197,14 +5197,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "037",
                 "path": "037",
@@ -5215,14 +5215,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "038",
                 "path": "038",
@@ -5233,14 +5233,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "039",
                 "path": "039",
@@ -5251,14 +5251,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "040",
                 "path": "040",
@@ -5269,14 +5269,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "041",
                 "path": "041",
@@ -5287,14 +5287,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "042",
                 "path": "042",
@@ -5305,14 +5305,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "043",
                 "path": "043",
@@ -5323,14 +5323,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "044",
                 "path": "044",
@@ -5341,14 +5341,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "045",
                 "path": "045",
@@ -5359,14 +5359,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "046",
                 "path": "046",
@@ -5377,14 +5377,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "047",
                 "path": "047",
@@ -5395,14 +5395,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "hair",
                 "id": "048",
                 "path": "048",
@@ -5413,14 +5413,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "mouth",
                 "id": "000",
                 "path": "000",
@@ -5433,91 +5433,91 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "laugh",
                         "filename": "laugh.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised",
                         "filename": "surprised.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk",
                         "filename": "talk.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_angry",
                         "filename": "talk_angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_happy",
                         "filename": "talk_happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_sad",
                         "filename": "talk_sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -5525,7 +5525,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "mouth",
                 "id": "001",
                 "path": "001",
@@ -5537,91 +5537,91 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "laugh",
                         "filename": "laugh.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised",
                         "filename": "surprised.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk",
                         "filename": "talk.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_angry",
                         "filename": "talk_angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_happy",
                         "filename": "talk_happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_sad",
                         "filename": "talk_sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -5629,7 +5629,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "mouth",
                 "id": "002",
                 "path": "002",
@@ -5641,91 +5641,91 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "laugh",
                         "filename": "laugh.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised",
                         "filename": "surprised.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk",
                         "filename": "talk.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_angry",
                         "filename": "talk_angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_happy",
                         "filename": "talk_happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_sad",
                         "filename": "talk_sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -5733,7 +5733,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "mouth",
                 "id": "003",
                 "path": "003",
@@ -5745,91 +5745,91 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "laugh",
                         "filename": "laugh.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised",
                         "filename": "surprised.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk",
                         "filename": "talk.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_angry",
                         "filename": "talk_angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_happy",
                         "filename": "talk_happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_sad",
                         "filename": "talk_sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -5837,7 +5837,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "mouth",
                 "id": "004",
                 "path": "004",
@@ -5849,91 +5849,91 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry",
                         "filename": "angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry",
                         "filename": "cry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "default",
                         "filename": "default.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_hit",
                         "filename": "get_hit.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy",
                         "filename": "happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "laugh",
                         "filename": "laugh.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad",
                         "filename": "sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shock",
                         "filename": "shock.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sick",
                         "filename": "sick.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised",
                         "filename": "surprised.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk",
                         "filename": "talk.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_angry",
                         "filename": "talk_angry.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_happy",
                         "filename": "talk_happy.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk_sad",
                         "filename": "talk_sad.swf"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "thinking",
                         "filename": "thinking.swf"
                     }
@@ -5941,7 +5941,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "001",
                 "path": "001",
@@ -5952,14 +5952,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "002",
                 "path": "002",
@@ -5970,14 +5970,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "003",
                 "path": "003",
@@ -5988,14 +5988,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "004",
                 "path": "004",
@@ -6006,14 +6006,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "005",
                 "path": "005",
@@ -6024,14 +6024,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "006",
                 "path": "006",
@@ -6042,14 +6042,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "007",
                 "path": "007",
@@ -6060,14 +6060,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "008",
                 "path": "008",
@@ -6078,14 +6078,14 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "type": "nose",
                 "id": "009",
                 "path": "009",
@@ -6096,7 +6096,7 @@
                 "enable": "Y"
             },
             "state": {
-                "@attributes": {
+                "attributes": {
                     "id": "default",
                     "filename": "default.swf"
                 }

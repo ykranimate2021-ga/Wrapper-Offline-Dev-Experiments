@@ -1,7 +1,7 @@
 {
   "background": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_sci07bg.swf",
               "name": "Alien planet",
               "enable": "Y",
@@ -13,7 +13,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_sci08bg.swf",
               "name": "Alien planet",
               "enable": "Y",
@@ -25,7 +25,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_sci10bg.swf",
               "name": "Cemetery",
               "enable": "Y",

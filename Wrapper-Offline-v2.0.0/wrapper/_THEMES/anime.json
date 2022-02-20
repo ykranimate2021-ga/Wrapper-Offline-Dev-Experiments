@@ -1,7 +1,7 @@
 {
   "background": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining06_bg.swf",
               "name": "Apartment",
               "enable": "Y",
@@ -13,7 +13,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining02_bg.swf",
               "name": "Sitting room",
               "enable": "Y",
@@ -25,7 +25,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining01_bg.swf",
               "name": "Sitting room",
               "enable": "Y",
@@ -37,7 +37,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining03_bg.swf",
               "name": "Studio flat",
               "enable": "Y",
@@ -49,7 +49,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining04_bg.swf",
               "name": "Studio flat",
               "enable": "Y",
@@ -61,7 +61,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining07_bg.swf",
               "name": "Kitchen",
               "enable": "Y",
@@ -73,7 +73,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining05_bg.swf",
               "name": "Apartment entance",
               "enable": "Y",
@@ -85,7 +85,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining08_bg.swf",
               "name": "Apartment entance",
               "enable": "Y",
@@ -97,7 +97,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street01_bg.swf",
               "name": "Street",
               "enable": "Y",
@@ -109,7 +109,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street02_bg.swf",
               "name": "Street",
               "enable": "Y",
@@ -121,7 +121,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street03_bg.swf",
               "name": "Street",
               "enable": "Y",
@@ -133,7 +133,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street04_bg.swf",
               "name": "Street",
               "enable": "Y",
@@ -145,7 +145,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street05_bg.swf",
               "name": "Street corner",
               "enable": "Y",
@@ -157,7 +157,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street06_bg.swf",
               "name": "Street",
               "enable": "Y",
@@ -169,7 +169,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street07_bg.swf",
               "name": "Street",
               "enable": "Y",
@@ -181,7 +181,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street08_bg.swf",
               "name": "Bridge",
               "enable": "Y",
@@ -193,7 +193,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city09_bg.swf",
               "name": "Food store",
               "enable": "Y",
@@ -205,7 +205,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city10_bg.swf",
               "name": "Food store",
               "enable": "Y",
@@ -217,7 +217,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city11_bg.swf",
               "name": "Food store",
               "enable": "Y",
@@ -229,7 +229,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city12_bg.swf",
               "name": "Food store",
               "enable": "Y",
@@ -241,7 +241,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city13_bg.swf",
               "name": "City - street",
               "enable": "Y",
@@ -253,7 +253,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city14_bg.swf",
               "name": "City - street",
               "enable": "Y",
@@ -265,7 +265,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city15_bg.swf",
               "name": "Convenience store",
               "enable": "Y",
@@ -277,7 +277,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city16_bg.swf",
               "name": "Convenience store",
               "enable": "Y",
@@ -289,7 +289,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city17_bg.swf",
               "name": "Convenience store",
               "enable": "Y",
@@ -301,7 +301,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ninja15_bg.swf",
               "name": "City - street",
               "enable": "Y",
@@ -313,7 +313,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city18_bg.swf",
               "name": "Supermarket",
               "enable": "Y",
@@ -325,7 +325,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city19_bg.swf",
               "name": "City - fast food",
               "enable": "Y",
@@ -337,7 +337,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city21_bg.swf",
               "name": "City - park",
               "enable": "Y",
@@ -349,7 +349,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city22_bg.swf",
               "name": "Convenience store",
               "enable": "Y",
@@ -361,7 +361,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city23_bg.swf",
               "name": "City - bus stop",
               "enable": "Y",
@@ -373,7 +373,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city24_bg.swf",
               "name": "City - park - temple",
               "enable": "Y",
@@ -385,7 +385,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city29_bg.swf",
               "name": "City - street",
               "enable": "Y",
@@ -397,7 +397,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city30_bg.swf",
               "name": "City - fast food",
               "enable": "Y",
@@ -409,7 +409,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city31_bg.swf",
               "name": "City - fast food",
               "enable": "Y",
@@ -421,7 +421,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city32_bg.swf",
               "name": "City - game center",
               "enable": "Y",
@@ -433,7 +433,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city33_bg.swf",
               "name": "City - game center",
               "enable": "Y",
@@ -445,7 +445,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city34_bg.swf",
               "name": "City - game center",
               "enable": "Y",
@@ -457,7 +457,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city35_bg.swf",
               "name": "City - residential - street",
               "enable": "Y",
@@ -469,7 +469,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city36_bg.swf",
               "name": "City - residential - street",
               "enable": "Y",
@@ -481,7 +481,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city37_bg.swf",
               "name": "City - residential - street",
               "enable": "Y",
@@ -493,7 +493,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city38_bg.swf",
               "name": "City - street",
               "enable": "Y",
@@ -505,7 +505,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city49_bg.swf",
               "name": "City - street",
               "enable": "Y",
@@ -517,7 +517,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city39_bg.swf",
               "name": "City - clock",
               "enable": "Y",
@@ -529,7 +529,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school01_bg.swf",
               "name": "School",
               "enable": "Y",
@@ -541,7 +541,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school09_bg.swf",
               "name": "Playground",
               "enable": "Y",
@@ -553,7 +553,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school06_bg.swf",
               "name": "Hallway",
               "enable": "Y",
@@ -565,7 +565,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school10_bg.swf",
               "name": "Hallway",
               "enable": "Y",
@@ -577,7 +577,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school05_bg.swf",
               "name": "Hallway",
               "enable": "Y",
@@ -589,7 +589,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school04_bg.swf",
               "name": "Classroom",
               "enable": "Y",
@@ -601,7 +601,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_bg.swf",
               "name": "Classroom",
               "enable": "Y",
@@ -613,7 +613,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school02_bg.swf",
               "name": "Classroom",
               "enable": "Y",
@@ -625,7 +625,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school08_bg.swf",
               "name": "Rooftop",
               "enable": "Y",
@@ -637,7 +637,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school07_bg.swf",
               "name": "Rooftop",
               "enable": "Y",
@@ -649,7 +649,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school11_bg.swf",
               "name": "School - track",
               "enable": "Y",
@@ -661,7 +661,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school13_bg.swf",
               "name": "Office - computers",
               "enable": "Y",
@@ -673,7 +673,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop02_bg.swf",
               "name": "Restaurant",
               "enable": "Y",
@@ -685,7 +685,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop04_bg.swf",
               "name": "Restaurant",
               "enable": "Y",
@@ -697,7 +697,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop01_bg.swf",
               "name": "Restaurant",
               "enable": "Y",
@@ -709,7 +709,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop03_bg.swf",
               "name": "Restaurant",
               "enable": "Y",
@@ -721,7 +721,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop05_bg.swf",
               "name": "Toy shop",
               "enable": "Y",
@@ -733,7 +733,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop06_bg.swf",
               "name": "Toy shop",
               "enable": "Y",
@@ -745,7 +745,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop07_bg.swf",
               "name": "Store",
               "enable": "Y",
@@ -757,7 +757,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop08_bg.swf",
               "name": "Convenience store",
               "enable": "Y",
@@ -769,7 +769,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop09_bg.swf",
               "name": "Convenience store cashier",
               "enable": "Y",
@@ -781,7 +781,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train01_bg.swf",
               "name": "Train station",
               "enable": "Y",
@@ -793,7 +793,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train03_bg.swf",
               "name": "Train platform",
               "enable": "Y",
@@ -805,7 +805,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train04_bg.swf",
               "name": "Train platform",
               "enable": "Y",
@@ -817,7 +817,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train05_bg.swf",
               "name": "Train inside",
               "enable": "Y",
@@ -829,7 +829,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train06_bg.swf",
               "name": "Train inside",
               "enable": "Y",
@@ -841,7 +841,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train02_bg.swf",
               "name": "Train track",
               "enable": "Y",
@@ -853,7 +853,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train07_bg.swf",
               "name": "Train entrance",
               "enable": "Y",
@@ -867,7 +867,7 @@
   ],
   "compositebg": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining06",
               "name": "Home - Residential building",
               "enable": "Y",
@@ -880,7 +880,7 @@
               "aid": "17467"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining06_BG40",
                   "index": "0"
               },
@@ -888,7 +888,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining02",
               "name": "Home - Living room",
               "enable": "Y",
@@ -901,7 +901,7 @@
               "aid": "17463"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining02_BG47",
                   "index": "0"
               },
@@ -909,7 +909,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_dining02_PROP1",
                       "index": "2"
                   },
@@ -922,7 +922,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_dining02_PROP2",
                       "index": "1"
                   },
@@ -937,7 +937,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining01",
               "name": "Home - Living room",
               "enable": "Y",
@@ -950,14 +950,14 @@
               "aid": "17462"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining01_BG56",
                   "index": "0"
               },
               "file": "anime.dining01_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining01_PROP3",
                   "index": "1"
               },
@@ -971,7 +971,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining03",
               "name": "Home - Small flat",
               "enable": "Y",
@@ -984,7 +984,7 @@
               "aid": "17464"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining03_BG59",
                   "index": "0"
               },
@@ -992,7 +992,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP2",
                       "index": "2"
                   },
@@ -1005,7 +1005,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP3",
                       "index": "3"
                   },
@@ -1018,7 +1018,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP4",
                       "index": "4"
                   },
@@ -1031,7 +1031,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_dining03_PROP4",
                       "index": "1"
                   },
@@ -1046,7 +1046,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining04",
               "name": "Home - Small flat",
               "enable": "Y",
@@ -1059,7 +1059,7 @@
               "aid": "17465"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining04_BG61",
                   "index": "0"
               },
@@ -1067,7 +1067,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_dining04_PROP5",
                       "index": "3"
                   },
@@ -1080,7 +1080,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP6",
                       "index": "1"
                   },
@@ -1093,7 +1093,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP7",
                       "index": "2"
                   },
@@ -1106,7 +1106,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP8",
                       "index": "4"
                   },
@@ -1121,7 +1121,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining07",
               "name": "Home - Kitchen",
               "enable": "Y",
@@ -1134,7 +1134,7 @@
               "aid": "17468"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining07_BG63",
                   "index": "0"
               },
@@ -1142,7 +1142,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining05",
               "name": "Home - Entrance door",
               "enable": "Y",
@@ -1155,14 +1155,14 @@
               "aid": "17466"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining05_BG64",
                   "index": "0"
               },
               "file": "anime.dining05_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining05_PROP6",
                   "index": "1"
               },
@@ -1176,7 +1176,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_dining08",
               "name": "Home - Flat entrance",
               "enable": "Y",
@@ -1189,7 +1189,7 @@
               "aid": "17469"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_dining08_BG66",
                   "index": "0"
               },
@@ -1197,7 +1197,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street01",
               "name": "City - street",
               "enable": "Y",
@@ -1210,14 +1210,14 @@
               "aid": "17470"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street01_BG78",
                   "index": "0"
               },
               "file": "anime.street01_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street01_PROP12",
                   "index": "1"
               },
@@ -1231,7 +1231,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street02",
               "name": "City - street",
               "enable": "Y",
@@ -1244,14 +1244,14 @@
               "aid": "17471"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street02_BG68",
                   "index": "0"
               },
               "file": "anime.street02_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street02_PROP7",
                   "index": "1"
               },
@@ -1265,7 +1265,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street03",
               "name": "City - street",
               "enable": "Y",
@@ -1278,14 +1278,14 @@
               "aid": "17472"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street03_BG70",
                   "index": "0"
               },
               "file": "anime.street03_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street03_PROP9",
                   "index": "1"
               },
@@ -1299,7 +1299,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street04",
               "name": "City - road with signs",
               "enable": "Y",
@@ -1312,7 +1312,7 @@
               "aid": "17473"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street04_BG73",
                   "index": "0"
               },
@@ -1320,7 +1320,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street05",
               "name": "Street corner",
               "enable": "Y",
@@ -1333,14 +1333,14 @@
               "aid": "17474"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street05_BG74",
                   "index": "0"
               },
               "file": "anime.street05_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street05_PROP10",
                   "index": "1"
               },
@@ -1354,7 +1354,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street06",
               "name": "City - street",
               "enable": "Y",
@@ -1367,14 +1367,14 @@
               "aid": "17475"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street06_BG80",
                   "index": "0"
               },
               "file": "anime.street06_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street06_PROP13",
                   "index": "1"
               },
@@ -1388,7 +1388,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street07",
               "name": "City - park",
               "enable": "Y",
@@ -1401,7 +1401,7 @@
               "aid": "17476"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street07_BG84",
                   "index": "0"
               },
@@ -1409,7 +1409,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_street08",
               "name": "City - Bridge",
               "enable": "Y",
@@ -1422,7 +1422,7 @@
               "aid": "17477"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_street08_BG85",
                   "index": "0"
               },
@@ -1430,7 +1430,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city09",
               "name": "Food stall",
               "enable": "Y",
@@ -1443,7 +1443,7 @@
               "aid": "17614"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city09_BG5",
                   "index": "0"
               },
@@ -1451,7 +1451,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city10",
               "name": "Food stall",
               "enable": "Y",
@@ -1464,7 +1464,7 @@
               "aid": "17615"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city10_BG6",
                   "index": "0"
               },
@@ -1472,7 +1472,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city10_PROP1",
                       "index": "2"
                   },
@@ -1485,7 +1485,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city10_PROP2",
                       "index": "3"
                   },
@@ -1498,7 +1498,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city10_PROP3",
                       "index": "4"
                   },
@@ -1511,7 +1511,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city10_PROP4",
                       "index": "1"
                   },
@@ -1526,7 +1526,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city11",
               "name": "Food stall",
               "enable": "Y",
@@ -1539,7 +1539,7 @@
               "aid": "17616"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city11_BG19",
                   "index": "0"
               },
@@ -1547,7 +1547,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city12",
               "name": "Food stall",
               "enable": "Y",
@@ -1560,7 +1560,7 @@
               "aid": "17617"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city12_BG20",
                   "index": "0"
               },
@@ -1568,7 +1568,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city13",
               "name": "City - street",
               "enable": "Y",
@@ -1581,14 +1581,14 @@
               "aid": "17618"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city13_BG21",
                   "index": "0"
               },
               "file": "anime.city13_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city13_PROP5",
                   "index": "1"
               },
@@ -1602,7 +1602,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city14",
               "name": "City - street",
               "enable": "Y",
@@ -1615,14 +1615,14 @@
               "aid": "17619"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city14_BG30",
                   "index": "0"
               },
               "file": "anime.city14_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "PROP6",
                   "index": "1"
               },
@@ -1636,7 +1636,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city15",
               "name": "Convenience store",
               "enable": "Y",
@@ -1649,7 +1649,7 @@
               "aid": "17620"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city15_BG23",
                   "index": "0"
               },
@@ -1657,7 +1657,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city15_PROP5",
                       "index": "1"
                   },
@@ -1670,7 +1670,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city15_PROP6",
                       "index": "2"
                   },
@@ -1685,7 +1685,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city16",
               "name": "Convenience store",
               "enable": "Y",
@@ -1698,14 +1698,14 @@
               "aid": "17621"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city16_BG25",
                   "index": "0"
               },
               "file": "anime.city16_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city16_PROP8",
                   "index": "1"
               },
@@ -1719,7 +1719,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city17",
               "name": "Convenience store",
               "enable": "Y",
@@ -1732,7 +1732,7 @@
               "aid": "17622"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city17_BG28",
                   "index": "0"
               },
@@ -1740,7 +1740,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_ninja15",
               "name": "City - street",
               "enable": "Y",
@@ -1753,7 +1753,7 @@
               "aid": "17623"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_ninja15_BG29",
                   "index": "0"
               },
@@ -1761,7 +1761,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city19",
               "name": "City - fast food",
               "enable": "Y",
@@ -1774,7 +1774,7 @@
               "aid": "17625"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city19_BG12",
                   "index": "0"
               },
@@ -1782,7 +1782,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city21",
               "name": "City - park",
               "enable": "Y",
@@ -1795,14 +1795,14 @@
               "aid": "17626"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city21_BG13",
                   "index": "0"
               },
               "file": "anime.city21_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "PROP2",
                   "index": "1"
               },
@@ -1816,7 +1816,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city22",
               "name": "Convenience store",
               "enable": "Y",
@@ -1829,7 +1829,7 @@
               "aid": "17627"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city22_BG14",
                   "index": "0"
               },
@@ -1837,7 +1837,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city23",
               "name": "City - bus stop",
               "enable": "Y",
@@ -1850,7 +1850,7 @@
               "aid": "17628"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city23_BG15",
                   "index": "0"
               },
@@ -1858,7 +1858,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city24",
               "name": "City - park - temple",
               "enable": "Y",
@@ -1871,7 +1871,7 @@
               "aid": "17629"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city24_BG16",
                   "index": "0"
               },
@@ -1879,7 +1879,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city18",
               "name": "Supermarket",
               "enable": "Y",
@@ -1892,7 +1892,7 @@
               "aid": "17624"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city18_BG11",
                   "index": "0"
               },
@@ -1900,7 +1900,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city29",
               "name": "City - street",
               "enable": "Y",
@@ -1913,14 +1913,14 @@
               "aid": "17671"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city29_BG5",
                   "index": "0"
               },
               "file": "anime.city29_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city29_PROP1",
                   "index": "1"
               },
@@ -1934,7 +1934,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city30",
               "name": "City - fast food",
               "enable": "Y",
@@ -1947,7 +1947,7 @@
               "aid": "17672"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city30_BG10",
                   "index": "0"
               },
@@ -1955,7 +1955,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city30_PROP3",
                       "index": "1"
                   },
@@ -1968,7 +1968,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city30_PROP4",
                       "index": "2"
                   },
@@ -1981,7 +1981,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city30_PROP5",
                       "index": "3"
                   },
@@ -1996,7 +1996,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city31",
               "name": "City - fast food",
               "enable": "Y",
@@ -2009,7 +2009,7 @@
               "aid": "17673"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city31_BG14",
                   "index": "0"
               },
@@ -2017,7 +2017,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city31_PROP6",
                       "index": "4"
                   },
@@ -2030,7 +2030,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city31_PROP7",
                       "index": "3"
                   },
@@ -2043,7 +2043,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city31_PROP8",
                       "index": "2"
                   },
@@ -2056,7 +2056,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city31_PROP9",
                       "index": "1"
                   },
@@ -2071,7 +2071,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city32",
               "name": "City - game center",
               "enable": "Y",
@@ -2084,7 +2084,7 @@
               "aid": "17674"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city32_BG21",
                   "index": "0"
               },
@@ -2092,7 +2092,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city33",
               "name": "City - game center",
               "enable": "Y",
@@ -2105,7 +2105,7 @@
               "aid": "17675"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city33_BG23",
                   "index": "0"
               },
@@ -2113,7 +2113,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city33_PROP10",
                       "index": "1"
                   },
@@ -2126,7 +2126,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city33_PROP11",
                       "index": "2"
                   },
@@ -2139,7 +2139,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_city33_PROP12",
                       "index": "3"
                   },
@@ -2154,7 +2154,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city34",
               "name": "City - game center",
               "enable": "Y",
@@ -2167,14 +2167,14 @@
               "aid": "17676"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city34_BG27",
                   "index": "0"
               },
               "file": "anime.city34_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city34_PROP13",
                   "index": "1"
               },
@@ -2188,7 +2188,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city35",
               "name": "City - residential - street",
               "enable": "Y",
@@ -2201,14 +2201,14 @@
               "aid": "17677"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city35_BG29",
                   "index": "0"
               },
               "file": "anime.city35_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city35_PROP14",
                   "index": "1"
               },
@@ -2222,7 +2222,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city36",
               "name": "City - residential - street",
               "enable": "Y",
@@ -2235,14 +2235,14 @@
               "aid": "17678"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city36_BG31",
                   "index": "0"
               },
               "file": "anime.city36_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city36_PROP15",
                   "index": "1"
               },
@@ -2256,7 +2256,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city37",
               "name": "City - residential - street",
               "enable": "Y",
@@ -2269,14 +2269,14 @@
               "aid": "17679"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city37_BG33",
                   "index": "0"
               },
               "file": "anime.city37_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city37_PROP16",
                   "index": "1"
               },
@@ -2290,7 +2290,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city38",
               "name": "City - street",
               "enable": "Y",
@@ -2303,7 +2303,7 @@
               "aid": "17680"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city38_BG35",
                   "index": "0"
               },
@@ -2311,7 +2311,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city49",
               "name": "City - street",
               "enable": "Y",
@@ -2324,7 +2324,7 @@
               "aid": "17682"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city49_BG36",
                   "index": "0"
               },
@@ -2332,7 +2332,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_city39",
               "name": "City - clock",
               "enable": "Y",
@@ -2345,7 +2345,7 @@
               "aid": "17681"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_city39_BG37",
                   "index": "0"
               },
@@ -2353,7 +2353,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school01",
               "name": "School",
               "enable": "Y",
@@ -2366,7 +2366,7 @@
               "aid": "17478"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school01_BG86",
                   "index": "0"
               },
@@ -2374,7 +2374,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school09",
               "name": "School - outdoor",
               "enable": "Y",
@@ -2387,7 +2387,7 @@
               "aid": "17486"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school09_BG87",
                   "index": "0"
               },
@@ -2395,7 +2395,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school06",
               "name": "School - staircase",
               "enable": "Y",
@@ -2408,14 +2408,14 @@
               "aid": "17483"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school06_BG88",
                   "index": "0"
               },
               "file": "anime.school06_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school06_PROP14",
                   "index": "1"
               },
@@ -2429,7 +2429,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school10",
               "name": "School - staircase",
               "enable": "Y",
@@ -2442,14 +2442,14 @@
               "aid": "17487"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school10_BG90",
                   "index": "0"
               },
               "file": "anime.school10_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school10_PROP15",
                   "index": "1"
               },
@@ -2463,7 +2463,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school05",
               "name": "School - hallway",
               "enable": "Y",
@@ -2476,7 +2476,7 @@
               "aid": "17482"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school05_BG92",
                   "index": "0"
               },
@@ -2484,7 +2484,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school04",
               "name": "School - classroom",
               "enable": "Y",
@@ -2497,7 +2497,7 @@
               "aid": "17481"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school04_BG93",
                   "index": "0"
               },
@@ -2505,7 +2505,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school03",
               "name": "School - classroom",
               "enable": "Y",
@@ -2518,7 +2518,7 @@
               "aid": "17480"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school03_BG94",
                   "index": "0"
               },
@@ -2526,7 +2526,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP16",
                       "index": "3"
                   },
@@ -2539,7 +2539,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP17",
                       "index": "4"
                   },
@@ -2552,7 +2552,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP18",
                       "index": "9"
                   },
@@ -2565,7 +2565,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP19",
                       "index": "12"
                   },
@@ -2578,7 +2578,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP20",
                       "index": "13"
                   },
@@ -2591,7 +2591,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP21",
                       "index": "2"
                   },
@@ -2604,7 +2604,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP22",
                       "index": "6"
                   },
@@ -2617,7 +2617,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP24",
                       "index": "1"
                   },
@@ -2630,7 +2630,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP25",
                       "index": "5"
                   },
@@ -2643,7 +2643,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP26",
                       "index": "8"
                   },
@@ -2656,7 +2656,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP27",
                       "index": "7"
                   },
@@ -2669,7 +2669,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP28",
                       "index": "10"
                   },
@@ -2682,7 +2682,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school03_PROP29",
                       "index": "11"
                   },
@@ -2697,7 +2697,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school02",
               "name": "School - classroom",
               "enable": "Y",
@@ -2710,7 +2710,7 @@
               "aid": "17479"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school02_BG128",
                   "index": "0"
               },
@@ -2718,7 +2718,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP38",
                       "index": "1"
                   },
@@ -2731,7 +2731,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP31",
                       "index": "2"
                   },
@@ -2744,7 +2744,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP32",
                       "index": "3"
                   },
@@ -2757,7 +2757,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP30",
                       "index": "4"
                   },
@@ -2770,7 +2770,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP33",
                       "index": "5"
                   },
@@ -2783,7 +2783,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP34",
                       "index": "6"
                   },
@@ -2796,7 +2796,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP35",
                       "index": "7"
                   },
@@ -2809,7 +2809,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP36",
                       "index": "8"
                   },
@@ -2822,7 +2822,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school02_PROP37",
                       "index": "9"
                   },
@@ -2837,7 +2837,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school08",
               "name": "School - rooftop",
               "enable": "Y",
@@ -2850,7 +2850,7 @@
               "aid": "17485"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school08_BG173",
                   "index": "0"
               },
@@ -2858,7 +2858,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school07",
               "name": "School - rooftop",
               "enable": "Y",
@@ -2871,7 +2871,7 @@
               "aid": "17484"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school07_BG174",
                   "index": "0"
               },
@@ -2879,7 +2879,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school11",
               "name": "School - track",
               "enable": "Y",
@@ -2892,7 +2892,7 @@
               "aid": "17630"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school11_BG17",
                   "index": "0"
               },
@@ -2900,7 +2900,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_school13",
               "name": "Office - computers",
               "enable": "Y",
@@ -2913,7 +2913,7 @@
               "aid": "17683"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_school13_BG38",
                   "index": "0"
               },
@@ -2921,7 +2921,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school13_PROP18",
                       "index": "1"
                   },
@@ -2934,7 +2934,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school13_PROP19",
                       "index": "2"
                   },
@@ -2947,7 +2947,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school13_PROP20",
                       "index": "3"
                   },
@@ -2960,7 +2960,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_school13_PROP21",
                       "index": "4"
                   },
@@ -2975,7 +2975,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop02",
               "name": "Restaurant",
               "enable": "Y",
@@ -2988,7 +2988,7 @@
               "aid": "17489"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop02_BG177",
                   "index": "0"
               },
@@ -2996,7 +2996,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop04",
               "name": "Restaurant",
               "enable": "Y",
@@ -3009,7 +3009,7 @@
               "aid": "17491"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop04_BG178",
                   "index": "0"
               },
@@ -3017,7 +3017,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_shop04_PROP41",
                       "index": "2"
                   },
@@ -3030,7 +3030,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_shop04_PROP42",
                       "index": "1"
                   },
@@ -3045,7 +3045,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop01",
               "name": "Restaurant",
               "enable": "Y",
@@ -3058,7 +3058,7 @@
               "aid": "17488"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop01_BG184",
                   "index": "0"
               },
@@ -3066,7 +3066,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_shop01_PROP43",
                       "index": "3"
                   },
@@ -3079,7 +3079,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_shop01_PROP44",
                       "index": "1"
                   },
@@ -3092,7 +3092,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_shop01_PROP45",
                       "index": "2"
                   },
@@ -3105,7 +3105,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_shop01_PROP46",
                       "index": "4"
                   },
@@ -3120,7 +3120,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop03",
               "name": "Restaurant",
               "enable": "Y",
@@ -3133,7 +3133,7 @@
               "aid": "17490"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop03_BG189",
                   "index": "0"
               },
@@ -3141,7 +3141,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop05",
               "name": "Shop",
               "enable": "Y",
@@ -3154,7 +3154,7 @@
               "aid": "17492"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop05_BG191",
                   "index": "0"
               },
@@ -3162,7 +3162,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop06",
               "name": "Shop",
               "enable": "Y",
@@ -3175,7 +3175,7 @@
               "aid": "17493"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop06_BG192",
                   "index": "0"
               },
@@ -3183,7 +3183,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop07",
               "name": "Shop",
               "enable": "Y",
@@ -3196,7 +3196,7 @@
               "aid": "17494"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop07_BG193",
                   "index": "0"
               },
@@ -3204,7 +3204,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop08",
               "name": "Convenience store",
               "enable": "Y",
@@ -3217,14 +3217,14 @@
               "aid": "17495"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop08_BG194",
                   "index": "0"
               },
               "file": "anime.shop08_bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop08_PROP47",
                   "index": "1"
               },
@@ -3238,7 +3238,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_shop09",
               "name": "Convenience store",
               "enable": "Y",
@@ -3251,7 +3251,7 @@
               "aid": "17496"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_shop09_BG197",
                   "index": "0"
               },
@@ -3259,7 +3259,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_train01",
               "name": "Train - station",
               "enable": "Y",
@@ -3272,7 +3272,7 @@
               "aid": "17497"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_train01_BG198",
                   "index": "0"
               },
@@ -3280,7 +3280,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_train03",
               "name": "Train platform",
               "enable": "Y",
@@ -3293,7 +3293,7 @@
               "aid": "17499"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_train03_BG199",
                   "index": "0"
               },
@@ -3301,7 +3301,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_train04",
               "name": "Train platform",
               "enable": "Y",
@@ -3314,7 +3314,7 @@
               "aid": "17500"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_train04_BG200",
                   "index": "0"
               },
@@ -3322,7 +3322,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_train05",
               "name": "Train inside",
               "enable": "Y",
@@ -3335,7 +3335,7 @@
               "aid": "17501"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_train05_BG201",
                   "index": "0"
               },
@@ -3343,7 +3343,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_train06",
               "name": "Train inside",
               "enable": "Y",
@@ -3356,7 +3356,7 @@
               "aid": "17502"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_train06_BG202",
                   "index": "0"
               },
@@ -3364,7 +3364,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_train02",
               "name": "Train - countryside",
               "enable": "Y",
@@ -3377,7 +3377,7 @@
               "aid": "17498"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_train02_BG203",
                   "index": "0"
               },
@@ -3385,7 +3385,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_train07",
               "name": "Train - station platform",
               "enable": "Y",
@@ -3398,7 +3398,7 @@
               "aid": "17503"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_train07_BG204",
                   "index": "0"
               },
@@ -3408,7 +3408,7 @@
   ],
   "prop": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop04_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3424,7 +3424,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop04_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -3440,7 +3440,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop08_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3456,7 +3456,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining02_prop03.swf",
               "name": "Rice cake",
               "holdable": "0",
@@ -3472,7 +3472,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining02_prop04.swf",
               "name": "Tea",
               "holdable": "0",
@@ -3488,7 +3488,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school09_prop01.swf",
               "name": "Tree",
               "holdable": "0",
@@ -3504,7 +3504,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school09_prop02.swf",
               "name": "Tree",
               "holdable": "0",
@@ -3520,7 +3520,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school09_prop03.swf",
               "name": "Tree",
               "holdable": "0",
@@ -3536,7 +3536,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street01_prop02.swf",
               "name": "Plant",
               "holdable": "0",
@@ -3552,7 +3552,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street01_prop03.swf",
               "name": "Plant",
               "holdable": "0",
@@ -3568,7 +3568,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street01_prop04.swf",
               "name": "Plant",
               "holdable": "0",
@@ -3584,7 +3584,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining03_prop02.swf",
               "name": "Table",
               "holdable": "0",
@@ -3600,7 +3600,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "02sword01.swf",
               "name": "Sword",
               "holdable": "1",
@@ -3617,7 +3617,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "02sword02.swf",
               "name": "Sword",
               "holdable": "1",
@@ -3634,7 +3634,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "02sword03.swf",
               "name": "Sword",
               "holdable": "1",
@@ -3651,7 +3651,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "02sword04.swf",
               "name": "Sword",
               "holdable": "1",
@@ -3668,7 +3668,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "02sword05.swf",
               "name": "Sword",
               "holdable": "1",
@@ -3685,7 +3685,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city10_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3701,7 +3701,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city10_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -3717,7 +3717,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city10_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -3733,7 +3733,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city13_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3749,7 +3749,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city14_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3765,7 +3765,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city14_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -3781,7 +3781,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city14_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -3797,7 +3797,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city14_prop04.swf",
               "name": "",
               "holdable": "0",
@@ -3813,7 +3813,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city15_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3829,7 +3829,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city16_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3845,7 +3845,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_city14",
               "name": "Traffic light",
               "holdable": "0",
@@ -3861,7 +3861,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_city14_city14_prop01.swf",
                       "name": "green",
                       "enable": "Y",
@@ -3869,21 +3869,21 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_city14_city14_prop02.swf",
                       "name": "green to red",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_city14_city14_prop03.swf",
                       "name": "red",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_city14_city14_prop04.swf",
                       "name": "red to green",
                       "enable": "Y"
@@ -3892,7 +3892,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city21_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3908,7 +3908,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining01_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -3924,7 +3924,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "food01.swf",
               "name": "Food - dish",
               "holdable": "0",
@@ -3940,7 +3940,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining02_prop01.swf",
               "name": "Cushion",
               "holdable": "0",
@@ -3956,7 +3956,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "food02.swf",
               "name": "Food - bread",
               "holdable": "0",
@@ -3972,7 +3972,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining02_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -3988,7 +3988,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "food03.swf",
               "name": "Food - dish",
               "holdable": "0",
@@ -4004,7 +4004,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining03_prop01.swf",
               "name": "Table",
               "holdable": "0",
@@ -4020,7 +4020,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "food04.swf",
               "name": "Food - ramen",
               "holdable": "0",
@@ -4036,7 +4036,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dining05_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4052,7 +4052,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "food05.swf",
               "name": "Food - drink",
               "holdable": "0",
@@ -4068,7 +4068,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street01_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4084,7 +4084,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "food06.swf",
               "name": "Food - bread",
               "holdable": "0",
@@ -4100,7 +4100,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street02_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4116,7 +4116,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train_side.swf",
               "name": "Train",
               "holdable": "0",
@@ -4132,7 +4132,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street03_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4148,7 +4148,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city29_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4164,7 +4164,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street04_prop01.swf",
               "name": "Banner",
               "holdable": "0",
@@ -4180,7 +4180,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city29_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4196,7 +4196,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street04_prop02.swf",
               "name": "Banner",
               "holdable": "0",
@@ -4212,7 +4212,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city30_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4228,7 +4228,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street04_prop03.swf",
               "name": "Banner",
               "holdable": "0",
@@ -4244,7 +4244,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city30_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4260,7 +4260,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street04_prop04.swf",
               "name": "Banner",
               "holdable": "0",
@@ -4276,7 +4276,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city30_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -4292,7 +4292,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street04_prop05.swf",
               "name": "Banner",
               "holdable": "0",
@@ -4308,7 +4308,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city31_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4324,7 +4324,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street05_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4340,7 +4340,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city31_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4356,7 +4356,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street06_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4372,7 +4372,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city31_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -4388,7 +4388,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street07_prop01.swf",
               "name": "Vending machine",
               "holdable": "0",
@@ -4404,7 +4404,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city31_prop04.swf",
               "name": "",
               "holdable": "0",
@@ -4420,7 +4420,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "street07_prop02.swf",
               "name": "Rubbish bin",
               "holdable": "0",
@@ -4436,7 +4436,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city33_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4452,7 +4452,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school02_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4468,7 +4468,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city33_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4484,7 +4484,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school02_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4500,7 +4500,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city33_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -4516,7 +4516,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4532,7 +4532,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city34_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4548,7 +4548,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4564,7 +4564,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city35_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4580,7 +4580,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -4596,7 +4596,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city36_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4612,7 +4612,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop04.swf",
               "name": "",
               "holdable": "0",
@@ -4628,7 +4628,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "city37_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4644,7 +4644,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop05.swf",
               "name": "",
               "holdable": "0",
@@ -4660,7 +4660,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school13_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4676,7 +4676,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop06.swf",
               "name": "",
               "holdable": "0",
@@ -4692,7 +4692,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school13_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4708,7 +4708,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop07.swf",
               "name": "",
               "holdable": "0",
@@ -4724,7 +4724,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school13_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -4740,7 +4740,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school03_prop08.swf",
               "name": "",
               "holdable": "0",
@@ -4756,7 +4756,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school13_prop04.swf",
               "name": "",
               "holdable": "0",
@@ -4772,7 +4772,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school06_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4788,7 +4788,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "school10_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4804,7 +4804,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop01_prop01.swf",
               "name": "",
               "holdable": "0",
@@ -4820,7 +4820,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop01_prop02.swf",
               "name": "",
               "holdable": "0",
@@ -4836,7 +4836,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop01_prop03.swf",
               "name": "",
               "holdable": "0",
@@ -4852,7 +4852,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "shop01_prop04.swf",
               "name": "",
               "holdable": "0",

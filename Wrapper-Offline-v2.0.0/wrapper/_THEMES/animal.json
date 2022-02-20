@@ -1,7 +1,7 @@
 {
   "background": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_01bg.swf",
               "name": "Countryside",
               "enable": "Y",
@@ -13,7 +13,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_02bg.swf",
               "name": "Street",
               "enable": "Y",
@@ -25,7 +25,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_03bg.swf",
               "name": "Desert",
               "enable": "Y",
@@ -37,7 +37,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_04bg.swf",
               "name": "Cave",
               "enable": "Y",
@@ -49,7 +49,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_05bg.swf",
               "name": "Butcher",
               "enable": "Y",
@@ -61,7 +61,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_06bg.swf",
               "name": "Forest",
               "enable": "Y",
@@ -75,7 +75,7 @@
   ],
   "compositebg": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_03",
               "name": "Desert",
               "enable": "Y",
@@ -88,14 +88,14 @@
               "aid": "12449"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "ncc_pet_03_BG809",
                   "index": "0"
               },
               "file": "animal.ncc_pet_03bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "ncc_pet_03_PROP24",
                   "index": "1"
               },
@@ -109,7 +109,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_04",
               "name": "Cave",
               "enable": "Y",
@@ -122,14 +122,14 @@
               "aid": "12450"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "ncc_pet_04_BG813",
                   "index": "0"
               },
               "file": "animal.ncc_pet_04bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "ncc_pet_04_PROP26",
                   "index": "1"
               },
@@ -143,7 +143,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_05",
               "name": "Butcher",
               "enable": "Y",
@@ -156,14 +156,14 @@
               "aid": "12451"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "ncc_pet_05_BG817",
                   "index": "0"
               },
               "file": "animal.ncc_pet_05bg.swf"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "ncc_pet_05_PROP12",
                   "index": "1"
               },
@@ -177,7 +177,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_06",
               "name": "Forest",
               "enable": "Y",
@@ -190,7 +190,7 @@
               "aid": "12452"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "ncc_pet_06_BG821",
                   "index": "0"
               },
@@ -198,7 +198,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "ncc_pet_06_PROP13",
                       "index": "1"
                   },
@@ -211,7 +211,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "ncc_pet_06_PROP14",
                       "index": "2"
                   },
@@ -228,7 +228,7 @@
   ],
   "prop": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_03prop.swf",
               "name": "",
               "holdable": "0",
@@ -244,7 +244,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_04prop.swf",
               "name": "",
               "holdable": "0",
@@ -260,7 +260,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_05prop.swf",
               "name": "",
               "holdable": "0",
@@ -276,7 +276,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_06prop_1.swf",
               "name": "",
               "holdable": "0",
@@ -292,7 +292,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_pet_06prop_2.swf",
               "name": "",
               "holdable": "0",

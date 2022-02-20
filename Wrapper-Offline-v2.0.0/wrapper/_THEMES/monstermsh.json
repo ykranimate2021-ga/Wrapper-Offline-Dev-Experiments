@@ -1,11 +1,11 @@
 {
-    "@attributes": {
+    "attributes": {
         "id": "monstermsh",
         "name": "Monsters Mayhem"
     },
     "char": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "posessed_doll",
                 "name": "Posessed Doll",
                 "thumb": "standing.swf",
@@ -20,7 +20,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "standing.swf",
                         "name": "standing",
                         "loop": "Y",
@@ -30,7 +30,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "snigger.swf",
                         "name": "snigger",
                         "loop": "Y",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "mad.swf",
                         "name": "angry",
                         "loop": "Y",
@@ -50,7 +50,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised.swf",
                         "name": "surprised",
                         "loop": "Y",
@@ -60,7 +60,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cry.swf",
                         "name": "cry",
                         "loop": "Y",
@@ -70,7 +70,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "laugh.swf",
                         "name": "happy",
                         "loop": "Y",
@@ -80,7 +80,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "pull_head_off.swf",
                         "name": "pull head off",
                         "loop": "Y",
@@ -90,7 +90,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "kiss.swf",
                         "name": "kiss",
                         "loop": "Y",
@@ -100,7 +100,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talking.swf",
                         "name": "talk",
                         "loop": "Y",
@@ -111,7 +111,7 @@
                 }
             ],
             "motion": {
-                "@attributes": {
+                "attributes": {
                     "id": "walking.swf",
                     "name": "walking",
                     "loop": "Y",
@@ -122,7 +122,7 @@
             },
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "angry",
                         "enable": "Y",
@@ -130,7 +130,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_cry.swf",
                         "name": "cry",
                         "enable": "Y",
@@ -138,7 +138,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "happy",
                         "enable": "Y",
@@ -146,7 +146,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "sad",
                         "enable": "Y",
@@ -154,7 +154,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "talk",
                         "enable": "Y",
@@ -162,7 +162,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "talk angry",
                         "enable": "Y",
@@ -170,7 +170,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_cry.swf",
                         "name": "talk cry",
                         "enable": "Y",
@@ -178,7 +178,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_think.swf",
                         "name": "thinking",
                         "enable": "Y",
@@ -186,7 +186,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_turn_head.swf",
                         "name": "turning",
                         "enable": "Y",
@@ -194,7 +194,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_default.swf",
                         "name": "neutral",
                         "enable": "Y",
@@ -204,7 +204,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "Butcher_zombie",
                 "name": "Zombie Butcher",
                 "thumb": "standing.swf",
@@ -219,7 +219,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "standing.swf",
                         "name": "standing",
                         "loop": "Y",
@@ -229,7 +229,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "laugh.swf",
                         "name": "happy",
                         "loop": "Y",
@@ -239,7 +239,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad.swf",
                         "name": "sad",
                         "loop": "Y",
@@ -249,7 +249,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised.swf",
                         "name": "surprised",
                         "loop": "Y",
@@ -259,7 +259,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "confused.swf",
                         "name": "confused",
                         "loop": "Y",
@@ -269,7 +269,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "to_scare.swf",
                         "name": "frighten",
                         "loop": "Y",
@@ -279,7 +279,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "pointing.swf",
                         "name": "point at",
                         "loop": "Y",
@@ -289,7 +289,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talking.swf",
                         "name": "talk",
                         "loop": "Y",
@@ -299,7 +299,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "chopping_mad.swf",
                         "name": "mad chopping",
                         "loop": "Y",
@@ -309,7 +309,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "rip_arm_off.swf",
                         "name": "rip arm off",
                         "loop": "Y",
@@ -320,7 +320,7 @@
                 }
             ],
             "motion": {
-                "@attributes": {
+                "attributes": {
                     "id": "walking.swf",
                     "name": "walking",
                     "loop": "Y",
@@ -331,7 +331,7 @@
             },
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "angry",
                         "enable": "Y",
@@ -339,7 +339,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_cry.swf",
                         "name": "cry",
                         "enable": "Y",
@@ -347,7 +347,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_laugh.swf",
                         "name": "happy",
                         "enable": "Y",
@@ -355,7 +355,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "sad",
                         "enable": "Y",
@@ -363,7 +363,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "talk",
                         "enable": "Y",
@@ -371,7 +371,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "talk angry",
                         "enable": "Y",
@@ -379,7 +379,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_cry.swf",
                         "name": "talk cry",
                         "enable": "Y",
@@ -387,7 +387,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_thinking.swf",
                         "name": "thinking",
                         "enable": "Y",
@@ -395,7 +395,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_to_scare.swf",
                         "name": "furious",
                         "enable": "Y",
@@ -403,7 +403,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_default.swf",
                         "name": "neutral",
                         "enable": "Y",
@@ -413,7 +413,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "Frank",
                 "name": "Frankie",
                 "thumb": "standing.swf",
@@ -428,7 +428,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "standing.swf",
                         "name": "standing",
                         "loop": "Y",
@@ -438,7 +438,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy.swf",
                         "name": "happy",
                         "loop": "Y",
@@ -448,7 +448,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised.swf",
                         "name": "surprised",
                         "loop": "Y",
@@ -458,7 +458,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "nervious.swf",
                         "name": "scared",
                         "loop": "Y",
@@ -468,7 +468,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "mad.swf",
                         "name": "frighten",
                         "loop": "Y",
@@ -478,7 +478,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "dancing.swf",
                         "name": "dance",
                         "loop": "Y",
@@ -488,7 +488,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talking.swf",
                         "name": "talk",
                         "loop": "Y",
@@ -498,7 +498,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "kiss.swf",
                         "name": "kiss",
                         "loop": "Y",
@@ -508,7 +508,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "play_guitar.swf",
                         "name": "play guitar",
                         "loop": "Y",
@@ -519,7 +519,7 @@
                 }
             ],
             "motion": {
-                "@attributes": {
+                "attributes": {
                     "id": "walking.swf",
                     "name": "walking",
                     "loop": "Y",
@@ -530,7 +530,7 @@
             },
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "angry",
                         "enable": "Y",
@@ -538,7 +538,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_cry.swf",
                         "name": "cry",
                         "enable": "Y",
@@ -546,7 +546,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "happy",
                         "enable": "Y",
@@ -554,7 +554,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "sad",
                         "enable": "Y",
@@ -562,7 +562,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "talk",
                         "enable": "Y",
@@ -570,7 +570,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "talk angry",
                         "enable": "Y",
@@ -578,7 +578,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_cry.swf",
                         "name": "talk cry",
                         "enable": "Y",
@@ -586,7 +586,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_thinking.swf",
                         "name": "thinking",
                         "enable": "Y",
@@ -594,7 +594,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_default.swf",
                         "name": "neutral",
                         "enable": "Y",
@@ -604,7 +604,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "Bitchy_Witchy",
                 "name": "Witchy Poo",
                 "thumb": "standing.swf",
@@ -619,7 +619,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "standing.swf",
                         "name": "standing",
                         "loop": "Y",
@@ -629,7 +629,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy.swf",
                         "name": "happy",
                         "loop": "Y",
@@ -639,7 +639,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "confused.swf",
                         "name": "confused",
                         "loop": "Y",
@@ -649,7 +649,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry.swf",
                         "name": "angry",
                         "loop": "Y",
@@ -659,7 +659,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised.swf",
                         "name": "surprised",
                         "loop": "Y",
@@ -669,7 +669,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "mischievous.swf",
                         "name": "mischievous",
                         "loop": "Y",
@@ -679,7 +679,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "pick_props.swf",
                         "name": "pick up prop",
                         "loop": "Y",
@@ -689,7 +689,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "to_scare.swf",
                         "name": "frighten",
                         "loop": "Y",
@@ -699,7 +699,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talking.swf",
                         "name": "talk",
                         "loop": "Y",
@@ -709,7 +709,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "kiss.swf",
                         "name": "kiss",
                         "loop": "Y",
@@ -721,7 +721,7 @@
             ],
             "motion": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "walking.swf",
                         "name": "walking",
                         "loop": "Y",
@@ -731,7 +731,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "fly.swf",
                         "name": "fly",
                         "loop": "Y",
@@ -743,7 +743,7 @@
             ],
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "angry",
                         "enable": "Y",
@@ -751,7 +751,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_chewing.swf",
                         "name": "chewing",
                         "enable": "Y",
@@ -759,7 +759,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_cry.swf",
                         "name": "cry",
                         "enable": "Y",
@@ -767,7 +767,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "happy",
                         "enable": "Y",
@@ -775,7 +775,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "sad",
                         "enable": "Y",
@@ -783,7 +783,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "talk",
                         "enable": "Y",
@@ -791,7 +791,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "talk angry",
                         "enable": "Y",
@@ -799,7 +799,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_cry.swf",
                         "name": "talk cry",
                         "enable": "Y",
@@ -807,7 +807,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_thinking.swf",
                         "name": "thinking",
                         "enable": "Y",
@@ -815,7 +815,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_default.swf",
                         "name": "neutral",
                         "enable": "Y",
@@ -825,7 +825,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "Bride",
                 "name": "Frankie's bride",
                 "thumb": "standing.swf",
@@ -840,7 +840,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "standing.swf",
                         "name": "standing",
                         "loop": "Y",
@@ -850,7 +850,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy.swf",
                         "name": "happy",
                         "loop": "Y",
@@ -860,7 +860,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry.swf",
                         "name": "angry",
                         "loop": "Y",
@@ -870,7 +870,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised.swf",
                         "name": "surprised",
                         "loop": "Y",
@@ -880,7 +880,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "screaming.swf",
                         "name": "scream",
                         "loop": "Y",
@@ -890,7 +890,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "dancing.swf",
                         "name": "dance",
                         "loop": "Y",
@@ -900,7 +900,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "drinking.swf",
                         "name": "drink",
                         "loop": "Y",
@@ -910,7 +910,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talking.swf",
                         "name": "talk",
                         "loop": "Y",
@@ -921,7 +921,7 @@
                 }
             ],
             "motion": {
-                "@attributes": {
+                "attributes": {
                     "id": "walking.swf",
                     "name": "walking",
                     "loop": "Y",
@@ -932,7 +932,7 @@
             },
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "angry",
                         "enable": "Y",
@@ -940,7 +940,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_cry.swf",
                         "name": "cry",
                         "enable": "Y",
@@ -948,7 +948,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "happy",
                         "enable": "Y",
@@ -956,7 +956,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "sad",
                         "enable": "Y",
@@ -964,7 +964,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "talk",
                         "enable": "Y",
@@ -972,7 +972,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "talk angry",
                         "enable": "Y",
@@ -980,7 +980,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_cry.swf",
                         "name": "talk cry",
                         "enable": "Y",
@@ -988,7 +988,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_thinking.swf",
                         "name": "thinking",
                         "enable": "Y",
@@ -996,7 +996,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_default.swf",
                         "name": "neutral",
                         "enable": "Y",
@@ -1006,7 +1006,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "Dracula",
                 "name": "Dracula",
                 "thumb": "stand.swf",
@@ -1021,7 +1021,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "stand.swf",
                         "name": "standing",
                         "loop": "Y",
@@ -1031,7 +1031,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sad.swf",
                         "name": "sad",
                         "loop": "Y",
@@ -1041,7 +1041,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry.swf",
                         "name": "angry",
                         "loop": "Y",
@@ -1051,7 +1051,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shocked.swf",
                         "name": "shock",
                         "loop": "Y",
@@ -1061,7 +1061,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "happy.swf",
                         "name": "happy",
                         "loop": "Y",
@@ -1071,7 +1071,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "scheming.swf",
                         "name": "scheming",
                         "loop": "Y",
@@ -1081,7 +1081,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "in_love.swf",
                         "name": "in love",
                         "loop": "Y",
@@ -1091,7 +1091,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "bored.swf",
                         "name": "bored",
                         "loop": "Y",
@@ -1101,7 +1101,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "confused.swf",
                         "name": "confused",
                         "loop": "Y",
@@ -1111,7 +1111,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "desperate.swf",
                         "name": "desperate",
                         "loop": "Y",
@@ -1121,7 +1121,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "excited.swf",
                         "name": "excited",
                         "loop": "Y",
@@ -1131,7 +1131,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "furious.swf",
                         "name": "furious",
                         "loop": "Y",
@@ -1141,7 +1141,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "shy.swf",
                         "name": "shy",
                         "loop": "Y",
@@ -1151,7 +1151,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sitting.swf",
                         "name": "sitting",
                         "loop": "Y",
@@ -1163,7 +1163,7 @@
             ],
             "motion": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "walk.swf",
                         "name": "walk",
                         "loop": "Y",
@@ -1173,7 +1173,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "floating.swf",
                         "name": "float",
                         "loop": "Y",
@@ -1185,7 +1185,7 @@
             ],
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "Happy",
                         "enable": "Y",
@@ -1193,7 +1193,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "Angry",
                         "enable": "Y",
@@ -1201,7 +1201,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_cry.swf",
                         "name": "Cry",
                         "enable": "Y",
@@ -1209,7 +1209,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "Talk",
                         "enable": "Y",
@@ -1217,7 +1217,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_neutral.swf",
                         "name": "neutral",
                         "enable": "Y",
@@ -1227,7 +1227,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ghost_pirate",
                 "name": "Ghost Pirate",
                 "thumb": "standing.swf",
@@ -1242,7 +1242,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "standing.swf",
                         "name": "standing",
                         "loop": "Y",
@@ -1252,7 +1252,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "angry.swf",
                         "name": "angry",
                         "loop": "Y",
@@ -1262,7 +1262,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "scared.swf",
                         "name": "scared",
                         "loop": "Y",
@@ -1272,7 +1272,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "surprised.swf",
                         "name": "surprised",
                         "loop": "Y",
@@ -1282,7 +1282,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "dance.swf",
                         "name": "dance",
                         "loop": "Y",
@@ -1292,7 +1292,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "frighten.swf",
                         "name": "frighten",
                         "loop": "Y",
@@ -1302,7 +1302,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "kiss.swf",
                         "name": "kiss",
                         "loop": "Y",
@@ -1312,7 +1312,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk.swf",
                         "name": "talk",
                         "loop": "Y",
@@ -1322,7 +1322,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "taunt.swf",
                         "name": "taunt",
                         "loop": "Y",
@@ -1333,7 +1333,7 @@
                 }
             ],
             "motion": {
-                "@attributes": {
+                "attributes": {
                     "id": "walking.swf",
                     "name": "walk",
                     "loop": "Y",
@@ -1344,7 +1344,7 @@
             },
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_cry.swf",
                         "name": "cry",
                         "enable": "Y",
@@ -1352,7 +1352,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "happy",
                         "enable": "Y",
@@ -1360,7 +1360,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "sad",
                         "enable": "Y",
@@ -1368,7 +1368,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "talk angry",
                         "enable": "Y",
@@ -1376,7 +1376,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_cry.swf",
                         "name": "talk cry",
                         "enable": "Y",
@@ -1384,7 +1384,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_think.swf",
                         "name": "thinking",
                         "enable": "Y",
@@ -1392,7 +1392,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_default.swf",
                         "name": "neutral",
                         "enable": "Y",
@@ -1404,7 +1404,7 @@
     ],
     "background": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "evil_lair_bg.swf",
                 "name": "evil_lair",
                 "enable": "Y",
@@ -1415,7 +1415,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cemetery_bg.swf",
                 "name": "cemetery",
                 "enable": "Y",
@@ -1426,7 +1426,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "graveyard_bg.swf",
                 "name": "Graveyard",
                 "enable": "Y",
@@ -1437,7 +1437,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "spooky_lab_bg.swf",
                 "name": "Spooky Lab",
                 "enable": "Y",
@@ -1448,7 +1448,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "witch_house_bg.swf",
                 "name": "witch house",
                 "enable": "Y",
@@ -1461,7 +1461,7 @@
     ],
     "compositebg": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "witch_house",
                 "name": "witch house",
                 "enable": "Y",
@@ -1474,14 +1474,14 @@
                 "aid": "3584"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "BG1",
                     "index": "0"
                 },
                 "file": "monstermsh.witch_house_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "PROP0",
                     "index": "2"
                 },
@@ -1495,7 +1495,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "spooky_lab",
                 "name": "Spooky Lab",
                 "enable": "Y",
@@ -1508,14 +1508,14 @@
                 "aid": "3585"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "spooky_lab_BG2",
                     "index": "0"
                 },
                 "file": "monstermsh.spooky_lab_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "spooky_lab_PROP0",
                     "index": "2"
                 },
@@ -1529,7 +1529,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "evil_lair",
                 "name": "Evil Lair",
                 "enable": "Y",
@@ -1542,7 +1542,7 @@
                 "aid": "3586"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "evil_lair_BG2",
                     "index": "0"
                 },
@@ -1550,7 +1550,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "evil_lair_PROP0",
                         "index": "2"
                     },
@@ -1563,7 +1563,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "evil_lair_PROP1",
                         "index": "3"
                     },
@@ -1576,7 +1576,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "evil_lair_PROP2",
                         "index": "4"
                     },
@@ -1591,7 +1591,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cemetery",
                 "name": "cemetery",
                 "enable": "Y",
@@ -1604,14 +1604,14 @@
                 "aid": "3587"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cemetery_BG5",
                     "index": "0"
                 },
                 "file": "monstermsh.cemetery_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cemetery_PROP0",
                     "index": "2"
                 },
@@ -1625,7 +1625,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "graveyard",
                 "name": "Graveyard",
                 "enable": "Y",
@@ -1638,14 +1638,14 @@
                 "aid": "3588"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "graveyard_BG3",
                     "index": "0"
                 },
                 "file": "monstermsh.graveyard_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "graveyard_PROP0",
                     "index": "2"
                 },
@@ -1661,7 +1661,7 @@
     ],
     "prop": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "axe.swf",
                 "name": "Axe",
                 "holdable": "1",
@@ -1677,7 +1677,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "broom.swf",
                 "name": "Broom",
                 "holdable": "1",
@@ -1693,7 +1693,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "candle.swf",
                 "name": "Candle",
                 "holdable": "1",
@@ -1709,7 +1709,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "candy.swf",
                 "name": "Candy",
                 "holdable": "1",
@@ -1725,7 +1725,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "candy_bag.swf",
                 "name": "Candy Bag",
                 "holdable": "1",
@@ -1741,7 +1741,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "evil_pumpkin.swf",
                 "name": "Evil Pumpkin",
                 "holdable": "0",
@@ -1757,7 +1757,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "pumpkin_candle.swf",
                 "name": "Pumpkin Candle",
                 "holdable": "0",
@@ -1773,7 +1773,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ghost_mask.swf",
                 "name": "Ghost Mask",
                 "holdable": "0",
@@ -1789,7 +1789,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "bat_mask.swf",
                 "name": "Bat Mask",
                 "holdable": "0",
@@ -1805,7 +1805,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "buffoon_mask.swf",
                 "name": "Buffoon Mask",
                 "holdable": "0",
@@ -1821,7 +1821,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "omelet.swf",
                 "name": "Omelet",
                 "holdable": "0",
@@ -1837,7 +1837,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "poison_apple.swf",
                 "name": "Poison Apple",
                 "holdable": "1",
@@ -1853,7 +1853,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "sereved_arm.swf",
                 "name": "Sereved Arm",
                 "holdable": "1",
@@ -1869,7 +1869,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "sword.swf",
                 "name": "Sword",
                 "holdable": "1",
@@ -1885,7 +1885,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "evil_lair_torture_table.swf",
                 "name": "Torture Table",
                 "holdable": "0",
@@ -1901,7 +1901,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "evil_lair_rotating_saw.swf",
                 "name": "Rotating Saw",
                 "holdable": "0",
@@ -1917,7 +1917,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "evil_lair_chair.swf",
                 "name": "",
                 "holdable": "0",
@@ -1933,7 +1933,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cemetery_gravestone.swf",
                 "name": "cemetery gravestone",
                 "holdable": "0",
@@ -1949,7 +1949,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "spooky_lab_table.swf",
                 "name": "Lab Table",
                 "holdable": "0",
@@ -1965,7 +1965,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "graveyard_grave.swf",
                 "name": "Graveyard grave",
                 "holdable": "0",
@@ -1981,7 +1981,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "witch_house_fence.swf",
                 "name": "Witch house fence",
                 "holdable": "0",
@@ -1999,7 +1999,7 @@
     ],
     "effect": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "zoom",
                 "x": "0",
                 "y": "0",
@@ -2019,7 +2019,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "aud-clap.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2034,7 +2034,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "black_all.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2049,7 +2049,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "black_bar.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2064,7 +2064,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "blue_screen.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2079,7 +2079,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "circle_fade_out.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2094,7 +2094,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "fade_in.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2109,7 +2109,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "fade_out.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2124,7 +2124,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "flash_light01.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2139,7 +2139,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "gnn_news.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2154,7 +2154,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "green_screen.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2169,7 +2169,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ppl01.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2184,7 +2184,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "bomb.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2199,7 +2199,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "water_flood.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2214,7 +2214,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "aud-banner.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2229,7 +2229,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "aud-01.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2244,7 +2244,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "atomic-bomb.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2259,7 +2259,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cut",
                 "x": "0",
                 "y": "0",
@@ -2280,7 +2280,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "earthquake",
                 "x": "0",
                 "y": "0",
@@ -2300,7 +2300,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "upsideDown",
                 "x": "0",
                 "y": "0",
@@ -2320,7 +2320,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "firework",
                 "x": "0",
                 "y": "0",
@@ -2340,7 +2340,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "firespring",
                 "x": "0",
                 "y": "0",
@@ -2360,7 +2360,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "fire.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2375,7 +2375,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "lightening.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2390,7 +2390,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "snow.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2405,7 +2405,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "hyper_snow.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2420,7 +2420,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "snow01.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2435,7 +2435,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "snow02.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2450,7 +2450,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "old_film_effect.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2465,7 +2465,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "hearts.swf",
                 "type": "ANIME",
                 "resize": "false",
@@ -2480,7 +2480,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "DV_screen.swf",
                 "type": "ANIME",
                 "resize": "false",

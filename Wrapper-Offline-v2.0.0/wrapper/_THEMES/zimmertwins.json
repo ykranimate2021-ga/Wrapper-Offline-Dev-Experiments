@@ -1,12 +1,12 @@
 {
-    "@attributes": {
+    "attributes": {
         "id": "zimmertwins",
         "name": "Zimmer Twins"
     },
     "comment": {},
     "char": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "edgar",
                 "name": "Edgar",
                 "thumb": "stand.swf",
@@ -21,7 +21,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "admires.swf",
                         "name": "Admire",
                         "loop": "Y",
@@ -31,7 +31,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "begs.swf",
                         "name": "Beg",
                         "loop": "Y",
@@ -41,7 +41,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "bored.swf",
                         "name": "Bored",
                         "loop": "Y",
@@ -51,7 +51,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "celebrates.swf",
                         "name": "Excited\/Cheers",
                         "loop": "Y",
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "flies.swf",
                         "name": "Fly",
                         "loop": "Y",
@@ -71,7 +71,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "karatechop.swf",
                         "name": "Karate Chop",
                         "loop": "Y",
@@ -81,7 +81,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "point.swf",
                         "name": "Point",
                         "loop": "Y",
@@ -91,7 +91,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "run.swf",
                         "name": "Run",
                         "loop": "Y",
@@ -101,7 +101,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sits.swf",
                         "name": "Sit",
                         "loop": "Y",
@@ -111,7 +111,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sleep_walks.swf",
                         "name": "Sleep Walk",
                         "loop": "Y",
@@ -121,7 +121,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "stand.swf",
                         "name": "Stand",
                         "loop": "Y",
@@ -131,7 +131,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "teleport.swf",
                         "name": "Teleport",
                         "loop": "N",
@@ -141,7 +141,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "walks.swf",
                         "name": "Walk",
                         "loop": "Y",
@@ -153,7 +153,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "eva",
                 "name": "Eva",
                 "thumb": "stand.swf",
@@ -168,7 +168,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "admires.swf",
                         "name": "Admire",
                         "loop": "Y",
@@ -178,7 +178,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "begs.swf",
                         "name": "Beg",
                         "loop": "Y",
@@ -188,7 +188,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "bored.swf",
                         "name": "Bored",
                         "loop": "Y",
@@ -198,7 +198,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "celebrates.swf",
                         "name": "Excited\/Cheers",
                         "loop": "Y",
@@ -208,7 +208,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "flies.swf",
                         "name": "Fly",
                         "loop": "Y",
@@ -218,7 +218,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "karatechop.swf",
                         "name": "Karate Chop",
                         "loop": "Y",
@@ -228,7 +228,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "point.swf",
                         "name": "Point",
                         "loop": "Y",
@@ -238,7 +238,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "run.swf",
                         "name": "Run",
                         "loop": "Y",
@@ -248,7 +248,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sits.swf",
                         "name": "Sit",
                         "loop": "Y",
@@ -258,7 +258,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sleep_walks.swf",
                         "name": "Sleep Walk",
                         "loop": "Y",
@@ -268,7 +268,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "stand.swf",
                         "name": "Stand",
                         "loop": "Y",
@@ -278,7 +278,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "teleport.swf",
                         "name": "Teleport",
                         "loop": "N",
@@ -288,7 +288,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "walks.swf",
                         "name": "Walk",
                         "loop": "Y",
@@ -300,7 +300,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "13",
                 "name": "13",
                 "thumb": "stand.swf",
@@ -315,7 +315,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "admires.swf",
                         "name": "Admire",
                         "loop": "Y",
@@ -325,7 +325,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "panting.swf",
                         "name": "Panting",
                         "loop": "Y",
@@ -335,7 +335,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "bored.swf",
                         "name": "Bored",
                         "loop": "Y",
@@ -345,7 +345,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "celebrates.swf",
                         "name": "Excited\/Cheers",
                         "loop": "Y",
@@ -355,7 +355,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "flies.swf",
                         "name": "Fly",
                         "loop": "Y",
@@ -365,7 +365,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "karatechop.swf",
                         "name": "Karate Chop",
                         "loop": "Y",
@@ -375,7 +375,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "run.swf",
                         "name": "Run",
                         "loop": "Y",
@@ -385,7 +385,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sleep_walks.swf",
                         "name": "Sleep Walk",
                         "loop": "Y",
@@ -395,7 +395,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "stand.swf",
                         "name": "Stand",
                         "loop": "Y",
@@ -405,7 +405,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "swat.swf",
                         "name": "Swat",
                         "loop": "Y",
@@ -415,7 +415,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "teleport.swf",
                         "name": "Teleport",
                         "loop": "N",
@@ -425,7 +425,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "walks.swf",
                         "name": "Walk",
                         "loop": "Y",
@@ -437,7 +437,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "alien",
                 "name": "Alien",
                 "thumb": "stand.swf",
@@ -451,7 +451,7 @@
                 "sharing": "0"
             },
             "action": {
-                "@attributes": {
+                "attributes": {
                     "id": "stand.swf",
                     "name": "Default",
                     "loop": "Y",
@@ -464,7 +464,7 @@
     ],
     "background": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "alley.swf",
                 "name": "Alley",
                 "enable": "Y",
@@ -475,7 +475,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "backstage.swf",
                 "name": "Backstage",
                 "enable": "Y",
@@ -486,7 +486,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "backyard.swf",
                 "name": "Backyard",
                 "enable": "Y",
@@ -497,7 +497,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cave.swf",
                 "name": "Cave",
                 "enable": "Y",
@@ -508,7 +508,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "chinese_restaurant.swf",
                 "name": "Chinese restaurant",
                 "enable": "Y",
@@ -519,7 +519,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "couch.swf",
                 "name": "Couch",
                 "enable": "Y",
@@ -530,7 +530,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "desert.swf",
                 "name": "Desert",
                 "enable": "Y",
@@ -541,7 +541,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "edgar_bedroom.swf",
                 "name": "Edgar's room",
                 "enable": "Y",
@@ -552,7 +552,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "eva_bedroom.swf",
                 "name": "Eva's room",
                 "enable": "Y",
@@ -563,7 +563,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "forest.swf",
                 "name": "Forest",
                 "enable": "Y",
@@ -574,7 +574,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "jungle.swf",
                 "name": "Jungle",
                 "enable": "Y",
@@ -585,7 +585,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "kitchen.swf",
                 "name": "Kitchen",
                 "enable": "Y",
@@ -596,7 +596,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "living_room.swf",
                 "name": "Living room",
                 "enable": "Y",
@@ -607,7 +607,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "meat_shop.swf",
                 "name": "Meat shop",
                 "enable": "Y",
@@ -618,7 +618,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "museum.swf",
                 "name": "Museum",
                 "enable": "Y",
@@ -629,7 +629,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "outerspace.swf",
                 "name": "Outer space",
                 "enable": "Y",
@@ -640,7 +640,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "park.swf",
                 "name": "Park",
                 "enable": "Y",
@@ -651,7 +651,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "planet.swf",
                 "name": "The surface of the Moon",
                 "enable": "Y",
@@ -662,7 +662,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "psychic.swf",
                 "name": "Psychic",
                 "enable": "Y",
@@ -673,7 +673,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "seventeenth_parallel.swf",
                 "name": "The 17th Parallel",
                 "enable": "Y",
@@ -684,7 +684,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "sky.swf",
                 "name": "Sky",
                 "enable": "Y",
@@ -695,7 +695,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "stage.swf",
                 "name": "Stage",
                 "enable": "Y",
@@ -706,7 +706,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "store.swf",
                 "name": "Magic store",
                 "enable": "Y",
@@ -717,7 +717,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "street.swf",
                 "name": "Street",
                 "enable": "Y",
@@ -728,7 +728,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "thirteenth_dimension.swf",
                 "name": "The 13th Dimension",
                 "enable": "Y",
@@ -739,7 +739,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "zimmercircles.swf",
                 "name": "Zimmer circles",
                 "enable": "Y",
@@ -752,7 +752,7 @@
     ],
     "prop": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "bunny_doll.swf",
                 "name": "Bunny doll",
                 "holdable": "1",
@@ -768,7 +768,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "camera.swf",
                 "name": "Camera",
                 "holdable": "1",
@@ -784,7 +784,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "diamond.swf",
                 "name": "Diamond",
                 "holdable": "1",
@@ -800,7 +800,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "idol.swf",
                 "name": "Golden idol",
                 "holdable": "1",
@@ -816,7 +816,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "mystery_box.swf",
                 "name": "Mystery box",
                 "holdable": "1",
@@ -832,7 +832,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "potion.swf",
                 "name": "Potion",
                 "holdable": "1",
@@ -848,7 +848,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "present.swf",
                 "name": "Present",
                 "holdable": "1",
@@ -864,7 +864,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "sack.swf",
                 "name": "Sack",
                 "holdable": "1",
@@ -882,7 +882,7 @@
     ],
     "sound": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "10_park.mp3",
                 "name": "Park",
                 "subtype": "soundeffect",
@@ -896,7 +896,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "11_outerspace.mp3",
                 "name": "Outer space",
                 "subtype": "soundeffect",
@@ -910,7 +910,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "12_museum.mp3",
                 "name": "Museum",
                 "subtype": "bgmusic",
@@ -924,7 +924,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "13_living_room.mp3",
                 "name": "Living room",
                 "subtype": "bgmusic",
@@ -938,7 +938,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "14_kitchen.mp3",
                 "name": "Kitchen",
                 "subtype": "bgmusic",
@@ -952,7 +952,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "15_Jungle.mp3",
                 "name": "Jungle",
                 "subtype": "soundeffect",
@@ -966,7 +966,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "16_forest.mp3",
                 "name": "Forest",
                 "subtype": "soundeffect",
@@ -980,7 +980,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "17_eva_bedroom.mp3",
                 "name": "Eva's room",
                 "subtype": "bgmusic",
@@ -994,7 +994,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "18_edgar_bedroom.mp3",
                 "name": "Edgar's room",
                 "subtype": "bgmusic",
@@ -1008,7 +1008,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "19_desert.mp3",
                 "name": "Desert",
                 "subtype": "bgmusic",
@@ -1022,7 +1022,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "1_thirteenth_dimension.mp3",
                 "name": "The 13th Dimension",
                 "subtype": "soundeffect",
@@ -1036,7 +1036,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "20_couch.mp3",
                 "name": "Couch",
                 "subtype": "bgmusic",
@@ -1050,7 +1050,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "21_cave.mp3",
                 "name": "Cave",
                 "subtype": "soundeffect",
@@ -1064,7 +1064,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "22_backyard.mp3",
                 "name": "Backyard",
                 "subtype": "soundeffect",
@@ -1078,7 +1078,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "23_backstage.mp3",
                 "name": "Backstage",
                 "subtype": "soundeffect",
@@ -1092,7 +1092,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "24_alley.mp3",
                 "name": "Alley",
                 "subtype": "soundeffect",
@@ -1106,7 +1106,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "2_street.mp3",
                 "name": "Street",
                 "subtype": "soundeffect",
@@ -1120,7 +1120,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "3_store.mp3",
                 "name": "Magic store",
                 "subtype": "soundeffect",
@@ -1134,7 +1134,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "4_stage.mp3",
                 "name": "Stage",
                 "subtype": "soundeffect",
@@ -1148,7 +1148,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "5_sky.mp3",
                 "name": "Sky",
                 "subtype": "soundeffect",
@@ -1162,7 +1162,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "6_seventeenth_parallel.mp3",
                 "name": "The 17th Parallel",
                 "subtype": "soundeffect",
@@ -1176,7 +1176,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "7_restaurant.mp3",
                 "name": "Chinese restaurant",
                 "subtype": "bgmusic",
@@ -1190,7 +1190,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "8_salon.mp3",
                 "name": "Psychic",
                 "subtype": "bgmusic",
@@ -1204,7 +1204,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "9_planet.mp3",
                 "name": "The Moon",
                 "subtype": "soundeffect",
@@ -1218,7 +1218,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "64.mp3",
                 "name": "Celebration",
                 "subtype": "soundeffect",
@@ -1232,7 +1232,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "17.mp3",
                 "name": "Multiple boings",
                 "subtype": "soundeffect",

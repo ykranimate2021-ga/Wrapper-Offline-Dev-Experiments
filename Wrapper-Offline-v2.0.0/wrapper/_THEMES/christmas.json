@@ -1,7 +1,7 @@
 {
   "char": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "sexy_girl",
               "name": "Miss Hottie",
               "thumb": "fairy08-greeting.swf",
@@ -16,7 +16,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy08-greeting.swf",
                       "name": "Wave",
                       "loop": "Y",
@@ -26,7 +26,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fair10-nob.swf",
                       "name": "Nod",
                       "loop": "Y",
@@ -36,7 +36,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy01-magic.swf",
                       "name": "Use Magic Wand (Slow)",
                       "loop": "Y",
@@ -46,7 +46,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy02-dance.swf",
                       "name": "Dance (Slow)",
                       "loop": "Y",
@@ -56,7 +56,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy03-dance.swf",
                       "name": "Dance (Fast)",
                       "loop": "Y",
@@ -66,7 +66,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy05-fly.swf",
                       "name": "Fly",
                       "loop": "Y",
@@ -76,7 +76,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy06-laugh.swf",
                       "name": "Laugh",
                       "loop": "Y",
@@ -86,7 +86,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy07-kick.swf",
                       "name": "Kick",
                       "loop": "Y",
@@ -96,7 +96,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy09-angry.swf",
                       "name": "Use Magic Wand (Fast)",
                       "loop": "Y",
@@ -106,7 +106,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy11-think.swf",
                       "name": "Think",
                       "loop": "Y",
@@ -116,7 +116,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy012-vomit.swf",
                       "name": "Vomit",
                       "loop": "Y",
@@ -126,7 +126,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy13-shock.swf",
                       "name": "Become Shocked",
                       "loop": "Y",
@@ -136,7 +136,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy14-kiss.swf",
                       "name": "Kiss",
                       "loop": "Y",
@@ -146,7 +146,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy15-laugh02.swf",
                       "name": "Lick Lips",
                       "loop": "Y",
@@ -156,7 +156,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy17-hip.swf",
                       "name": "Dance (Sexy)",
                       "loop": "Y",
@@ -166,7 +166,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy18-cry.swf",
                       "name": "Cry",
                       "loop": "Y",
@@ -176,7 +176,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy19-scold.swf",
                       "name": "Become Angry",
                       "loop": "Y",
@@ -186,7 +186,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy20-laydown.swf",
                       "name": "Lie Down",
                       "loop": "Y",
@@ -196,7 +196,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy21-ballet.swf",
                       "name": "Dance (Ballet Jump)",
                       "loop": "Y",
@@ -206,7 +206,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy22-ballet.swf",
                       "name": "Dance (Ballet Stand)",
                       "loop": "Y",
@@ -216,7 +216,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fairy23-sleep.swf",
                       "name": "Sleep",
                       "loop": "Y",
@@ -227,7 +227,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "fairy05-fly.swf",
                   "name": "Fly",
                   "loop": "Y",
@@ -238,7 +238,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "deer",
               "name": "Reindeer",
               "thumb": "stand.swf",
@@ -253,7 +253,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "stand.swf",
                       "name": "stand",
                       "loop": "Y",
@@ -263,7 +263,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "angry.swf",
                       "name": "talk angrily",
                       "loop": "Y",
@@ -273,7 +273,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "clap.swf",
                       "name": "clap",
                       "loop": "Y",
@@ -283,7 +283,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dog-like.swf",
                       "name": "wiggle tail",
                       "loop": "Y",
@@ -293,7 +293,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "fear.swf",
                       "name": "become scared",
                       "loop": "Y",
@@ -303,7 +303,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laughing.swf",
                       "name": "laugh",
                       "loop": "Y",
@@ -313,7 +313,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "pee.swf",
                       "name": "pee",
                       "loop": "Y",
@@ -323,7 +323,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "R.swf",
                       "name": "feeling itchy",
                       "loop": "Y",
@@ -333,7 +333,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sad.swf",
                       "name": "become sad",
                       "loop": "Y",
@@ -343,7 +343,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "shy.swf",
                       "name": "feeling shy",
                       "loop": "Y",
@@ -353,7 +353,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "smile.swf",
                       "name": "smile",
                       "loop": "Y",
@@ -363,7 +363,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "upsad.swf",
                       "name": "sigh",
                       "loop": "Y",
@@ -374,7 +374,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "run.swf",
                   "name": "run",
                   "loop": "Y",
@@ -385,7 +385,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "snowman",
               "name": "Snowman",
               "thumb": "stand.swf",
@@ -400,7 +400,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "stand.swf",
                       "name": "Stand",
                       "loop": "Y",
@@ -410,7 +410,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "come02.swf",
                       "name": "Beckon",
                       "loop": "Y",
@@ -420,7 +420,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance02.swf",
                       "name": "Dance",
                       "loop": "Y",
@@ -430,7 +430,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "greeting.swf",
                       "name": "Greeting",
                       "loop": "Y",
@@ -440,7 +440,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "hit.swf",
                       "name": "Hit",
                       "loop": "Y",
@@ -450,7 +450,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laugh01.swf",
                       "name": "Laugh (A)",
                       "loop": "Y",
@@ -460,7 +460,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laugh02.swf",
                       "name": "Laugh (B)",
                       "loop": "Y",
@@ -470,7 +470,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "melt.swf",
                       "name": "Melt",
                       "loop": "N",
@@ -480,7 +480,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk01_happy.swf",
                       "name": "Talk (Happy)",
                       "loop": "Y",
@@ -490,7 +490,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk02_angry.swf",
                       "name": "Talk (Angry)",
                       "loop": "Y",
@@ -501,7 +501,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "walk.swf",
                   "name": "Walk",
                   "loop": "Y",
@@ -512,7 +512,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "elf",
               "name": "Elf",
               "thumb": "stand.swf",
@@ -527,7 +527,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "stand.swf",
                       "name": "Stand",
                       "loop": "Y",
@@ -537,7 +537,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "anger.swf",
                       "name": "Become Angry",
                       "loop": "Y",
@@ -547,7 +547,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cry.swf",
                       "name": "Cry",
                       "loop": "Y",
@@ -557,7 +557,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance01.swf",
                       "name": "Dance (A)",
                       "loop": "Y",
@@ -567,7 +567,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance02.swf",
                       "name": "Dance (B)",
                       "loop": "Y",
@@ -577,7 +577,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance03.swf",
                       "name": "Dance (C)",
                       "loop": "Y",
@@ -587,7 +587,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "hello.swf",
                       "name": "Wave",
                       "loop": "Y",
@@ -597,7 +597,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "kiss.swf",
                       "name": "Kiss",
                       "loop": "Y",
@@ -607,7 +607,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk.swf",
                       "name": "Talk",
                       "loop": "Y",
@@ -618,7 +618,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "walk.swf",
                   "name": "Walk",
                   "loop": "Y",
@@ -629,7 +629,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "boy",
               "name": "Boy",
               "thumb": "stand.swf",
@@ -644,7 +644,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "stand.swf",
                       "name": "Stand",
                       "loop": "Y",
@@ -654,7 +654,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "jump01.swf",
                       "name": "Jump",
                       "loop": "Y",
@@ -664,7 +664,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "smile.swf",
                       "name": "Smile",
                       "loop": "Y",
@@ -674,7 +674,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "greeting.swf",
                       "name": "Wave",
                       "loop": "Y",
@@ -684,7 +684,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "r.swf",
                       "name": "Scratch",
                       "loop": "Y",
@@ -694,7 +694,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "throw.swf",
                       "name": "Throw",
                       "loop": "Y",
@@ -704,7 +704,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "kiss.swf",
                       "name": "Kiss",
                       "loop": "Y",
@@ -714,7 +714,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sad.swf",
                       "name": "Cry",
                       "loop": "Y",
@@ -724,7 +724,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "innocent.swf",
                       "name": "Innocent",
                       "loop": "Y",
@@ -734,7 +734,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance01.swf",
                       "name": "Dance (A)",
                       "loop": "Y",
@@ -744,7 +744,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance02.swf",
                       "name": "Dance (B)",
                       "loop": "Y",
@@ -754,7 +754,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance03.swf",
                       "name": "Dance (C)",
                       "loop": "Y",
@@ -764,7 +764,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance04.swf",
                       "name": "Dance (D)",
                       "loop": "Y",
@@ -774,7 +774,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance06.swf",
                       "name": "Dance (E)",
                       "loop": "Y",
@@ -784,7 +784,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance07.swf",
                       "name": "Dance (F)",
                       "loop": "Y",
@@ -794,7 +794,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance09.swf",
                       "name": "Dance (G)",
                       "loop": "Y",
@@ -805,7 +805,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "walk.swf",
                   "name": "Walk",
                   "loop": "Y",
@@ -816,7 +816,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "santa",
               "name": "Santa",
               "thumb": "stand.swf",
@@ -831,7 +831,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "stand.swf",
                       "name": "Stand",
                       "loop": "Y",
@@ -841,7 +841,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance01.swf",
                       "name": "Dance (Twist)",
                       "loop": "Y",
@@ -851,7 +851,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance02.swf",
                       "name": "Dance (Disco)",
                       "loop": "Y",
@@ -861,7 +861,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance03.swf",
                       "name": "Dance (Middle Finger)",
                       "loop": "Y",
@@ -871,7 +871,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance04.swf",
                       "name": "Dance (Can-Can)",
                       "loop": "Y",
@@ -881,7 +881,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance05.swf",
                       "name": "Dance (Russian)",
                       "loop": "Y",
@@ -891,7 +891,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laugh03.swf",
                       "name": "Laugh",
                       "loop": "Y",
@@ -901,7 +901,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "raisebell4.swf",
                       "name": "Ring Bell",
                       "loop": "Y",
@@ -911,7 +911,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk01_angry.swf",
                       "name": "Talk (Angry)",
                       "loop": "Y",
@@ -921,7 +921,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk06_sad.swf",
                       "name": "Talk (Sad)",
                       "loop": "Y",
@@ -931,7 +931,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "shock01.swf",
                       "name": "Become Shocked",
                       "loop": "Y",
@@ -941,7 +941,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sitdown01_laugh.swf",
                       "name": "Sit",
                       "loop": "Y",
@@ -951,7 +951,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk05_happy.swf",
                       "name": "Talk (Happy)",
                       "loop": "Y",
@@ -961,7 +961,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "think03.swf",
                       "name": "Think",
                       "loop": "Y",
@@ -972,7 +972,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "walk.swf",
                   "name": "Walk",
                   "loop": "Y",
@@ -985,7 +985,7 @@
   ],
   "background": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "fireplaceindr.swf",
               "name": "Fireplace",
               "enable": "Y",
@@ -996,7 +996,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "santacastle.swf",
               "name": "Santa Castle",
               "enable": "Y",
@@ -1008,7 +1008,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "snowynight.swf",
               "name": "Snowy Night",
               "enable": "Y",
@@ -1019,7 +1019,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "nightlandscape.swf",
               "name": "Night Landscape",
               "enable": "Y",
@@ -1031,7 +1031,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "snowyPlain.swf",
               "name": "Snowy Plain",
               "enable": "Y",
@@ -1042,7 +1042,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "so_warm_inside_bg.swf",
               "name": "",
               "enable": "Y",
@@ -1053,7 +1053,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "toy_workshop_bg.swf",
               "name": "",
               "enable": "Y",
@@ -1066,7 +1066,7 @@
   ],
   "compositebg": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "so_warm_inside",
               "name": "so warm inside",
               "enable": "Y",
@@ -1079,7 +1079,7 @@
               "aid": "4759"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "so_warm_inside_BG2",
                   "index": "0"
               },
@@ -1087,7 +1087,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "so_warm_inside_PROP0",
                       "index": "2"
                   },
@@ -1100,7 +1100,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "so_warm_inside_PROP2",
                       "index": "3"
                   },
@@ -1113,7 +1113,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "so_warm_inside_PROP3",
                       "index": "4"
                   },
@@ -1128,7 +1128,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "toy_workshop",
               "name": "toy workshop",
               "enable": "Y",
@@ -1141,7 +1141,7 @@
               "aid": "4760"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG2",
                   "index": "0"
               },
@@ -1149,7 +1149,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "toy_workshop_PROP0",
                       "index": "2"
                   },
@@ -1162,7 +1162,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "toy_workshop_PROP1",
                       "index": "3"
                   },
@@ -1175,7 +1175,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "toy_workshop_PROP2",
                       "index": "4"
                   },
@@ -1188,7 +1188,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "toy_workshop_PROP3",
                       "index": "5"
                   },
@@ -1201,7 +1201,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "toy_workshop_PROP4",
                       "index": "6"
                   },
@@ -1218,7 +1218,7 @@
   ],
   "prop": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmasbell.swf",
               "name": "Xmas Bell",
               "holdable": "1",
@@ -1233,7 +1233,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmbear.swf",
               "name": "Xmas Bear",
               "holdable": "1",
@@ -1248,7 +1248,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmbox3.swf",
               "name": "Xmas Box",
               "holdable": "1",
@@ -1263,7 +1263,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmhat.swf",
               "name": "Xmas Hat",
               "holdable": "1",
@@ -1278,7 +1278,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmsockwtoy.swf",
               "name": "Xmas Sock",
               "holdable": "1",
@@ -1293,7 +1293,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmstick.swf",
               "name": "Xmas Stick",
               "holdable": "1",
@@ -1308,7 +1308,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmtree2.swf",
               "name": "Xmas Tree",
               "holdable": "1",
@@ -1324,7 +1324,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmashat.swf",
               "name": "XmasHat",
               "holdable": "0",
@@ -1340,7 +1340,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmsleigh.swf",
               "name": "Xmasleigh",
               "holdable": "1",
@@ -1356,7 +1356,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "wreath.swf",
               "name": "Wreath",
               "holdable": "1",
@@ -1371,7 +1371,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "candle.swf",
               "name": "Candle",
               "holdable": "1",
@@ -1386,7 +1386,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "decoball.swf",
               "name": "Decoball",
               "holdable": "1",
@@ -1401,7 +1401,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "gingerman.swf",
               "name": "Gingerman",
               "holdable": "1",
@@ -1416,7 +1416,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "fireplace.swf",
               "name": "Fireplace",
               "holdable": "0",
@@ -1431,7 +1431,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmbox1.swf",
               "name": "xmbox1.swf",
               "holdable": "1",
@@ -1446,7 +1446,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmbox2.swf",
               "name": "xmbox2.swf",
               "holdable": "1",
@@ -1461,7 +1461,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmsock.swf",
               "name": "xmsock.swf",
               "holdable": "1",
@@ -1476,7 +1476,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmtree.swf",
               "name": "xmtree.swf",
               "holdable": "1",
@@ -1491,7 +1491,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "so_warm_inside_window.swf",
               "name": "",
               "holdable": "0",
@@ -1507,7 +1507,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "so_warm_inside_table.swf",
               "name": "",
               "holdable": "0",
@@ -1523,7 +1523,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "so_warm_inside_phone.swf",
               "name": "",
               "holdable": "0",
@@ -1539,7 +1539,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "toy_workshop_chair1.swf",
               "name": "",
               "holdable": "0",
@@ -1555,7 +1555,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "toy_workshop_table.swf",
               "name": "",
               "holdable": "0",
@@ -1571,7 +1571,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "toy_workshop_chair2.swf",
               "name": "",
               "holdable": "0",
@@ -1587,7 +1587,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "toy_workshop_doorframe.swf",
               "name": "",
               "holdable": "0",
@@ -1603,7 +1603,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmtree3.swf",
               "name": "Xmas Tree",
               "holdable": "0",
@@ -1619,7 +1619,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xmsleigh1.swf",
               "name": "Xmasleigh",
               "holdable": "0",
@@ -1637,7 +1637,7 @@
   ],
   "sound": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "joy and fun.swf",
               "name": "Joy and Fun",
               "downloadtype": "progressive",
@@ -1651,7 +1651,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "12_Days_of_Christmas.swf",
               "name": "12 Days of Christmas",
               "downloadtype": "progressive",
@@ -1665,7 +1665,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Christmas_Tree.swf",
               "name": "Christmas Tree",
               "downloadtype": "progressive",
@@ -1679,7 +1679,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Hark_the_Herald_Angels_Sing.swf",
               "name": "Hark The Herald Angels Sing",
               "downloadtype": "progressive",
@@ -1693,7 +1693,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Jingle_Bells.swf",
               "name": "Jingle Bells",
               "downloadtype": "progressive",
@@ -1707,7 +1707,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Joy_to_the_World.swf",
               "name": "Joy To The World",
               "downloadtype": "progressive",
@@ -1721,7 +1721,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Silent_Night.swf",
               "name": "Silent Night",
               "downloadtype": "progressive",
@@ -1735,7 +1735,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "We_Wish_You_A_Merry_Christmas.swf",
               "name": "We Wish You A Merry Christmas",
               "downloadtype": "progressive",
@@ -1749,7 +1749,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Deck_the_Halls.swf",
               "name": "Deck The Halls",
               "downloadtype": "progressive",
@@ -1763,7 +1763,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "O_Come_All_Ye_Faithful.swf",
               "name": "O Come All Ye Faithful",
               "downloadtype": "progressive",
@@ -1777,7 +1777,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "O_Little_Town_of_Bethlehem.swf",
               "name": "O Little Town of Bethlehem",
               "downloadtype": "progressive",
@@ -1791,7 +1791,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "we_own_christmas.swf",
               "name": "We Own Christmas",
               "downloadtype": "progressive",
@@ -1805,7 +1805,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "xxx_xmas.mp3",
               "name": "Welcome Xmas",
               "downloadtype": "progressive",
@@ -1819,7 +1819,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "joy and fun.mp3",
               "name": "Joy and Fun",
               "downloadtype": "progressive",
@@ -1833,7 +1833,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "12_Days_of_Christmas.mp3",
               "name": "12 Days of Christmas",
               "downloadtype": "progressive",
@@ -1847,7 +1847,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Christmas_Tree.mp3",
               "name": "Christmas Tree",
               "downloadtype": "progressive",
@@ -1861,7 +1861,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Hark_the_Herald_Angels_Sing.mp3",
               "name": "Hark The Herald Angels Sing",
               "downloadtype": "progressive",
@@ -1875,7 +1875,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Jingle_Bells.mp3",
               "name": "Jingle Bells",
               "downloadtype": "progressive",
@@ -1889,7 +1889,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Joy_to_the_World.mp3",
               "name": "Joy To The World",
               "downloadtype": "progressive",
@@ -1903,7 +1903,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Silent_Night.mp3",
               "name": "Silent Night",
               "downloadtype": "progressive",
@@ -1917,7 +1917,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "We_Wish_You_A_Merry_Christmas.mp3",
               "name": "We Wish You A Merry Christmas",
               "downloadtype": "progressive",
@@ -1931,7 +1931,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "Deck_the_Halls.mp3",
               "name": "Deck The Halls",
               "downloadtype": "progressive",
@@ -1945,7 +1945,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "O_Come_All_Ye_Faithful.mp3",
               "name": "O Come All Ye Faithful",
               "downloadtype": "progressive",
@@ -1959,7 +1959,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "O_Little_Town_of_Bethlehem.mp3",
               "name": "O Little Town of Bethlehem",
               "downloadtype": "progressive",
@@ -1973,7 +1973,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "we_own_christmas.mp3",
               "name": "We Own Christmas",
               "downloadtype": "progressive",
@@ -1989,7 +1989,7 @@
   ],
   "bubble": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "ellipse",
               "x": "0",
               "y": "0",
@@ -2004,7 +2004,7 @@
               "sharing": "0"
           },
           "body": {
-              "@attributes": {
+              "attributes": {
                   "rgb": "0xFFFFFF",
                   "linergb": "0",
                   "tailx": "180",
@@ -2014,7 +2014,7 @@
           "text": "Click here to edit"
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "roundRect",
               "x": "0",
               "y": "0",
@@ -2029,7 +2029,7 @@
               "sharing": "0"
           },
           "body": {
-              "@attributes": {
+              "attributes": {
                   "rgb": "0xFFFFFF",
                   "linergb": "0",
                   "tailx": "180",
@@ -2039,7 +2039,7 @@
           "text": "Click here to edit"
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "rect",
               "x": "0",
               "y": "0",
@@ -2054,7 +2054,7 @@
               "sharing": "0"
           },
           "body": {
-              "@attributes": {
+              "attributes": {
                   "rgb": "0xFFFFFF",
                   "linergb": "0",
                   "tailx": "180",
@@ -2064,7 +2064,7 @@
           "text": "Click here to edit"
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cloud",
               "x": "0",
               "y": "0",
@@ -2079,7 +2079,7 @@
               "sharing": "0"
           },
           "body": {
-              "@attributes": {
+              "attributes": {
                   "rgb": "0xFFFFFF",
                   "linergb": "0",
                   "tailx": "180",
@@ -2089,7 +2089,7 @@
           "text": "Click here to edit"
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "heart",
               "x": "0",
               "y": "0",
@@ -2104,7 +2104,7 @@
               "sharing": "0"
           },
           "body": {
-              "@attributes": {
+              "attributes": {
                   "rgb": "0xFFFFFF",
                   "linergb": "0",
                   "tailx": "180",
@@ -2114,7 +2114,7 @@
           "text": "Click here to edit"
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "boom",
               "x": "0",
               "y": "0",
@@ -2129,7 +2129,7 @@
               "sharing": "0"
           },
           "body": {
-              "@attributes": {
+              "attributes": {
                   "rgb": "0xFFFFFF",
                   "linergb": "0",
                   "tailx": "260",
@@ -2139,7 +2139,7 @@
           "text": "Click here to edit"
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "blank",
               "x": "0",
               "y": "0",
@@ -2154,7 +2154,7 @@
               "sharing": "0"
           },
           "body": {
-              "@attributes": {
+              "attributes": {
                   "rgb": "0xFFFFFF",
                   "linergb": "0",
                   "tailx": "180",
@@ -2166,7 +2166,7 @@
   ],
   "effect": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "zoom",
               "x": "0",
               "y": "0",
@@ -2186,7 +2186,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cut",
               "x": "0",
               "y": "0",
@@ -2207,7 +2207,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "earthquake",
               "x": "0",
               "y": "0",
@@ -2227,7 +2227,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "upsideDown",
               "x": "0",
               "y": "0",
@@ -2247,7 +2247,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "firework",
               "x": "0",
               "y": "0",
@@ -2267,7 +2267,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "firespring",
               "x": "0",
               "y": "0",
@@ -2287,7 +2287,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "fire.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2302,7 +2302,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "lightening.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2317,7 +2317,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "snow.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2332,7 +2332,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "hyper_snow.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2347,7 +2347,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "snow01.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2362,7 +2362,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "snow02.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2377,7 +2377,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "old_film_effect.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2392,7 +2392,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "hearts.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2407,7 +2407,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "atomic-bomb.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2422,7 +2422,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "aud-01.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2437,7 +2437,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "aud-banner.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2452,7 +2452,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "aud-clap.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2467,7 +2467,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "black_all.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2482,7 +2482,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "black_bar.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2497,7 +2497,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "blue_screen.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2512,7 +2512,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "circle_fade_out.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2527,7 +2527,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "fade_in.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2542,7 +2542,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "fade_out.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2557,7 +2557,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "flash_light01.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2572,7 +2572,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "gnn_news.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2587,7 +2587,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "green_screen.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2602,7 +2602,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ppl01.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2617,7 +2617,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bomb.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2632,7 +2632,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "water_flood.swf",
               "type": "ANIME",
               "resize": "false",
@@ -2647,7 +2647,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "DV_screen.swf",
               "type": "ANIME",
               "resize": "false",

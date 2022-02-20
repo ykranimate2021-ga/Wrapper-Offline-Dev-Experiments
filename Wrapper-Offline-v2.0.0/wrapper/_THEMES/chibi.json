@@ -1,7 +1,7 @@
 {
   "background": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_floor01.swf",
               "name": "Interior",
               "enable": "Y",
@@ -13,7 +13,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jpschool_outside.swf",
               "name": "School outdoors",
               "enable": "Y",
@@ -25,7 +25,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jpschoolfront.swf",
               "name": "Interior",
               "enable": "Y",
@@ -37,7 +37,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_floor02.swf",
               "name": "Interior",
               "enable": "Y",
@@ -49,7 +49,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_view_cus.swf",
               "name": "Interior",
               "enable": "Y",
@@ -61,7 +61,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jpschool_outside2.swf",
               "name": "Outdoor",
               "enable": "Y",
@@ -73,7 +73,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "wall11.swf",
               "name": "wallpaper",
               "enable": "Y",
@@ -85,7 +85,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "wall12.swf",
               "name": "wallpaper",
               "enable": "Y",
@@ -97,7 +97,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "wall13.swf",
               "name": "wallpaper",
               "enable": "Y",
@@ -111,7 +111,7 @@
   ],
   "compositebg": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_chibi_street02",
               "name": "City street",
               "enable": "Y",
@@ -124,7 +124,7 @@
               "aid": "15045"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_chibi_street02_BG336",
                   "index": "0"
               },
@@ -133,7 +133,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP26",
                       "index": "8"
                   },
@@ -147,7 +147,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP28",
                       "index": "9"
                   },
@@ -161,7 +161,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP29",
                       "index": "1"
                   },
@@ -174,7 +174,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP30",
                       "index": "6"
                   },
@@ -187,7 +187,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP31",
                       "index": "7"
                   },
@@ -200,7 +200,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP32",
                       "index": "3"
                   },
@@ -213,7 +213,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP33",
                       "index": "5"
                   },
@@ -227,7 +227,7 @@
                   "color": "6723942"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP34",
                       "index": "2"
                   },
@@ -240,7 +240,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street02_PROP36",
                       "index": "11"
                   },
@@ -256,7 +256,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_chibi_street01",
               "name": "City street",
               "enable": "Y",
@@ -269,7 +269,7 @@
               "aid": "15041"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_chibi_street01_BG339",
                   "index": "0"
               },
@@ -278,7 +278,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP26",
                       "index": "7"
                   },
@@ -292,7 +292,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP27",
                       "index": "8"
                   },
@@ -306,7 +306,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP28",
                       "index": "9"
                   },
@@ -320,7 +320,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP29",
                       "index": "5"
                   },
@@ -333,7 +333,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP30",
                       "index": "4"
                   },
@@ -346,7 +346,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP31",
                       "index": "2"
                   },
@@ -359,7 +359,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP32",
                       "index": "1"
                   },
@@ -372,7 +372,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP33",
                       "index": "10"
                   },
@@ -385,7 +385,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_chibi_street01_PROP34",
                       "index": "3"
                   },
@@ -400,7 +400,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_chibi_street03",
               "name": "City street",
               "enable": "Y",
@@ -413,7 +413,7 @@
               "aid": "15046"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG351",
                   "index": "0"
               },
@@ -422,7 +422,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP60",
                       "index": "1"
                   },
@@ -435,7 +435,7 @@
                   "rotation": "6.9"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP61",
                       "index": "2"
                   },
@@ -448,7 +448,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP50",
                       "index": "3"
                   },
@@ -461,7 +461,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP51",
                       "index": "4"
                   },
@@ -474,7 +474,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP52",
                       "index": "5"
                   },
@@ -487,7 +487,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP53",
                       "index": "9"
                   },
@@ -501,7 +501,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP54",
                       "index": "6"
                   },
@@ -514,7 +514,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP55",
                       "index": "7"
                   },
@@ -527,7 +527,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP56",
                       "index": "10"
                   },
@@ -540,7 +540,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP57",
                       "index": "11"
                   },
@@ -554,7 +554,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP58",
                       "index": "8"
                   },
@@ -569,7 +569,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_chibi_tv_room",
               "name": "Dining room",
               "enable": "Y",
@@ -582,7 +582,7 @@
               "aid": "15044"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG341",
                   "index": "0"
               },
@@ -590,7 +590,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP40",
                       "index": "1"
                   },
@@ -603,7 +603,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP28",
                       "index": "2"
                   },
@@ -616,7 +616,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP36",
                       "index": "3"
                   },
@@ -629,7 +629,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP33",
                       "index": "5"
                   },
@@ -642,7 +642,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP34",
                       "index": "6"
                   },
@@ -655,7 +655,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP29",
                       "index": "7"
                   },
@@ -668,7 +668,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP30",
                       "index": "8"
                   },
@@ -681,7 +681,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP31",
                       "index": "9"
                   },
@@ -694,7 +694,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP32",
                       "index": "10"
                   },
@@ -707,7 +707,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP23",
                       "index": "11"
                   },
@@ -720,7 +720,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP24",
                       "index": "12"
                   },
@@ -733,7 +733,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP39",
                       "index": "13"
                   },
@@ -747,7 +747,7 @@
                   "color": "10066278"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP41",
                       "index": "14"
                   },
@@ -760,7 +760,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP44",
                       "index": "16"
                   },
@@ -773,7 +773,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP42",
                       "index": "15"
                   },
@@ -786,7 +786,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP43",
                       "index": "4"
                   },
@@ -801,7 +801,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_chibi_bedroom01",
               "name": "Study room",
               "enable": "Y",
@@ -814,7 +814,7 @@
               "aid": "15043"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG341",
                   "index": "0"
               },
@@ -822,7 +822,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP37",
                       "index": "1"
                   },
@@ -835,7 +835,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP33",
                       "index": "2"
                   },
@@ -848,7 +848,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP34",
                       "index": "3"
                   },
@@ -861,7 +861,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP29",
                       "index": "4"
                   },
@@ -874,7 +874,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP30",
                       "index": "5"
                   },
@@ -887,7 +887,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP31",
                       "index": "6"
                   },
@@ -900,7 +900,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP32",
                       "index": "7"
                   },
@@ -913,7 +913,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP35",
                       "index": "8"
                   },
@@ -926,7 +926,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP36",
                       "index": "9"
                   },
@@ -939,7 +939,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP38",
                       "index": "12"
                   },
@@ -952,7 +952,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP39",
                       "index": "10"
                   },
@@ -967,7 +967,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_chibi_bedroom02",
               "name": "Bedroom",
               "enable": "Y",
@@ -980,7 +980,7 @@
               "aid": "15042"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG341",
                   "index": "0"
               },
@@ -988,7 +988,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP37",
                       "index": "1"
                   },
@@ -1001,7 +1001,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP33",
                       "index": "2"
                   },
@@ -1014,7 +1014,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP34",
                       "index": "3"
                   },
@@ -1027,7 +1027,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP29",
                       "index": "4"
                   },
@@ -1040,7 +1040,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP30",
                       "index": "5"
                   },
@@ -1053,7 +1053,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP31",
                       "index": "6"
                   },
@@ -1066,7 +1066,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP32",
                       "index": "7"
                   },
@@ -1079,7 +1079,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP35",
                       "index": "8"
                   },
@@ -1092,7 +1092,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP38",
                       "index": "10"
                   },
@@ -1105,7 +1105,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP22",
                       "index": "9"
                   },
@@ -1120,7 +1120,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_school_front",
               "name": "School gate",
               "enable": "Y",
@@ -1133,7 +1133,7 @@
               "aid": "14782"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG8",
                   "index": "0"
               },
@@ -1142,7 +1142,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP123",
                       "index": "1"
                   },
@@ -1155,7 +1155,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP24",
                       "index": "2"
                   },
@@ -1168,7 +1168,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP23",
                       "index": "3"
                   },
@@ -1181,7 +1181,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP22",
                       "index": "4"
                   },
@@ -1194,7 +1194,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP20",
                       "index": "5"
                   },
@@ -1207,7 +1207,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP17",
                       "index": "6"
                   },
@@ -1220,7 +1220,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP15",
                       "index": "7"
                   },
@@ -1233,7 +1233,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP11",
                       "index": "8"
                   },
@@ -1246,7 +1246,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP16",
                       "index": "9"
                   },
@@ -1259,7 +1259,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP19",
                       "index": "10"
                   },
@@ -1272,7 +1272,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP59",
                       "index": "11"
                   },
@@ -1285,7 +1285,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP311",
                       "index": "12"
                   },
@@ -1298,7 +1298,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP323",
                       "index": "13"
                   },
@@ -1313,7 +1313,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_shoes_locker",
               "name": "School lockers",
               "enable": "Y",
@@ -1326,7 +1326,7 @@
               "aid": "14783"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG54",
                   "index": "0"
               },
@@ -1335,7 +1335,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP429",
                       "index": "1"
                   },
@@ -1349,7 +1349,7 @@
                   "color": "13354160"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP430",
                       "index": "2"
                   },
@@ -1362,7 +1362,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP431",
                       "index": "3"
                   },
@@ -1375,7 +1375,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP432",
                       "index": "4"
                   },
@@ -1388,7 +1388,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP435",
                       "index": "5"
                   },
@@ -1401,7 +1401,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP436",
                       "index": "6"
                   },
@@ -1414,7 +1414,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP433",
                       "index": "7"
                   },
@@ -1427,7 +1427,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP434",
                       "index": "8"
                   },
@@ -1440,7 +1440,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP437",
                       "index": "10"
                   },
@@ -1453,7 +1453,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP438",
                       "index": "9"
                   },
@@ -1466,7 +1466,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP439",
                       "index": "11"
                   },
@@ -1481,7 +1481,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_classroom01",
               "name": "Classroom",
               "enable": "Y",
@@ -1494,7 +1494,7 @@
               "aid": "14784"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG322",
                   "index": "0"
               },
@@ -1502,7 +1502,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP536",
                       "index": "32"
                   },
@@ -1515,7 +1515,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP537",
                       "index": "31"
                   },
@@ -1528,7 +1528,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP538",
                       "index": "30"
                   },
@@ -1541,7 +1541,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP539",
                       "index": "29"
                   },
@@ -1554,7 +1554,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP540",
                       "index": "28"
                   },
@@ -1567,7 +1567,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP541",
                       "index": "27"
                   },
@@ -1580,7 +1580,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP542",
                       "index": "26"
                   },
@@ -1593,7 +1593,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP543",
                       "index": "25"
                   },
@@ -1606,7 +1606,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP544",
                       "index": "24"
                   },
@@ -1619,7 +1619,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP545",
                       "index": "23"
                   },
@@ -1632,7 +1632,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP546",
                       "index": "22"
                   },
@@ -1645,7 +1645,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP547",
                       "index": "21"
                   },
@@ -1658,7 +1658,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP548",
                       "index": "20"
                   },
@@ -1671,7 +1671,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP549",
                       "index": "19"
                   },
@@ -1684,7 +1684,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP550",
                       "index": "18"
                   },
@@ -1697,7 +1697,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP551",
                       "index": "17"
                   },
@@ -1710,7 +1710,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP552",
                       "index": "16"
                   },
@@ -1723,7 +1723,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP553",
                       "index": "15"
                   },
@@ -1736,7 +1736,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP554",
                       "index": "14"
                   },
@@ -1749,7 +1749,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP555",
                       "index": "13"
                   },
@@ -1763,7 +1763,7 @@
                   "color": "13421772"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP556",
                       "index": "12"
                   },
@@ -1776,7 +1776,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP557",
                       "index": "11"
                   },
@@ -1789,7 +1789,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP558",
                       "index": "10"
                   },
@@ -1802,7 +1802,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP559",
                       "index": "8"
                   },
@@ -1815,7 +1815,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP560",
                       "index": "9"
                   },
@@ -1828,7 +1828,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP561",
                       "index": "7"
                   },
@@ -1841,7 +1841,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP562",
                       "index": "5"
                   },
@@ -1854,7 +1854,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP563",
                       "index": "6"
                   },
@@ -1867,7 +1867,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP564",
                       "index": "4"
                   },
@@ -1881,7 +1881,7 @@
                   "color": "13421772"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP565",
                       "index": "3"
                   },
@@ -1894,7 +1894,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP566",
                       "index": "2"
                   },
@@ -1908,7 +1908,7 @@
                   "color": "12630179"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP567",
                       "index": "1"
                   },
@@ -1923,7 +1923,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_blackboard",
               "name": "Blackboard",
               "enable": "Y",
@@ -1936,7 +1936,7 @@
               "aid": "14785"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG339",
                   "index": "0"
               },
@@ -1944,7 +1944,7 @@
               "color": "14867141"
           },
           "prop": {
-              "@attributes": {
+              "attributes": {
                   "id": "PROP2",
                   "index": "1"
               },
@@ -1958,7 +1958,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_classroom02",
               "name": "Classroom",
               "enable": "Y",
@@ -1971,7 +1971,7 @@
               "aid": "14786"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG437",
                   "index": "0"
               },
@@ -1979,7 +1979,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP119",
                       "index": "1"
                   },
@@ -1992,7 +1992,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP120",
                       "index": "2"
                   },
@@ -2006,7 +2006,7 @@
                   "color": "12630179"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP121",
                       "index": "3"
                   },
@@ -2019,7 +2019,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP122",
                       "index": "4"
                   },
@@ -2032,7 +2032,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP123",
                       "index": "5"
                   },
@@ -2045,7 +2045,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP124",
                       "index": "6"
                   },
@@ -2058,7 +2058,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP126",
                       "index": "7"
                   },
@@ -2071,7 +2071,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP127",
                       "index": "8"
                   },
@@ -2084,7 +2084,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP128",
                       "index": "9"
                   },
@@ -2097,7 +2097,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP129",
                       "index": "10"
                   },
@@ -2110,7 +2110,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP130",
                       "index": "11"
                   },
@@ -2123,7 +2123,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP131",
                       "index": "12"
                   },
@@ -2136,7 +2136,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP132",
                       "index": "23"
                   },
@@ -2149,7 +2149,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP133",
                       "index": "24"
                   },
@@ -2162,7 +2162,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP134",
                       "index": "25"
                   },
@@ -2175,7 +2175,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP135",
                       "index": "26"
                   },
@@ -2188,7 +2188,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP136",
                       "index": "27"
                   },
@@ -2201,7 +2201,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP137",
                       "index": "28"
                   },
@@ -2214,7 +2214,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP138",
                       "index": "29"
                   },
@@ -2227,7 +2227,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP139",
                       "index": "30"
                   },
@@ -2240,7 +2240,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP140",
                       "index": "31"
                   },
@@ -2253,7 +2253,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP141",
                       "index": "32"
                   },
@@ -2266,7 +2266,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP142",
                       "index": "33"
                   },
@@ -2279,7 +2279,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP143",
                       "index": "13"
                   },
@@ -2292,7 +2292,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP144",
                       "index": "14"
                   },
@@ -2305,7 +2305,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP145",
                       "index": "34"
                   },
@@ -2318,7 +2318,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP146",
                       "index": "35"
                   },
@@ -2331,7 +2331,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP147",
                       "index": "36"
                   },
@@ -2344,7 +2344,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP148",
                       "index": "37"
                   },
@@ -2357,7 +2357,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP149",
                       "index": "38"
                   },
@@ -2370,7 +2370,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP150",
                       "index": "39"
                   },
@@ -2383,7 +2383,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP151",
                       "index": "16"
                   },
@@ -2396,7 +2396,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP152",
                       "index": "17"
                   },
@@ -2410,7 +2410,7 @@
                   "color": "13421772"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP153",
                       "index": "19"
                   },
@@ -2423,7 +2423,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP154",
                       "index": "18"
                   },
@@ -2437,7 +2437,7 @@
                   "color": "13421772"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP155",
                       "index": "21"
                   },
@@ -2450,7 +2450,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP156",
                       "index": "22"
                   },
@@ -2463,7 +2463,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP157",
                       "index": "20"
                   },
@@ -2476,7 +2476,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP158",
                       "index": "15"
                   },
@@ -2492,7 +2492,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_hallway01",
               "name": "Hallway",
               "enable": "Y",
@@ -2505,7 +2505,7 @@
               "aid": "14787"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG54",
                   "index": "0"
               },
@@ -2514,7 +2514,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP317",
                       "index": "1"
                   },
@@ -2527,7 +2527,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP316",
                       "index": "2"
                   },
@@ -2540,7 +2540,7 @@
                   "rotation": "31.2"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP315",
                       "index": "3"
                   },
@@ -2553,7 +2553,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP313",
                       "index": "4"
                   },
@@ -2566,7 +2566,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP314",
                       "index": "5"
                   },
@@ -2581,7 +2581,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_classroom_outside",
               "name": "Hallway",
               "enable": "Y",
@@ -2594,7 +2594,7 @@
               "aid": "14788"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG54",
                   "index": "0"
               },
@@ -2603,7 +2603,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP202",
                       "index": "1"
                   },
@@ -2616,7 +2616,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP34",
                       "index": "2"
                   },
@@ -2630,7 +2630,7 @@
                   "color": "13421772"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP205",
                       "index": "4"
                   },
@@ -2643,7 +2643,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP36",
                       "index": "5"
                   },
@@ -2657,7 +2657,7 @@
                   "color": "13421772"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP35",
                       "index": "6"
                   },
@@ -2671,7 +2671,7 @@
                   "color": "13421772"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP204",
                       "index": "7"
                   },
@@ -2684,7 +2684,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP210",
                       "index": "8"
                   },
@@ -2697,7 +2697,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP211",
                       "index": "9"
                   },
@@ -2710,7 +2710,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP207",
                       "index": "10"
                   },
@@ -2723,7 +2723,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP214",
                       "index": "11"
                   },
@@ -2736,7 +2736,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP209",
                       "index": "3"
                   },
@@ -2749,7 +2749,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP219",
                       "index": "12"
                   },
@@ -2762,7 +2762,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP220",
                       "index": "13"
                   },
@@ -2775,7 +2775,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP221",
                       "index": "14"
                   },
@@ -2788,7 +2788,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP213",
                       "index": "15"
                   },
@@ -2801,7 +2801,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP224",
                       "index": "16"
                   },
@@ -2814,7 +2814,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP225",
                       "index": "17"
                   },
@@ -2829,7 +2829,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_stair",
               "name": "Hallway",
               "enable": "Y",
@@ -2842,7 +2842,7 @@
               "aid": "14789"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG432",
                   "index": "0"
               },
@@ -2850,7 +2850,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP14",
                       "index": "1"
                   },
@@ -2864,7 +2864,7 @@
                   "color": "11446163"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP15",
                       "index": "2"
                   },
@@ -2877,7 +2877,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP16",
                       "index": "3"
                   },
@@ -2890,7 +2890,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP17",
                       "index": "4"
                   },
@@ -2903,7 +2903,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP18",
                       "index": "5"
                   },
@@ -2916,7 +2916,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP19",
                       "index": "6"
                   },
@@ -2929,7 +2929,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP20",
                       "index": "7"
                   },
@@ -2944,7 +2944,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_roof",
               "name": "School rooftop",
               "enable": "Y",
@@ -2957,7 +2957,7 @@
               "aid": "14790"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG281",
                   "index": "0"
               },
@@ -2966,7 +2966,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP42",
                       "index": "4"
                   },
@@ -2979,7 +2979,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP43",
                       "index": "5"
                   },
@@ -2992,7 +2992,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP44",
                       "index": "6"
                   },
@@ -3005,7 +3005,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP307",
                       "index": "1"
                   },
@@ -3018,7 +3018,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP308",
                       "index": "2"
                   },
@@ -3031,7 +3031,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP309",
                       "index": "3"
                   },
@@ -3044,7 +3044,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP318",
                       "index": "7"
                   },
@@ -3057,7 +3057,7 @@
                   "rotation": "-19.4"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP320",
                       "index": "8"
                   },
@@ -3070,7 +3070,7 @@
                   "rotation": "20.6"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP321",
                       "index": "9"
                   },
@@ -3083,7 +3083,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP322",
                       "index": "10"
                   },
@@ -3096,7 +3096,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP324",
                       "index": "11"
                   },
@@ -3109,7 +3109,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP325",
                       "index": "12"
                   },
@@ -3122,7 +3122,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP326",
                       "index": "13"
                   },
@@ -3135,7 +3135,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP327",
                       "index": "14"
                   },
@@ -3148,7 +3148,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP354",
                       "index": "15"
                   },
@@ -3161,7 +3161,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP357",
                       "index": "16"
                   },
@@ -3174,7 +3174,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP360",
                       "index": "17"
                   },
@@ -3187,7 +3187,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP361",
                       "index": "18"
                   },
@@ -3200,7 +3200,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP40",
                       "index": "19"
                   },
@@ -3214,7 +3214,7 @@
                   "color": "10066329"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP41",
                       "index": "20"
                   },
@@ -3230,7 +3230,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_exit",
               "name": "School entrance",
               "enable": "Y",
@@ -3243,7 +3243,7 @@
               "aid": "14791"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "BG553",
                   "index": "0"
               },
@@ -3256,7 +3256,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP20",
                       "index": "1"
                   },
@@ -3269,7 +3269,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP21",
                       "index": "2"
                   },
@@ -3282,7 +3282,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP22",
                       "index": "3"
                   },
@@ -3295,7 +3295,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP23",
                       "index": "4"
                   },
@@ -3308,7 +3308,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP24",
                       "index": "5"
                   },
@@ -3321,7 +3321,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP25",
                       "index": "6"
                   },
@@ -3334,7 +3334,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP26",
                       "index": "7"
                   },
@@ -3347,7 +3347,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP27",
                       "index": "8"
                   },
@@ -3360,7 +3360,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP28",
                       "index": "9"
                   },
@@ -3373,7 +3373,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP33",
                       "index": "10"
                   },
@@ -3386,7 +3386,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP34",
                       "index": "11"
                   },
@@ -3399,7 +3399,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP35",
                       "index": "12"
                   },
@@ -3412,7 +3412,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP31",
                       "index": "13"
                   },
@@ -3426,7 +3426,7 @@
                   "color": "14867141"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP32",
                       "index": "14"
                   },
@@ -3439,7 +3439,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP36",
                       "index": "15"
                   },
@@ -3452,7 +3452,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "PROP37",
                       "index": "16"
                   },
@@ -3467,7 +3467,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cbg_sch_sakura",
               "name": "sakura",
               "enable": "Y",
@@ -3480,7 +3480,7 @@
               "aid": "14975"
           },
           "bg": {
-              "@attributes": {
+              "attributes": {
                   "id": "cbg_sch_sakura_BG337",
                   "index": "0"
               },
@@ -3492,7 +3492,7 @@
           },
           "prop": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP26",
                       "index": "7"
                   },
@@ -3505,7 +3505,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP27",
                       "index": "4"
                   },
@@ -3522,7 +3522,7 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP28",
                       "index": "9"
                   },
@@ -3536,7 +3536,7 @@
                   "color": "16751001"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP29",
                       "index": "5"
                   },
@@ -3550,7 +3550,7 @@
                   "color": "16751001"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP30",
                       "index": "10"
                   },
@@ -3564,7 +3564,7 @@
                   "color": "16764108"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP31",
                       "index": "11"
                   },
@@ -3577,7 +3577,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP32",
                       "index": "12"
                   },
@@ -3590,7 +3590,7 @@
                   "rotation": "0"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP33",
                       "index": "3"
                   },
@@ -3604,7 +3604,7 @@
                   "color": "16764057"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP34",
                       "index": "2"
                   },
@@ -3618,7 +3618,7 @@
                   "color": "16764057"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "cbg_sch_sakura_PROP35",
                       "index": "1"
                   },
@@ -3636,7 +3636,7 @@
   ],
   "prop": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jptree02.swf",
               "name": "Tree",
               "holdable": "0",
@@ -3652,7 +3652,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jptree01.swf",
               "name": "Tree",
               "holdable": "0",
@@ -3668,7 +3668,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jptable01",
               "name": "School desk",
               "holdable": "0",
@@ -3684,7 +3684,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jptable01_ncc_jptable01_front.swf",
                       "name": "side",
                       "enable": "Y",
@@ -3692,14 +3692,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jptable01_ncc_jptable01_back.swf",
                       "name": "side - back",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jptable01_ncc_jptable01_cus.swf",
                       "name": "front",
                       "enable": "Y"
@@ -3708,7 +3708,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpcabinet02",
               "name": "Shelves",
               "holdable": "0",
@@ -3724,7 +3724,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet02_ncc_jpcabinet02_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -3732,14 +3732,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet02_ncc_jpcabinet02_side.swf",
                       "name": "side",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet02_ncc_jpcabinet02_cus.swf",
                       "name": "flattened",
                       "enable": "Y"
@@ -3748,7 +3748,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpcabinet03",
               "name": "Shelves",
               "holdable": "0",
@@ -3764,7 +3764,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet03_ncc_jpstorage01_cus.swf",
                       "name": "front",
                       "enable": "Y",
@@ -3772,7 +3772,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet03_ncc_jpstorage02_cus.swf",
                       "name": "individual block",
                       "enable": "Y"
@@ -3781,7 +3781,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jprectangle02",
               "name": "Brick wall",
               "holdable": "0",
@@ -3797,7 +3797,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jprectangle02_ncc_jprectangle02_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -3805,7 +3805,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jprectangle02_ncc_jprectangle02_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -3814,7 +3814,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jprectangle",
               "name": "Concrete wall",
               "holdable": "0",
@@ -3830,7 +3830,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jprectangle_ncc_jprectangle_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -3838,7 +3838,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jprectangle_ncc_jprectangle_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -3847,7 +3847,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jpposter01.swf",
               "name": "Poster",
               "holdable": "0",
@@ -3863,7 +3863,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpplatform",
               "name": "Wooden planks",
               "holdable": "0",
@@ -3879,7 +3879,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpplatform_ncc_jpplatform_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -3887,7 +3887,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpplatform_ncc_jpplaform_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -3896,7 +3896,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jpmemoboard.swf",
               "name": "Corkboard",
               "holdable": "0",
@@ -3912,7 +3912,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jplocker01",
               "name": "Lockers",
               "holdable": "0",
@@ -3928,7 +3928,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jplocker01_ncc_jplocker01_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -3936,21 +3936,21 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jplocker01_ncc_jplocker01_cus.swf",
                       "name": "front - flattened",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jplocker01_ncc_jplocker01_open.swf",
                       "name": "side - opened",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jplocker01_ncc_jplocker01_side.swf",
                       "name": "side - closed",
                       "enable": "Y"
@@ -3959,7 +3959,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpfence01",
               "name": "Fences",
               "holdable": "0",
@@ -3975,7 +3975,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpfence01_ncc_jpfence01.swf",
                       "name": "front",
                       "enable": "Y",
@@ -3983,14 +3983,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpfence01_ncc_jpfence03.swf",
                       "name": "side",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpfence01_ncc_jpfence02.swf",
                       "name": "corner",
                       "enable": "Y"
@@ -3999,7 +3999,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpdoubledoor",
               "name": "Sliding doors",
               "holdable": "0",
@@ -4015,7 +4015,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf",
                       "name": "side - open",
                       "enable": "Y",
@@ -4023,21 +4023,21 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpdoubledoor_ncc_jpdoubledoor_side_closed.swf",
                       "name": "side - closed",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpdoubledoor_ncc_jpdoubledoor_front_open.swf",
                       "name": "front - opened",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf",
                       "name": "front - closed",
                       "enable": "Y"
@@ -4046,7 +4046,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpcupboard02",
               "name": "Cupboard",
               "holdable": "0",
@@ -4062,7 +4062,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcupboard02_ncc_jpcupboard02_front.swf",
                       "name": "front - closed",
                       "enable": "Y",
@@ -4070,21 +4070,21 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcupboard02_ncc_jpcupboard02_frontopen.swf",
                       "name": "front - opened",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcupboard02_ncc_jpcupboard02_sideopen.swf",
                       "name": "side - opened",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcupboard02_ncc_jpcupboard02_side.swf",
                       "name": "side - closed",
                       "enable": "Y"
@@ -4093,7 +4093,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpcrmtable01",
               "name": "Desk",
               "holdable": "0",
@@ -4109,7 +4109,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcrmtable01_ncc_jpcrmtable01_front.swf",
                       "name": "side",
                       "enable": "Y",
@@ -4117,7 +4117,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcrmtable01_ncc_jpcrmtable01_cus.swf",
                       "name": "side 2",
                       "enable": "Y"
@@ -4126,7 +4126,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpchair",
               "name": "School chair",
               "holdable": "0",
@@ -4142,7 +4142,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpchair_ncc_jpchair_side.swf",
                       "name": "side",
                       "enable": "Y",
@@ -4150,21 +4150,21 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpchair_ncc_jpchair_back.swf",
                       "name": "back",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpchair_ncc_jpchair_back2.swf",
                       "name": "back of the chair",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpchair_ncc_jpchair_cus.swf",
                       "name": "front",
                       "enable": "Y"
@@ -4173,7 +4173,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpcabinet",
               "name": "Drawers",
               "holdable": "0",
@@ -4189,7 +4189,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet_ncc_jpcabinet_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4197,14 +4197,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet_ncc_jpcabinet_side.swf",
                       "name": "side",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpcabinet_ncc_jpcabinet_cus.swf",
                       "name": "flattened",
                       "enable": "Y"
@@ -4213,7 +4213,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_sign_school_front.swf",
               "name": "Empty sign",
               "holdable": "0",
@@ -4229,7 +4229,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jp_sign_exit",
               "name": "Exit sign",
               "holdable": "0",
@@ -4245,7 +4245,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_sign_exit_ncc_jp_sign_exit_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4253,7 +4253,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_sign_exit_ncc_jp_sign_exit_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4262,7 +4262,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jp_sign_class",
               "name": "Classroom sign",
               "holdable": "0",
@@ -4278,7 +4278,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_sign_class_ncc_jp_sign_class_front.swf",
                       "name": "front - 1A",
                       "enable": "Y",
@@ -4286,21 +4286,21 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_sign_class_ncc_jp_sign_class2_front.swf",
                       "name": "front - empty",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_sign_class_ncc_jp_sign_class_side.swf",
                       "name": "side - right",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_sign_class_ncc_jp_sign_class_cus.swf",
                       "name": "side - left",
                       "enable": "Y"
@@ -4309,7 +4309,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_cloud03.swf",
               "name": "Cloud",
               "holdable": "0",
@@ -4325,7 +4325,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_cloud02.swf",
               "name": "Cloud",
               "holdable": "0",
@@ -4341,7 +4341,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_cloud01.swf",
               "name": "Cloud",
               "holdable": "0",
@@ -4357,7 +4357,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpsllocker01",
               "name": "Lockers",
               "holdable": "0",
@@ -4373,7 +4373,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpsllocker01_ncc_jpsllocker01_close.swf",
                       "name": "front - closed",
                       "enable": "Y",
@@ -4381,7 +4381,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpsllocker01_ncc_jpsllocker01_open.swf",
                       "name": "front - opened",
                       "enable": "Y"
@@ -4390,7 +4390,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall03",
               "name": "Wall",
               "holdable": "0",
@@ -4406,7 +4406,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall03_ncc_jpwall03_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4414,7 +4414,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall03_ncc_jpwall03_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4423,7 +4423,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall04",
               "name": "Wall",
               "holdable": "0",
@@ -4439,7 +4439,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall04_ncc_jpwall04_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4447,7 +4447,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall04_ncc_jpwall04_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4456,7 +4456,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall01",
               "name": "Wall",
               "holdable": "0",
@@ -4472,7 +4472,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall01_ncc_jpwall01_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4480,7 +4480,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall01_ncc_jpwall01_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4489,7 +4489,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall02",
               "name": "Wall",
               "holdable": "0",
@@ -4505,7 +4505,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall02_ncc_jpwall02_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4513,7 +4513,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall02_ncc_jpwall02_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4522,7 +4522,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall05",
               "name": "Wall",
               "holdable": "0",
@@ -4538,7 +4538,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall05_ncc_jpwall05_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4546,7 +4546,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall05_ncc_jpwall05_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4555,7 +4555,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall06",
               "name": "Wall",
               "holdable": "0",
@@ -4571,7 +4571,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall06_ncc_jpwall06_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4579,7 +4579,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall06_ncc_jpwall06_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4588,7 +4588,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall07",
               "name": "Wall",
               "holdable": "0",
@@ -4604,7 +4604,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall07_ncc_jpwall07_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4612,7 +4612,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall07_ncc_jpwall07_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4621,7 +4621,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall08",
               "name": "Wall",
               "holdable": "0",
@@ -4637,7 +4637,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall08_ncc_jpwall08_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4645,7 +4645,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall08_ncc_jpwall08_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4654,7 +4654,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpwall09",
               "name": "Wall",
               "holdable": "0",
@@ -4670,7 +4670,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall09_ncc_jpwall09_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4678,14 +4678,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall09_ncc_jpwall09_side.swf",
                       "name": "side",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpwall09_ncc_jpwall09_front2.swf",
                       "name": "front 2",
                       "enable": "Y"
@@ -4694,7 +4694,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jp_window_display",
               "name": "Window",
               "holdable": "0",
@@ -4710,7 +4710,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_window_display_ncc_jp_window_display.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4718,14 +4718,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_window_display_ncc_jp_window_display_side.swf",
                       "name": "side",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_window_display_ncc_jp_window_display_cus.swf",
                       "name": "side 2",
                       "enable": "Y"
@@ -4734,7 +4734,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_schoolentrance01.swf",
               "name": "School entrance",
               "holdable": "0",
@@ -4750,7 +4750,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jp_road01",
               "name": "Pavement",
               "holdable": "0",
@@ -4766,7 +4766,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_road01_ncc_jp_road01_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4774,7 +4774,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jp_road01_ncc_jp_road01_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4783,7 +4783,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_plants02.swf",
               "name": "Bush",
               "holdable": "0",
@@ -4799,7 +4799,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_cork_jpboard",
               "name": "Blackboard",
               "holdable": "0",
@@ -4815,7 +4815,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_cork_jpboard_ncc_cork_jpboard_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -4823,7 +4823,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_cork_jpboard_ncc_cork_jpboard_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -4832,7 +4832,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_jpsllocker02",
               "name": "Locker",
               "holdable": "0",
@@ -4848,7 +4848,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpsllocker02_ncc_jpsllocker02_close.swf",
                       "name": "closed",
                       "enable": "Y",
@@ -4856,14 +4856,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpsllocker02_ncc_jpsllocker02_open.swf",
                       "name": "opened",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_jpsllocker02_ncc_jpsllocker02_cus.swf",
                       "name": "opened - mops",
                       "enable": "Y"
@@ -4872,7 +4872,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jpbook_front.swf",
               "name": "Notebook",
               "holdable": "0",
@@ -4888,7 +4888,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jpslfire.swf",
               "name": "Fire extinguisher",
               "holdable": "0",
@@ -4904,7 +4904,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "square01.swf",
               "name": "jp_square",
               "holdable": "0",
@@ -4920,7 +4920,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "backdrop.swf",
               "name": "jp_backdrop",
               "holdable": "0",
@@ -4936,7 +4936,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_sniper_rooftop",
               "name": "jp_sniper_rooftop",
               "holdable": "0",
@@ -4952,14 +4952,14 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_sniper_rooftop_ncc_sniper_rooftop02.swf",
                       "name": "half",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_sniper_rooftop_ncc_sniper_rooftop03.swf",
                       "name": "full",
                       "enable": "Y"
@@ -4968,7 +4968,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_grasscover.swf",
               "name": "patch of grass",
               "holdable": "0",
@@ -4984,7 +4984,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_grass.swf",
               "name": "Grass",
               "holdable": "0",
@@ -5000,7 +5000,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_bear.swf",
               "name": "Teddy bear",
               "holdable": "0",
@@ -5016,7 +5016,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_cake.swf",
               "name": "Cake",
               "holdable": "0",
@@ -5032,7 +5032,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_deco01.swf",
               "name": "Street light",
               "holdable": "0",
@@ -5048,7 +5048,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_warmtable.swf",
               "name": "Table",
               "holdable": "0",
@@ -5064,7 +5064,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_ninja_aircon01.swf",
               "name": "Air conditioning",
               "holdable": "0",
@@ -5080,7 +5080,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_ninja_bamboo.swf",
               "name": "Bamboo decoration",
               "holdable": "0",
@@ -5096,7 +5096,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ninja_bed",
               "name": "Bed",
               "holdable": "0",
@@ -5112,14 +5112,14 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_bed_ncc_ninja_bed01.swf",
                       "name": "Bed only",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_bed_ncc_ninja_bed02.swf",
                       "name": "Bed with blanket",
                       "enable": "Y",
@@ -5127,14 +5127,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_bed_ncc_ninja_blanket01.swf",
                       "name": "Blanket only",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_bed_ncc_ninja_blanket02.swf",
                       "name": "Blanket only - someone under",
                       "enable": "Y"
@@ -5143,7 +5143,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_ninja_chair01.swf",
               "name": "Office chair",
               "holdable": "0",
@@ -5159,7 +5159,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ninja_desk01",
               "name": "Desk",
               "holdable": "0",
@@ -5175,7 +5175,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_desk01_ncc_ninja_desk01.swf",
                       "name": "side - books",
                       "enable": "Y",
@@ -5183,7 +5183,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_desk01_ncc_ninja_desk02.swf",
                       "name": "side",
                       "enable": "Y"
@@ -5192,7 +5192,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_ninja_drawer01.swf",
               "name": "Drawers",
               "holdable": "0",
@@ -5208,7 +5208,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_ninja_flower.swf",
               "name": "Flower",
               "holdable": "0",
@@ -5224,7 +5224,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_house01.swf",
               "name": "House",
               "holdable": "0",
@@ -5240,7 +5240,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_house02.swf",
               "name": "House",
               "holdable": "0",
@@ -5256,7 +5256,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_jp_house03.swf",
               "name": "House",
               "holdable": "0",
@@ -5272,7 +5272,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ncc_ninja_lamp01.swf",
               "name": "Lamp",
               "holdable": "0",
@@ -5288,7 +5288,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ninja_tatami",
               "name": "Tatami",
               "holdable": "0",
@@ -5304,7 +5304,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_tatami_ncc_ninja_tatami.swf",
                       "name": "front",
                       "enable": "Y",
@@ -5312,7 +5312,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_tatami_ncc_ninja_tatami2.swf",
                       "name": "side",
                       "enable": "Y"
@@ -5321,7 +5321,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ninja_tv",
               "name": "Old TV set",
               "holdable": "0",
@@ -5337,7 +5337,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_tv_ncc_ninja_tv01_front.swf",
                       "name": "front - off",
                       "enable": "Y",
@@ -5345,21 +5345,21 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_tv_ncc_ninja_tv01_side.swf",
                       "name": "side - off",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_tv_ncc_ninja_tv02_front.swf",
                       "name": "front - on",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_tv_ncc_ninja_tv02_side.swf",
                       "name": "side - on",
                       "enable": "Y"
@@ -5368,7 +5368,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ninja_window",
               "name": "Window",
               "holdable": "0",
@@ -5384,7 +5384,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_window_ncc_ninja_window01.swf",
                       "name": "side - closed",
                       "enable": "Y",
@@ -5392,7 +5392,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_window_ncc_ninja_window02.swf",
                       "name": "side - opened",
                       "enable": "Y"
@@ -5401,7 +5401,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ninja_wall03",
               "name": "Wooden wall",
               "holdable": "0",
@@ -5417,7 +5417,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_wall03_ncc_ninja_wall03_front.swf",
                       "name": "front",
                       "enable": "Y",
@@ -5425,7 +5425,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_wall03_ncc_ninja_wall03_side.swf",
                       "name": "side",
                       "enable": "Y"
@@ -5434,7 +5434,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ninja_door01",
               "name": "Sliding doors",
               "holdable": "0",
@@ -5450,7 +5450,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_door01_ncc_ninja_door01_close.swf",
                       "name": "close",
                       "enable": "Y",
@@ -5458,7 +5458,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ninja_door01_ncc_ninja_door01_open.swf",
                       "name": "open",
                       "enable": "Y"
@@ -5468,7 +5468,7 @@
       }
   ],
   "effect": {
-      "@attributes": {
+      "attributes": {
           "id": "ncc_jp_sakura.swf",
           "type": "ANIME",
           "resize": "false",

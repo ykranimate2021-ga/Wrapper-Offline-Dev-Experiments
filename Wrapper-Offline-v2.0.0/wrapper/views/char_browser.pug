@@ -155,7 +155,7 @@ block content
         var name = document.getElementById("name").value
         var category = document.getElementById("category").value
         var http = new XMLHttpRequest();
-        http.open('POST', "/goapi/updateAsset", true);
+        http.open('POST', "/api/ugc/update", true);
 
         http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 
@@ -174,7 +174,7 @@ block content
 
       function deleteChar(id) {
         var http = new XMLHttpRequest();
-        http.open('POST', "/goapi/deleteAsset", true);
+        http.open('POST', "/api/ugc/delete", true);
 
         http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 

@@ -1,7 +1,7 @@
 {
   "char": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "graduation_bunny",
               "name": "graduation bunny",
               "thumb": "standing.swf",
@@ -16,12 +16,12 @@
           },
           "category": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "cover"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_ear.swf",
                               "name": "ears",
                               "loop": "Y",
@@ -31,7 +31,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_nose.swf",
                               "name": "nose",
                               "loop": "Y",
@@ -41,7 +41,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_mouth.swf",
                               "name": "mouth",
                               "loop": "Y",
@@ -53,12 +53,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "emotion"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "angry.swf",
                               "name": "angry",
                               "loop": "Y",
@@ -68,7 +68,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "happy.swf",
                               "name": "happy",
                               "loop": "Y",
@@ -78,7 +78,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "sad.swf",
                               "name": "sad",
                               "loop": "Y",
@@ -88,7 +88,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "cry.swf",
                               "name": "cry",
                               "loop": "Y",
@@ -98,7 +98,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "thinking.swf",
                               "name": "thinking",
                               "loop": "Y",
@@ -108,7 +108,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "surprised.swf",
                               "name": "surprised",
                               "loop": "Y",
@@ -118,7 +118,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "embarrassed.swf",
                               "name": "embarrassed",
                               "loop": "Y",
@@ -128,7 +128,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "laughing.swf",
                               "name": "laughing",
                               "loop": "Y",
@@ -140,12 +140,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "fight"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "threaten_with_knife.swf",
                               "name": "threaten with knife",
                               "loop": "Y",
@@ -155,7 +155,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hit_with_hammer.swf",
                               "name": "hit with hammer",
                               "loop": "Y",
@@ -165,7 +165,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw.swf",
                               "name": "throw objects",
                               "loop": "Y",
@@ -177,12 +177,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "misbehave"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "wear_restraints.swf",
                               "name": "wear restraints",
                               "loop": "Y",
@@ -192,7 +192,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "burp.swf",
                               "name": "burp",
                               "loop": "Y",
@@ -202,7 +202,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw_up.swf",
                               "name": "throw up",
                               "loop": "Y",
@@ -216,7 +216,7 @@
           ],
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "standing.swf",
                       "name": "standing",
                       "loop": "Y",
@@ -226,7 +226,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "write.swf",
                       "name": "write",
                       "loop": "Y",
@@ -236,7 +236,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "make_fun_of.swf",
                       "name": "make fun of",
                       "loop": "Y",
@@ -246,7 +246,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "point_at.swf",
                       "name": "point at",
                       "loop": "Y",
@@ -256,7 +256,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laugh_at.swf",
                       "name": "laugh at",
                       "loop": "Y",
@@ -266,7 +266,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance.swf",
                       "name": "dance",
                       "loop": "Y",
@@ -276,7 +276,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "guitar.swf",
                       "name": "play guitar",
                       "loop": "Y",
@@ -286,7 +286,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sitting.swf",
                       "name": "sitting",
                       "loop": "Y",
@@ -296,7 +296,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk.swf",
                       "name": "talk",
                       "loop": "Y",
@@ -308,7 +308,7 @@
           ],
           "motion": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "walk.swf",
                       "name": "walk",
                       "loop": "Y",
@@ -318,7 +318,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "run.swf",
                       "name": "run",
                       "loop": "Y",
@@ -328,7 +328,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "hop.swf",
                       "name": "hop",
                       "loop": "Y",
@@ -340,7 +340,7 @@
           ],
           "facial": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_happy.swf",
                       "name": "happy",
                       "enable": "Y",
@@ -348,7 +348,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_angry.swf",
                       "name": "angry",
                       "enable": "Y",
@@ -356,7 +356,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sad.swf",
                       "name": "sad",
                       "enable": "Y",
@@ -364,7 +364,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_cry.swf",
                       "name": "cry",
                       "enable": "Y",
@@ -372,7 +372,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_thinking.swf",
                       "name": "thinking",
                       "enable": "Y",
@@ -380,7 +380,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_shocked.swf",
                       "name": "shocked",
                       "enable": "Y",
@@ -388,7 +388,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_scared.swf",
                       "name": "scared",
                       "enable": "Y",
@@ -396,7 +396,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_laugh.swf",
                       "name": "laughing",
                       "enable": "Y",
@@ -404,7 +404,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_stick_out_tongue.swf",
                       "name": "stick out tongue",
                       "enable": "Y",
@@ -412,7 +412,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_evil_look.swf",
                       "name": "evil look",
                       "enable": "Y",
@@ -420,7 +420,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_knocked_out.swf",
                       "name": "knocked out",
                       "enable": "Y",
@@ -428,7 +428,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sleeping.swf",
                       "name": "sleeping",
                       "enable": "Y",
@@ -436,7 +436,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk.swf",
                       "name": "talk",
                       "enable": "Y",
@@ -444,7 +444,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_angry.swf",
                       "name": "talk angry",
                       "enable": "Y",
@@ -452,7 +452,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_happy.swf",
                       "name": "talk happy",
                       "enable": "Y",
@@ -460,7 +460,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_neutral.swf",
                       "name": "neutral",
                       "enable": "Y",
@@ -469,7 +469,7 @@
               }
           ],
           "colorset": {
-              "@attributes": {
+              "attributes": {
                   "enable": "Y",
                   "aid": "6923"
               },
@@ -489,7 +489,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "devil_bunny",
               "name": "Devil Bunny",
               "thumb": "standing.swf",
@@ -504,12 +504,12 @@
           },
           "category": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "cover"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_ear.swf",
                               "name": "ears",
                               "loop": "Y",
@@ -519,7 +519,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_nose.swf",
                               "name": "nose",
                               "loop": "Y",
@@ -529,7 +529,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_mouth.swf",
                               "name": "mouth",
                               "loop": "Y",
@@ -541,12 +541,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "emotion"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "angry.swf",
                               "name": "angry",
                               "loop": "Y",
@@ -556,7 +556,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "happy.swf",
                               "name": "happy",
                               "loop": "Y",
@@ -566,7 +566,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "sad.swf",
                               "name": "sad",
                               "loop": "Y",
@@ -576,7 +576,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "cry.swf",
                               "name": "cry",
                               "loop": "Y",
@@ -586,7 +586,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "thinking.swf",
                               "name": "thinking",
                               "loop": "Y",
@@ -596,7 +596,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "surprised.swf",
                               "name": "surprised",
                               "loop": "Y",
@@ -606,7 +606,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "embarrassed.swf",
                               "name": "embarrassed",
                               "loop": "Y",
@@ -616,7 +616,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "laughing.swf",
                               "name": "laughing",
                               "loop": "Y",
@@ -628,12 +628,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "fight"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "threaten_with_knife.swf",
                               "name": "threaten with knife",
                               "loop": "Y",
@@ -643,7 +643,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hit_with_hammer.swf",
                               "name": "hit with hammer",
                               "loop": "Y",
@@ -653,7 +653,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw.swf",
                               "name": "throw objects",
                               "loop": "Y",
@@ -665,12 +665,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "misbehave"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "fart.swf",
                               "name": "fart",
                               "loop": "Y",
@@ -680,7 +680,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "show_butt.swf",
                               "name": "show butt",
                               "loop": "Y",
@@ -690,7 +690,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "burp.swf",
                               "name": "burp",
                               "loop": "Y",
@@ -700,7 +700,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw_up.swf",
                               "name": "throw up",
                               "loop": "Y",
@@ -714,7 +714,7 @@
           ],
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "standing.swf",
                       "name": "standing",
                       "loop": "Y",
@@ -724,7 +724,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "make_fun_of.swf",
                       "name": "make fun of",
                       "loop": "Y",
@@ -734,7 +734,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "point_at.swf",
                       "name": "point at",
                       "loop": "Y",
@@ -744,7 +744,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laugh_at.swf",
                       "name": "laugh at",
                       "loop": "Y",
@@ -754,7 +754,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance.swf",
                       "name": "dance",
                       "loop": "Y",
@@ -764,7 +764,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sitting.swf",
                       "name": "sitting",
                       "loop": "Y",
@@ -774,7 +774,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk.swf",
                       "name": "talk",
                       "loop": "Y",
@@ -784,7 +784,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "appear.swf",
                       "name": "appear",
                       "loop": "Y",
@@ -794,7 +794,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "disappear.swf",
                       "name": "disappear",
                       "loop": "Y",
@@ -804,7 +804,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "evil_poke.swf",
                       "name": "poke with trident",
                       "loop": "Y",
@@ -816,7 +816,7 @@
           ],
           "motion": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "walk.swf",
                       "name": "walk",
                       "loop": "Y",
@@ -826,7 +826,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "run.swf",
                       "name": "run",
                       "loop": "Y",
@@ -836,7 +836,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "hop.swf",
                       "name": "hop",
                       "loop": "Y",
@@ -848,7 +848,7 @@
           ],
           "facial": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_happy.swf",
                       "name": "happy",
                       "enable": "Y",
@@ -856,7 +856,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_angry.swf",
                       "name": "angry",
                       "enable": "Y",
@@ -864,7 +864,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sad.swf",
                       "name": "sad",
                       "enable": "Y",
@@ -872,7 +872,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_cry.swf",
                       "name": "cry",
                       "enable": "Y",
@@ -880,7 +880,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_thinking.swf",
                       "name": "thinking",
                       "enable": "Y",
@@ -888,7 +888,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_shocked.swf",
                       "name": "shocked",
                       "enable": "Y",
@@ -896,7 +896,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_scared.swf",
                       "name": "scared",
                       "enable": "Y",
@@ -904,7 +904,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_laugh.swf",
                       "name": "laughing",
                       "enable": "Y",
@@ -912,7 +912,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_stick_out_tongue.swf",
                       "name": "stick out tongue",
                       "enable": "Y",
@@ -920,7 +920,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_evil_look.swf",
                       "name": "evil look",
                       "enable": "Y",
@@ -928,7 +928,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_knocked_out.swf",
                       "name": "knocked out",
                       "enable": "Y",
@@ -936,7 +936,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sleeping.swf",
                       "name": "sleeping",
                       "enable": "Y",
@@ -944,7 +944,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk.swf",
                       "name": "talk",
                       "enable": "Y",
@@ -952,7 +952,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_angry.swf",
                       "name": "talk angry",
                       "enable": "Y",
@@ -960,7 +960,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_happy.swf",
                       "name": "talk happy",
                       "enable": "Y",
@@ -968,7 +968,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_neutral.swf",
                       "name": "neutral",
                       "enable": "Y",
@@ -978,7 +978,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "happy_bunny",
               "name": "Happy Bunny",
               "thumb": "standing.swf",
@@ -993,12 +993,12 @@
           },
           "category": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "cover"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_ear.swf",
                               "name": "ears",
                               "loop": "Y",
@@ -1008,7 +1008,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_nose.swf",
                               "name": "nose",
                               "loop": "Y",
@@ -1018,7 +1018,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_mouth.swf",
                               "name": "mouth",
                               "loop": "Y",
@@ -1030,12 +1030,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "emotion"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "angry.swf",
                               "name": "angry",
                               "loop": "Y",
@@ -1045,7 +1045,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "happy.swf",
                               "name": "happy",
                               "loop": "Y",
@@ -1055,7 +1055,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "sad.swf",
                               "name": "sad",
                               "loop": "Y",
@@ -1065,7 +1065,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "cry.swf",
                               "name": "cry",
                               "loop": "Y",
@@ -1075,7 +1075,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "thinking.swf",
                               "name": "thinking",
                               "loop": "Y",
@@ -1085,7 +1085,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "surprised.swf",
                               "name": "surprised",
                               "loop": "Y",
@@ -1095,7 +1095,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "embarrassed.swf",
                               "name": "embarrassed",
                               "loop": "Y",
@@ -1105,7 +1105,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "laughing.swf",
                               "name": "laughing",
                               "loop": "Y",
@@ -1117,12 +1117,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "fight"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "threaten_with_knife.swf",
                               "name": "threaten with knife",
                               "loop": "Y",
@@ -1132,7 +1132,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hit_with_hammer.swf",
                               "name": "hit with hammer",
                               "loop": "Y",
@@ -1142,7 +1142,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw.swf",
                               "name": "throw objects",
                               "loop": "Y",
@@ -1152,7 +1152,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "knocked_out.swf",
                               "name": "knocked out",
                               "loop": "Y",
@@ -1162,7 +1162,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "get_hit.swf",
                               "name": "get hit",
                               "loop": "Y",
@@ -1174,12 +1174,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "misbehave"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "fart.swf",
                               "name": "fart",
                               "loop": "Y",
@@ -1189,7 +1189,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "tag_wall.swf",
                               "name": "tag wall",
                               "loop": "Y",
@@ -1199,7 +1199,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "wear_restraints.swf",
                               "name": "wear restraints",
                               "loop": "Y",
@@ -1209,7 +1209,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "show_butt.swf",
                               "name": "show butt",
                               "loop": "Y",
@@ -1219,7 +1219,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "burp.swf",
                               "name": "burp",
                               "loop": "Y",
@@ -1229,7 +1229,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw_up.swf",
                               "name": "throw up",
                               "loop": "Y",
@@ -1243,7 +1243,7 @@
           ],
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "standing.swf",
                       "name": "standing",
                       "loop": "Y",
@@ -1253,7 +1253,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "write.swf",
                       "name": "write",
                       "loop": "Y",
@@ -1263,7 +1263,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "make_fun_of.swf",
                       "name": "make fun of",
                       "loop": "Y",
@@ -1273,7 +1273,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "point_at.swf",
                       "name": "point at",
                       "loop": "Y",
@@ -1283,7 +1283,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laugh_at.swf",
                       "name": "laugh at",
                       "loop": "Y",
@@ -1293,7 +1293,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance.swf",
                       "name": "dance",
                       "loop": "Y",
@@ -1303,7 +1303,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "guitar.swf",
                       "name": "play guitar",
                       "loop": "Y",
@@ -1313,7 +1313,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sitting.swf",
                       "name": "sitting",
                       "loop": "Y",
@@ -1323,7 +1323,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk.swf",
                       "name": "talk",
                       "loop": "Y",
@@ -1333,7 +1333,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "slingshot.swf",
                       "name": "use slingshot",
                       "loop": "Y",
@@ -1343,7 +1343,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "catch_butterfly.swf",
                       "name": "catch butterfly",
                       "loop": "Y",
@@ -1353,7 +1353,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "falling.swf",
                       "name": "falling",
                       "loop": "Y",
@@ -1365,7 +1365,7 @@
           ],
           "motion": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "walk.swf",
                       "name": "walk",
                       "loop": "Y",
@@ -1375,7 +1375,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "run.swf",
                       "name": "run",
                       "loop": "Y",
@@ -1385,7 +1385,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "hop.swf",
                       "name": "hop",
                       "loop": "Y",
@@ -1397,7 +1397,7 @@
           ],
           "facial": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_happy.swf",
                       "name": "happy",
                       "enable": "Y",
@@ -1405,7 +1405,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_angry.swf",
                       "name": "angry",
                       "enable": "Y",
@@ -1413,7 +1413,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sad.swf",
                       "name": "sad",
                       "enable": "Y",
@@ -1421,7 +1421,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_cry.swf",
                       "name": "cry",
                       "enable": "Y",
@@ -1429,7 +1429,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_thinking.swf",
                       "name": "thinking",
                       "enable": "Y",
@@ -1437,7 +1437,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_shocked.swf",
                       "name": "shocked",
                       "enable": "Y",
@@ -1445,7 +1445,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_scared.swf",
                       "name": "scared",
                       "enable": "Y",
@@ -1453,7 +1453,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_laugh.swf",
                       "name": "laughing",
                       "enable": "Y",
@@ -1461,7 +1461,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_stick_out_tongue.swf",
                       "name": "stick out tongue",
                       "enable": "Y",
@@ -1469,7 +1469,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_evil_look.swf",
                       "name": "evil look",
                       "enable": "Y",
@@ -1477,7 +1477,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_knocked_out.swf",
                       "name": "knocked out",
                       "enable": "Y",
@@ -1485,7 +1485,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sleeping.swf",
                       "name": "sleeping",
                       "enable": "Y",
@@ -1493,7 +1493,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk.swf",
                       "name": "talk",
                       "enable": "Y",
@@ -1501,7 +1501,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_angry.swf",
                       "name": "talk angry",
                       "enable": "Y",
@@ -1509,7 +1509,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_happy.swf",
                       "name": "talk happy",
                       "enable": "Y",
@@ -1517,7 +1517,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_neutral.swf",
                       "name": "neutral",
                       "enable": "Y",
@@ -1527,7 +1527,7 @@
           ],
           "colorset": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6105"
                   },
@@ -1540,7 +1540,7 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6106"
                   },
@@ -1553,7 +1553,7 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6107"
                   },
@@ -1566,7 +1566,7 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6108"
                   },
@@ -1579,7 +1579,7 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6109"
                   },
@@ -1592,7 +1592,7 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6110"
                   },
@@ -1605,7 +1605,7 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6111"
                   },
@@ -1629,7 +1629,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "chick",
               "name": "chick",
               "thumb": "standing.swf",
@@ -1644,7 +1644,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "standing.swf",
                       "name": "standing",
                       "loop": "Y",
@@ -1654,7 +1654,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "jump.swf",
                       "name": "jumping",
                       "loop": "Y",
@@ -1664,7 +1664,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "desperate.swf",
                       "name": "desperate",
                       "loop": "Y",
@@ -1674,7 +1674,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "run_away.swf",
                       "name": "run away",
                       "loop": "Y",
@@ -1685,7 +1685,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "walk.swf",
                   "name": "walk",
                   "loop": "Y",
@@ -1696,7 +1696,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dog",
               "name": "dog",
               "thumb": "standing.swf",
@@ -1711,7 +1711,7 @@
           },
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "standing.swf",
                       "name": "standing",
                       "loop": "Y",
@@ -1721,7 +1721,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "desperate.swf",
                       "name": "desperate",
                       "loop": "Y",
@@ -1731,7 +1731,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sitting.swf",
                       "name": "sitting",
                       "loop": "Y",
@@ -1742,7 +1742,7 @@
               }
           ],
           "motion": {
-              "@attributes": {
+              "attributes": {
                   "id": "walk.swf",
                   "name": "walk",
                   "loop": "Y",
@@ -1753,7 +1753,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "skeleton_bunny",
               "name": "skeleton bunny",
               "thumb": "standing.swf",
@@ -1768,12 +1768,12 @@
           },
           "category": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "cover"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_ear.swf",
                               "name": "ears",
                               "loop": "Y",
@@ -1783,7 +1783,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_nose.swf",
                               "name": "nose",
                               "loop": "Y",
@@ -1793,7 +1793,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hands_to_mouth.swf",
                               "name": "mouth",
                               "loop": "Y",
@@ -1805,12 +1805,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "emotion"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "angry.swf",
                               "name": "angry",
                               "loop": "Y",
@@ -1820,7 +1820,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "happy.swf",
                               "name": "happy",
                               "loop": "Y",
@@ -1830,7 +1830,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "sad.swf",
                               "name": "sad",
                               "loop": "Y",
@@ -1840,7 +1840,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "cry.swf",
                               "name": "cry",
                               "loop": "Y",
@@ -1850,7 +1850,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "thinking.swf",
                               "name": "thinking",
                               "loop": "Y",
@@ -1860,7 +1860,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "surprised.swf",
                               "name": "surprised",
                               "loop": "Y",
@@ -1870,7 +1870,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "embarrassed.swf",
                               "name": "embarrassed",
                               "loop": "Y",
@@ -1880,7 +1880,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "laughing.swf",
                               "name": "laughing",
                               "loop": "Y",
@@ -1892,12 +1892,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "fight"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "threaten_with_knife.swf",
                               "name": "threaten with knife",
                               "loop": "Y",
@@ -1907,7 +1907,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "hit_with_hammer.swf",
                               "name": "hit with hammer",
                               "loop": "Y",
@@ -1917,7 +1917,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw.swf",
                               "name": "throw objects",
                               "loop": "Y",
@@ -1927,7 +1927,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "knocked_out.swf",
                               "name": "knocked out",
                               "loop": "Y",
@@ -1937,7 +1937,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "get_hit.swf",
                               "name": "get hit",
                               "loop": "Y",
@@ -1949,12 +1949,12 @@
                   ]
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "name": "misbehave"
                   },
                   "action": [
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "fart.swf",
                               "name": "fart",
                               "loop": "Y",
@@ -1964,7 +1964,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "tag_wall.swf",
                               "name": "tag wall",
                               "loop": "Y",
@@ -1974,7 +1974,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "wear_restraints.swf",
                               "name": "wear restraints",
                               "loop": "Y",
@@ -1984,7 +1984,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "show_butt.swf",
                               "name": "show butt",
                               "loop": "Y",
@@ -1994,7 +1994,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "burp.swf",
                               "name": "burp",
                               "loop": "Y",
@@ -2004,7 +2004,7 @@
                           }
                       },
                       {
-                          "@attributes": {
+                          "attributes": {
                               "id": "throw_up.swf",
                               "name": "throw up",
                               "loop": "Y",
@@ -2018,7 +2018,7 @@
           ],
           "action": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "standing.swf",
                       "name": "standing",
                       "loop": "Y",
@@ -2028,7 +2028,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "write.swf",
                       "name": "write",
                       "loop": "Y",
@@ -2038,7 +2038,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "make_fun_of.swf",
                       "name": "make fun of",
                       "loop": "Y",
@@ -2048,7 +2048,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "point_at.swf",
                       "name": "point at",
                       "loop": "Y",
@@ -2058,7 +2058,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "laugh_at.swf",
                       "name": "laugh at",
                       "loop": "Y",
@@ -2068,7 +2068,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "dance.swf",
                       "name": "dance",
                       "loop": "Y",
@@ -2078,7 +2078,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "guitar.swf",
                       "name": "play guitar",
                       "loop": "Y",
@@ -2088,7 +2088,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "sitting.swf",
                       "name": "sitting",
                       "loop": "Y",
@@ -2098,7 +2098,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "talk.swf",
                       "name": "talk",
                       "loop": "Y",
@@ -2110,7 +2110,7 @@
           ],
           "motion": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "walk.swf",
                       "name": "walk",
                       "loop": "Y",
@@ -2120,7 +2120,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "run.swf",
                       "name": "run",
                       "loop": "Y",
@@ -2130,7 +2130,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "hop.swf",
                       "name": "hop",
                       "loop": "Y",
@@ -2142,7 +2142,7 @@
           ],
           "facial": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_happy.swf",
                       "name": "happy",
                       "enable": "Y",
@@ -2150,7 +2150,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_angry.swf",
                       "name": "angry",
                       "enable": "Y",
@@ -2158,7 +2158,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sad.swf",
                       "name": "sad",
                       "enable": "Y",
@@ -2166,7 +2166,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_cry.swf",
                       "name": "cry",
                       "enable": "Y",
@@ -2174,7 +2174,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_thinking.swf",
                       "name": "thinking",
                       "enable": "Y",
@@ -2182,7 +2182,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_shocked.swf",
                       "name": "shocked",
                       "enable": "Y",
@@ -2190,7 +2190,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_scared.swf",
                       "name": "scared",
                       "enable": "Y",
@@ -2198,7 +2198,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_laugh.swf",
                       "name": "laughing",
                       "enable": "Y",
@@ -2206,7 +2206,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_stick_out_tongue.swf",
                       "name": "stick out tongue",
                       "enable": "Y",
@@ -2214,7 +2214,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_evil_look.swf",
                       "name": "evil look",
                       "enable": "Y",
@@ -2222,7 +2222,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_knocked_out.swf",
                       "name": "knocked out",
                       "enable": "Y",
@@ -2230,7 +2230,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_sleeping.swf",
                       "name": "sleeping",
                       "enable": "Y",
@@ -2238,7 +2238,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk.swf",
                       "name": "talk",
                       "enable": "Y",
@@ -2246,7 +2246,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_angry.swf",
                       "name": "talk angry",
                       "enable": "Y",
@@ -2254,7 +2254,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_talk_happy.swf",
                       "name": "talk happy",
                       "enable": "Y",
@@ -2262,7 +2262,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "head_neutral.swf",
                       "name": "neutral",
                       "enable": "Y",
@@ -2274,7 +2274,7 @@
   ],
   "background": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "split_bg.swf",
               "name": "split bg",
               "enable": "Y",
@@ -2284,7 +2284,7 @@
               "sharing": "0"
           },
           "colorset": {
-              "@attributes": {
+              "attributes": {
                   "enable": "Y",
                   "aid": "6160"
               },
@@ -2301,7 +2301,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "dotted_background.swf",
               "name": "dots",
               "enable": "Y",
@@ -2312,7 +2312,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "underground.swf",
               "name": "underground",
               "enable": "Y",
@@ -2323,7 +2323,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "path.swf",
               "name": "path",
               "enable": "Y",
@@ -2334,7 +2334,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "low.swf",
               "name": "Low Horizon",
               "enable": "Y",
@@ -2344,7 +2344,7 @@
               "sharing": "0"
           },
           "colorset": {
-              "@attributes": {
+              "attributes": {
                   "enable": "Y",
                   "aid": "6174"
               },
@@ -2361,7 +2361,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "medium.swf",
               "name": "Medium Horizon",
               "enable": "Y",
@@ -2371,7 +2371,7 @@
               "sharing": "0"
           },
           "colorset": {
-              "@attributes": {
+              "attributes": {
                   "enable": "Y",
                   "aid": "6172"
               },
@@ -2388,7 +2388,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "high.swf",
               "name": "High Horizon",
               "enable": "Y",
@@ -2399,7 +2399,7 @@
               "sharing": "0"
           },
           "colorset": {
-              "@attributes": {
+              "attributes": {
                   "enable": "Y",
                   "aid": "6170"
               },
@@ -2416,7 +2416,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "uniform.swf",
               "name": "Single Uniform",
               "enable": "Y",
@@ -2427,21 +2427,21 @@
           },
           "colorset": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6166"
                   },
                   "color": "0x7FC31C"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6167"
                   },
                   "color": "0x41B1C9"
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "enable": "Y",
                       "aid": "6168"
                   },
@@ -2453,7 +2453,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "interior_right.swf",
               "name": "interior right",
               "enable": "Y",
@@ -2463,7 +2463,7 @@
               "sharing": "0"
           },
           "colorset": {
-              "@attributes": {
+              "attributes": {
                   "enable": "Y",
                   "aid": "6164"
               },
@@ -2482,7 +2482,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "interior_left.swf",
               "name": "interior left",
               "enable": "Y",
@@ -2492,7 +2492,7 @@
               "sharing": "0"
           },
           "colorset": {
-              "@attributes": {
+              "attributes": {
                   "enable": "Y",
                   "aid": "6162"
               },
@@ -2511,7 +2511,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "cool_circle.swf",
               "name": "ripples",
               "enable": "Y",
@@ -2524,7 +2524,7 @@
   ],
   "prop": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_vampire_mask",
               "name": "vampire mask",
               "holdable": "0",
@@ -2540,7 +2540,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_default.swf",
                       "name": "default",
                       "enable": "Y",
@@ -2548,49 +2548,49 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_happy.swf",
                       "name": "happy",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_angry.swf",
                       "name": "angry",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_sad.swf",
                       "name": "sad",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_evil_laugh.swf",
                       "name": "evil laugh",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_talk.swf",
                       "name": "talk",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_talk_angry.swf",
                       "name": "talk_angry",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_vampire_mask_stick_out_tongue.swf",
                       "name": "stick out tougue",
                       "enable": "Y"
@@ -2599,7 +2599,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "football.swf",
               "name": "football",
               "holdable": "1",
@@ -2615,7 +2615,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bee.swf",
               "name": "bees",
               "holdable": "0",
@@ -2631,7 +2631,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bee_nest.swf",
               "name": "bee nest",
               "holdable": "0",
@@ -2647,7 +2647,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "flower.swf",
               "name": "flower",
               "holdable": "1",
@@ -2663,7 +2663,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "butterfly.swf",
               "name": "butterfly",
               "holdable": "0",
@@ -2679,7 +2679,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "butterfly_net.swf",
               "name": "butterfly net",
               "holdable": "1",
@@ -2695,7 +2695,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "electric_shock.swf",
               "name": "electric shock",
               "holdable": "0",
@@ -2711,7 +2711,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "blackboard.swf",
               "name": "blackboard",
               "holdable": "0",
@@ -2727,7 +2727,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "homework_paper.swf",
               "name": "homework paper",
               "holdable": "1",
@@ -2743,7 +2743,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bin.swf",
               "name": "bin",
               "holdable": "0",
@@ -2759,7 +2759,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "hamburger.swf",
               "name": "hamburger",
               "holdable": "1",
@@ -2775,7 +2775,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "smelly_smoke.swf",
               "name": "smelly gas",
               "holdable": "0",
@@ -2791,7 +2791,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_zap_switch",
               "name": "zap switch",
               "holdable": "0",
@@ -2807,7 +2807,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zap_switch_dangerous_box_closed.swf",
                       "name": "closed",
                       "enable": "Y",
@@ -2815,14 +2815,14 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zap_switch_dangerous_box_opened.swf",
                       "name": "opened",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zap_switch_dangerous_box_opening.swf",
                       "name": "open",
                       "enable": "Y"
@@ -2831,7 +2831,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_ballon",
               "name": "balloon",
               "holdable": "1",
@@ -2847,7 +2847,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ballon_balloon.swf",
                       "name": "normal",
                       "enable": "Y",
@@ -2855,7 +2855,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_ballon_balloon_pop.swf",
                       "name": "pop",
                       "enable": "Y"
@@ -2864,7 +2864,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "railway.swf",
               "name": "railway",
               "holdable": "0",
@@ -2880,7 +2880,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "train.swf",
               "name": "train",
               "holdable": "0",
@@ -2896,7 +2896,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "sling.swf",
               "name": "slingshot",
               "holdable": "1",
@@ -2912,7 +2912,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_zombie_mask",
               "name": "zombie mask",
               "holdable": "0",
@@ -2928,7 +2928,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_default.swf",
                       "name": "default",
                       "enable": "Y",
@@ -2936,49 +2936,49 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_happy.swf",
                       "name": "happy",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_angry.swf",
                       "name": "angry",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_sad.swf",
                       "name": "sad",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_evil_laugh.swf",
                       "name": "evil laugh",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_talk.swf",
                       "name": "talk",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_talk_angry.swf",
                       "name": "talk_angry",
                       "enable": "Y"
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_zombie_mask_stick_out_tongue.swf",
                       "name": "stick out tougue",
                       "enable": "Y"
@@ -2987,7 +2987,7 @@
           ]
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "glasses.swf",
               "name": "glasses",
               "holdable": "0",
@@ -3003,7 +3003,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "devil_horns.swf",
               "name": "devil horns",
               "holdable": "0",
@@ -3019,7 +3019,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "angel.swf",
               "name": "angel ring",
               "holdable": "0",
@@ -3035,7 +3035,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "headset.swf",
               "name": "headset",
               "holdable": "0",
@@ -3051,7 +3051,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "knife.swf",
               "name": "knife",
               "holdable": "1",
@@ -3067,7 +3067,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "hammer.swf",
               "name": "hammer",
               "holdable": "1",
@@ -3083,7 +3083,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "guitar.swf",
               "name": "guitar",
               "holdable": "1",
@@ -3099,7 +3099,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "pencil.swf",
               "name": "pencil",
               "holdable": "1",
@@ -3115,7 +3115,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "ipod.swf",
               "name": "ipod",
               "holdable": "1",
@@ -3131,7 +3131,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "paint_spray.swf",
               "name": "paint spray",
               "holdable": "1",
@@ -3147,7 +3147,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "trident.swf",
               "name": "trident",
               "holdable": "1",
@@ -3163,7 +3163,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "diploma.swf",
               "name": "diploma",
               "holdable": "1",
@@ -3179,7 +3179,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "hat.swf",
               "name": "hat",
               "holdable": "1",
@@ -3195,7 +3195,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "msp_see_saw",
               "name": "see-saw",
               "holdable": "0",
@@ -3211,7 +3211,7 @@
           },
           "state": [
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_see_saw_see_saw_still.swf",
                       "name": "still",
                       "enable": "Y",
@@ -3219,7 +3219,7 @@
                   }
               },
               {
-                  "@attributes": {
+                  "attributes": {
                       "id": "msp_see_saw_see_saw_move.swf",
                       "name": "move",
                       "enable": "Y"
@@ -3231,7 +3231,7 @@
   "comment": {},
   "sound": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "cute_stupid.swf",
               "name": "It's cute How stupid you are",
               "downloadtype": "embed",
@@ -3245,7 +3245,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "hi_loser.swf",
               "name": "Hi, Loser",
               "downloadtype": "embed",
@@ -3259,7 +3259,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "focus_on_me.swf",
               "name": "Let's Focus on Me",
               "downloadtype": "embed",
@@ -3273,7 +3273,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "suck_sad.swf",
               "name": "You Suck and That's Sad.",
               "downloadtype": "embed",
@@ -3288,7 +3288,7 @@
       }
   ],
   "bubble": {
-      "@attributes": {
+      "attributes": {
           "id": "bunnyQuote",
           "x": "0",
           "y": "0",
@@ -3305,7 +3305,7 @@
           "sharing": "0"
       },
       "body": {
-          "@attributes": {
+          "attributes": {
               "rgb": "0xFFFFFF",
               "linergb": "0",
               "tailx": "180",
@@ -3315,7 +3315,7 @@
       "text": "Click here to edit"
   },
   "effect": {
-      "@attributes": {
+      "attributes": {
           "id": "spray.swf",
           "type": "ANIME",
           "resize": "0",
@@ -3330,7 +3330,7 @@
   },
   "presetMsg": [
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm1",
               "quote": "2cute 2talk 2u",
               "enable": "Y",
@@ -3341,7 +3341,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm2",
               "quote": "Bite It Sideways Pal",
               "enable": "Y",
@@ -3352,7 +3352,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm3",
               "quote": "Buy Me Stuff and I'll be Nicer",
               "enable": "Y",
@@ -3363,7 +3363,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm4",
               "quote": "Crazy Doesn't Even Begin to Cover It",
               "enable": "Y",
@@ -3374,7 +3374,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm5",
               "quote": "Cute As Can B",
               "enable": "Y",
@@ -3385,7 +3385,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm6",
               "quote": "Cute But Kind of Evil",
               "enable": "Y",
@@ -3396,7 +3396,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm7",
               "quote": "Cute But Psycho",
               "enable": "Y",
@@ -3407,7 +3407,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm8",
               "quote": "Dear Santa, Leave Presents. Take Brother.",
               "enable": "Y",
@@ -3418,7 +3418,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm9",
               "quote": "Don't Blame Me. I Was Born Awesome.",
               "enable": "Y",
@@ -3429,7 +3429,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm10",
               "quote": "Don't Make Me Open a Can of Pout.",
               "enable": "Y",
@@ -3440,7 +3440,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm11",
               "quote": "Farting is Fun it Makes the Room Warmer",
               "enable": "Y",
@@ -3451,7 +3451,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm12",
               "quote": "Flirty. Crazy. What's not to Love?",
               "enable": "Y",
@@ -3462,7 +3462,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm13",
               "quote": "Hey You Made Me Throw Up a Little",
               "enable": "Y",
@@ -3473,7 +3473,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm14",
               "quote": "Hi, Loser",
               "enable": "Y",
@@ -3484,7 +3484,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm15",
               "quote": "Hooray for Guys with Money",
               "enable": "Y",
@@ -3495,7 +3495,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm16",
               "quote": "I admit it. I have a glitter abuse problem.",
               "enable": "Y",
@@ -3506,7 +3506,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm17",
               "quote": "I am Happy. Don't Wreck it by Talking.",
               "enable": "Y",
@@ -3517,7 +3517,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm18",
               "quote": "I am not Spoiled. I Deserve All My Stuff",
               "enable": "Y",
@@ -3528,7 +3528,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm19",
               "quote": "I Am Only Mean When You're Dumb",
               "enable": "Y",
@@ -3539,7 +3539,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm20",
               "quote": "I Did it But I am Blaming You.",
               "enable": "Y",
@@ -3550,7 +3550,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm21",
               "quote": "I Just Can't Stop the Adorable.",
               "enable": "Y",
@@ -3561,7 +3561,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm22",
               "quote": "I Just Don't Listen.",
               "enable": "Y",
@@ -3572,7 +3572,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm23",
               "quote": "I Just Realized. I Don't Care.",
               "enable": "Y",
@@ -3583,7 +3583,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm24",
               "quote": "I'm Cute. You're Not. Seems So Unfair.",
               "enable": "Y",
@@ -3594,7 +3594,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm25",
               "quote": "I'll Admit It I'm Hot Don't Blame Me for Global Warming.",
               "enable": "Y",
@@ -3605,7 +3605,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm26",
               "quote": "I'm Not Mean. You're Just a Sissy.",
               "enable": "Y",
@@ -3616,7 +3616,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm27",
               "quote": "I'm Too Good for This.",
               "enable": "Y",
@@ -3627,7 +3627,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm28",
               "quote": "It's All About Me. Deal With It.",
               "enable": "Y",
@@ -3638,7 +3638,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm29",
               "quote": "It's cute How stupid you are",
               "enable": "Y",
@@ -3649,7 +3649,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm30",
               "quote": "It's Cute How You Think I'm Listening",
               "enable": "Y",
@@ -3660,7 +3660,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm31",
               "quote": "It's Not My Fault You're Dumb.",
               "enable": "Y",
@@ -3671,7 +3671,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm32",
               "quote": "Kiss Me Right on the Pooper.",
               "enable": "Y",
@@ -3682,7 +3682,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm33",
               "quote": "Kiss My Bunny",
               "enable": "Y",
@@ -3693,7 +3693,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm34",
               "quote": "Let's Focus on Me",
               "enable": "Y",
@@ -3704,7 +3704,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm35",
               "quote": "Life. Get One",
               "enable": "Y",
@@ -3715,7 +3715,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm36",
               "quote": "Love Sucks Big Time",
               "enable": "Y",
@@ -3726,7 +3726,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm37",
               "quote": "Mecology This I Can Support",
               "enable": "Y",
@@ -3737,7 +3737,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm38",
               "quote": "Nobody's Perfect. I am as Close as it Gets.",
               "enable": "Y",
@@ -3748,7 +3748,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm39",
               "quote": "Not Listening",
               "enable": "Y",
@@ -3759,7 +3759,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm40",
               "quote": "Ok I'm perfect. Now Stop Staring.",
               "enable": "Y",
@@ -3770,7 +3770,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm41",
               "quote": "Reduce Global Warming Buy Me Ice Cream.",
               "enable": "Y",
@@ -3781,7 +3781,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm42",
               "quote": "The World Is Run by the Cute.",
               "enable": "Y",
@@ -3792,7 +3792,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm43",
               "quote": "Trampy. Crazy. What's Not to Love?",
               "enable": "Y",
@@ -3803,7 +3803,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm44",
               "quote": "Wow Cards Are Stupid.",
               "enable": "Y",
@@ -3814,7 +3814,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm45",
               "quote": "You Go Girl. And Don't Come Back.",
               "enable": "Y",
@@ -3825,7 +3825,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm46",
               "quote": "You Suck and That's Sad.",
               "enable": "Y",
@@ -3836,7 +3836,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm47",
               "quote": "You'd be Cooler if You Were Me.",
               "enable": "Y",
@@ -3847,7 +3847,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm48",
               "quote": "You're Ugly and That's Sad.",
               "enable": "Y",
@@ -3858,7 +3858,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm49",
               "quote": "You're Ugly and That's Funny.",
               "enable": "Y",
@@ -3869,7 +3869,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm50",
               "quote": "Wow. You Dance Dumb.",
               "enable": "Y",
@@ -3880,7 +3880,7 @@
           }
       },
       {
-          "@attributes": {
+          "attributes": {
               "id": "bunny_pm51",
               "quote": "You Smell Like Doody.",
               "enable": "Y",

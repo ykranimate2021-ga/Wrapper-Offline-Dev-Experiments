@@ -9,7 +9,8 @@ const premadeFolder = process.env.PREMADE_FOLDER;
 const charUrl = process.env.CHAR_BASE_URL;
 const fw = process.env.FILE_WIDTH;
 const xNumWidth = process.env.XML_NUM_WIDTH;
-var savedjson = JSON.parse(util.readFile(`${savedFolder}/saved.json`));
+const fs = require("fs");
+var savedjson = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
 
 router.post('/getThemeList', function(req, res, next) {
   var themelist_xml = `<?xml version="1.0" encoding="UTF-8"?>\n<list version="1.0">\n\t<fvm_meta theme_code="" is_biz="0" />`
@@ -118,7 +119,7 @@ router.post('/saveCCCharacter', function(req, res, next) {
 	}
   var thumb = Buffer.from(req.body.thumbdata, "base64");
   util.writeFile(util.getThumbPath(id, 'char'), thumb);
-  util.addToSavedJson({id: id, type: 'char', theme: req.body.themeId, thumb: `/char/thumb/${id}`, category: ''})
+  util.manipulateSavedJson('add', {id: id, type: 'char', theme: req.body.themeId, thumb: `/char/thumb/${id}`, category: ''})
 	res.send('0' + id);
 });
 
@@ -126,59 +127,6 @@ router.post('/saveCCThumbs', function(req, res, next) {
   var thumb = Buffer.from(req.body.thumbdata, "base64");
   util.writeFile(util.getThumbPath(req.body.assetId, 'char'), thumb);
 	res.send('0' + req.body.assetId);
-});
-
-router.post('/deleteUgc', function(req, res, next) {
-  var id = req.body.id;
-  const i = id.indexOf("-");
-	const prefix = id.substr(0, i);
-	const suffix = id.substr(i + 1);
-	switch (prefix) {
-    case "c": {
-      util.removeFromSavedJson(id);
-      util.deleteFile(util.getFilePath(id, 'char'));
-      util.deleteFile(util.getThumbPath(id, 'char'));
-      res.send('0');
-      break;
-    }
-    case "v": {
-      util.removeFromSavedJson(id);
-      util.deleteFile(util.getFilePath(id, 'video'));
-      util.deleteFile(util.getThumbPath(id, 'video'));
-      res.send('0');
-      break;
-    }
-    default: 
-      res.send('1');
-      break;
-  }
-});
-
-router.post('/updateAsset', function(req, res, next) {
-  var id = req.body.id;
-  var name = req.body.name;
-  var category = req.body.category;
-  var i = 0;
-  savedjson.forEach(asset => {
-    if (asset.id == id) {
-      var n = i;
-      var newEntry = {
-        "id": asset.id,
-        "type": asset.type,
-        "name": name,
-        "description": asset.desc,
-        "thumb": asset.thumb,
-        "theme": asset.theme,
-        "subtype": asset.subtype,
-        "duration": asset.duration,
-        "category": category
-      }
-      savedjson.splice(n,1,newEntry);
-      var newJson = JSON.stringify(json);
-      util.writeFile(`${savedFolder}/saved.json`, newJson);
-    }
-    i++
-  })
 });
 
 /* moooore placeholder */

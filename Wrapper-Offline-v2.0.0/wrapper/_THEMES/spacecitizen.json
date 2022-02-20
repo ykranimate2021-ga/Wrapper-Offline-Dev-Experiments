@@ -1,12 +1,12 @@
 {
-    "@attributes": {
+    "attributes": {
         "id": "spacecitizen",
         "name": "Space Citizens",
         "cc_theme_id": "spacecitizen"
     },
     "background": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space01_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space16_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space15_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -42,7 +42,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space14_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -54,7 +54,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space13_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space12_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -78,7 +78,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space11_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -90,7 +90,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space10_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space09_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -114,7 +114,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space08_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -126,7 +126,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space07_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space06_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -150,7 +150,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space05_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -162,7 +162,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space04_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -174,7 +174,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space03_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -186,7 +186,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space02_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -198,7 +198,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space17_bg.swf",
                 "name": "",
                 "enable": "Y",
@@ -212,7 +212,7 @@
     ],
     "compositebg": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space01",
                 "name": "Space travel",
                 "enable": "Y",
@@ -225,7 +225,7 @@
                 "aid": "20531"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space01_BG35",
                     "index": "0"
                 },
@@ -233,7 +233,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space02",
                 "name": "Space travel",
                 "enable": "Y",
@@ -246,14 +246,14 @@
                 "aid": "20532"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space02_BG38",
                     "index": "0"
                 },
                 "file": "spacecitizen.space02_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space02_PROP11",
                     "index": "1"
                 },
@@ -267,7 +267,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space03",
                 "name": "Snowy planet",
                 "enable": "Y",
@@ -280,14 +280,14 @@
                 "aid": "20533"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space03_BG43",
                     "index": "0"
                 },
                 "file": "spacecitizen.space03_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space03_PROP13",
                     "index": "1"
                 },
@@ -301,7 +301,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space04",
                 "name": "Snowy base",
                 "enable": "Y",
@@ -314,7 +314,7 @@
                 "aid": "20534"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space04_BG48",
                     "index": "0"
                 },
@@ -322,7 +322,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space05",
                 "name": "Snowy base",
                 "enable": "Y",
@@ -335,14 +335,14 @@
                 "aid": "20535"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space05_BG51",
                     "index": "0"
                 },
                 "file": "spacecitizen.space05_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "PROP5",
                     "index": "1"
                 },
@@ -356,7 +356,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space08",
                 "name": "Snowy base",
                 "enable": "Y",
@@ -369,7 +369,7 @@
                 "aid": "20538"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space08_BG67",
                     "index": "0"
                 },
@@ -377,7 +377,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_space08_PROP21",
                         "index": "1"
                     },
@@ -390,7 +390,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_space08_PROP19",
                         "index": "2"
                     },
@@ -405,7 +405,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space06",
                 "name": "Hallway",
                 "enable": "Y",
@@ -418,14 +418,14 @@
                 "aid": "20536"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space06_BG59",
                     "index": "0"
                 },
                 "file": "spacecitizen.space06_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space06_PROP17",
                     "index": "1"
                 },
@@ -439,7 +439,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space15",
                 "name": "Lift lobby",
                 "enable": "Y",
@@ -452,7 +452,7 @@
                 "aid": "20545"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space15_BG96",
                     "index": "0"
                 },
@@ -460,7 +460,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space10",
                 "name": "Bridge",
                 "enable": "Y",
@@ -473,7 +473,7 @@
                 "aid": "20540"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space10_BG78",
                     "index": "0"
                 },
@@ -481,7 +481,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space09",
                 "name": "Cargo bay",
                 "enable": "Y",
@@ -494,7 +494,7 @@
                 "aid": "20539"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space09_BG75",
                     "index": "0"
                 },
@@ -502,7 +502,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space11",
                 "name": "Sick bay",
                 "enable": "Y",
@@ -515,14 +515,14 @@
                 "aid": "20541"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space11_BG81",
                     "index": "0"
                 },
                 "file": "spacecitizen.space11_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space11_PROP24",
                     "index": "1"
                 },
@@ -536,7 +536,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space07",
                 "name": "Engineering",
                 "enable": "Y",
@@ -549,7 +549,7 @@
                 "aid": "20537"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space07_BG64",
                     "index": "0"
                 },
@@ -557,7 +557,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space14",
                 "name": "Volcanic planet",
                 "enable": "Y",
@@ -570,7 +570,7 @@
                 "aid": "20544"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space14_BG93",
                     "index": "0"
                 },
@@ -578,7 +578,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space12",
                 "name": "Volcanic planet",
                 "enable": "Y",
@@ -591,7 +591,7 @@
                 "aid": "20542"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space12_BG87",
                     "index": "0"
                 },
@@ -599,7 +599,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space13",
                 "name": "Volcanic planet",
                 "enable": "Y",
@@ -612,7 +612,7 @@
                 "aid": "20543"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space13_BG90",
                     "index": "0"
                 },
@@ -620,7 +620,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space17",
                 "name": "Volcanic base",
                 "enable": "Y",
@@ -633,7 +633,7 @@
                 "aid": "20547"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space17_BG26",
                     "index": "0"
                 },
@@ -641,7 +641,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_space17_PROP5",
                         "index": "3"
                     },
@@ -654,7 +654,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_space17_PROP6",
                         "index": "2"
                     },
@@ -667,7 +667,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_space17_PROP7",
                         "index": "1"
                     },
@@ -682,7 +682,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_space16",
                 "name": "Volcanic base",
                 "enable": "Y",
@@ -695,7 +695,7 @@
                 "aid": "20546"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_space16_BG14",
                     "index": "0"
                 },
@@ -703,7 +703,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_space16_PROP1",
                         "index": "1"
                     },
@@ -716,7 +716,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_space16_PROP2",
                         "index": "2"
                     },
@@ -733,7 +733,7 @@
     ],
     "prop": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space10_prop01.swf",
                 "name": "Captain seat",
                 "holdable": "0",
@@ -749,7 +749,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space10_prop02.swf",
                 "name": "Captain seat",
                 "holdable": "0",
@@ -765,7 +765,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "base01.swf",
                 "name": "Building",
                 "holdable": "0",
@@ -781,7 +781,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "base02.swf",
                 "name": "Building",
                 "holdable": "0",
@@ -797,7 +797,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "base03.swf",
                 "name": "Building",
                 "holdable": "0",
@@ -813,7 +813,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "energy_bar01.swf",
                 "name": "Tank",
                 "holdable": "0",
@@ -829,7 +829,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "explosion01.swf",
                 "name": "Explosion",
                 "holdable": "0",
@@ -845,7 +845,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "explosion02.swf",
                 "name": "Explosion",
                 "holdable": "0",
@@ -861,7 +861,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "explosion03.swf",
                 "name": "Explosion",
                 "holdable": "0",
@@ -877,7 +877,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "planet01.swf",
                 "name": "Planet",
                 "holdable": "0",
@@ -893,7 +893,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_spaceship02",
                 "name": "Spaceship",
                 "holdable": "0",
@@ -909,7 +909,7 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_spaceship02_ship02.swf",
                         "name": "forward",
                         "enable": "Y",
@@ -917,42 +917,42 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_spaceship02_ship02_down.swf",
                         "name": "side - take off",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_spaceship02_ship02_fire.swf",
                         "name": "side - fire lasers",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_spaceship02_ship02_fire_b.swf",
                         "name": "side - fire cannon",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_spaceship02_ship02_side.swf",
                         "name": "side - forward",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_spaceship02_ship02_still.swf",
                         "name": "side - still",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_spaceship02_ship02_topstill.swf",
                         "name": "still",
                         "enable": "Y"
@@ -961,7 +961,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_explosion",
                 "name": "Explosion",
                 "holdable": "0",
@@ -977,7 +977,7 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_explosion_explosion01.swf",
                         "name": "loop",
                         "enable": "Y",
@@ -985,14 +985,14 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_explosion_explosion02.swf",
                         "name": "multi",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_explosion_explosion03.swf",
                         "name": "once",
                         "enable": "Y"
@@ -1001,7 +1001,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_sci_ship01",
                 "name": "Spaceship",
                 "holdable": "0",
@@ -1017,7 +1017,7 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_sci_ship01_ship01.swf",
                         "name": "forward",
                         "enable": "Y",
@@ -1025,35 +1025,35 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_sci_ship01_ship01_down.swf",
                         "name": "side - take off",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_sci_ship01_ship01_fire.swf",
                         "name": "side - fire lasers",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_sci_ship01_ship01_side.swf",
                         "name": "side - forward",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_sci_ship01_ship01_still.swf",
                         "name": "side - still",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_sci_ship01_ship01_topstill.swf",
                         "name": "still",
                         "enable": "Y"
@@ -1062,7 +1062,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "05gun01_still.swf",
                 "name": "Gun",
                 "holdable": "1",
@@ -1079,7 +1079,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "05gun02_still.swf",
                 "name": "Gun",
                 "holdable": "1",
@@ -1096,7 +1096,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "05gun03_still.swf",
                 "name": "Gun",
                 "holdable": "1",
@@ -1113,7 +1113,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "05gun04_still.swf",
                 "name": "Gun",
                 "holdable": "1",
@@ -1130,7 +1130,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space10_prop03.swf",
                 "name": "Monitor",
                 "holdable": "0",
@@ -1146,7 +1146,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space02_prop01.swf",
                 "name": "Earth",
                 "holdable": "0",
@@ -1162,7 +1162,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space03_prop01.swf",
                 "name": "Mountains",
                 "holdable": "0",
@@ -1178,7 +1178,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space05_prop01.swf",
                 "name": "Ice chunk",
                 "holdable": "0",
@@ -1194,7 +1194,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space06_prop01.swf",
                 "name": "Red light",
                 "holdable": "0",
@@ -1210,7 +1210,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space08_prop01.swf",
                 "name": "Weapon",
                 "holdable": "0",
@@ -1226,7 +1226,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space11_prop01.swf",
                 "name": "Bed",
                 "holdable": "0",
@@ -1242,7 +1242,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space16_prop01.swf",
                 "name": "Space device",
                 "holdable": "0",
@@ -1258,7 +1258,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space16_prop02.swf",
                 "name": "Screen",
                 "holdable": "0",
@@ -1274,7 +1274,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space17_prop01.swf",
                 "name": "Lamp",
                 "holdable": "0",
@@ -1290,7 +1290,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space01_prop01.swf",
                 "name": "Space ship",
                 "holdable": "0",
@@ -1306,7 +1306,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space03_prop02.swf",
                 "name": "Base",
                 "holdable": "0",
@@ -1322,7 +1322,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space05_prop02.swf",
                 "name": "Space ship",
                 "holdable": "0",
@@ -1338,7 +1338,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space06_prop02.swf",
                 "name": "Door",
                 "holdable": "0",
@@ -1354,7 +1354,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "space06_prop03.swf",
                 "name": "Screen",
                 "holdable": "0",

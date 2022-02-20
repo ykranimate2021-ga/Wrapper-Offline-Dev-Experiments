@@ -1,12 +1,12 @@
 {
-    "@attributes": {
+    "attributes": {
         "id": "ninjaanime",
         "name": "Ninja Anime",
         "cc_theme_id": "ninjaanime"
     },
     "background": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja01_bg.swf",
                 "name": "Traditional Japanese Home - Fooftop",
                 "enable": "Y",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja02_bg.swf",
                 "name": "Traditional Japanese Home - Dojo",
                 "enable": "Y",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja09_bg.swf",
                 "name": "Traditional Japanese Home - Garden",
                 "enable": "Y",
@@ -42,7 +42,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja08_bg.swf",
                 "name": "Traditional Japanese Home - Dojo",
                 "enable": "Y",
@@ -54,7 +54,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja03_bg.swf",
                 "name": "Forest",
                 "enable": "Y",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja04_bg.swf",
                 "name": "Forest",
                 "enable": "Y",
@@ -78,7 +78,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja05_bg.swf",
                 "name": "Forest",
                 "enable": "Y",
@@ -90,7 +90,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja16_bg.swf",
                 "name": "Forest",
                 "enable": "Y",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja06_bg.swf",
                 "name": "Desert",
                 "enable": "Y",
@@ -114,7 +114,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja07_bg.swf",
                 "name": "Desert",
                 "enable": "Y",
@@ -126,7 +126,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja10_bg.swf",
                 "name": "Street",
                 "enable": "Y",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja11_bg.swf",
                 "name": "Street",
                 "enable": "Y",
@@ -150,7 +150,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja12_bg.swf",
                 "name": "Street",
                 "enable": "Y",
@@ -162,7 +162,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja13_bg.swf",
                 "name": "Street",
                 "enable": "Y",
@@ -174,7 +174,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja14_bg.swf",
                 "name": "Street",
                 "enable": "Y",
@@ -186,7 +186,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja17_bg.swf",
                 "name": "Street",
                 "enable": "Y",
@@ -198,7 +198,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house06_bg.swf",
                 "name": "Traditional Japanese Home - Hill side",
                 "enable": "Y",
@@ -210,7 +210,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house01_bg.swf",
                 "name": "Traditional Japanese Home - Garden",
                 "enable": "Y",
@@ -222,7 +222,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house03_bg.swf",
                 "name": "Traditional Japanese Home - Entrance",
                 "enable": "Y",
@@ -234,7 +234,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house08_bg.swf",
                 "name": "Traditional Japanese Home - Hallway",
                 "enable": "Y",
@@ -246,7 +246,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house07_bg.swf",
                 "name": "Traditional Japanese Home - Walkway",
                 "enable": "Y",
@@ -258,7 +258,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house04_bg.swf",
                 "name": "Traditional Japanese Home - Garden",
                 "enable": "Y",
@@ -270,7 +270,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house05_bg.swf",
                 "name": "Traditional Japanese Home - Study",
                 "enable": "Y",
@@ -282,7 +282,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house02_bg.swf",
                 "name": "Traditional Japanese Home - Living room",
                 "enable": "Y",
@@ -296,7 +296,7 @@
     ],
     "compositebg": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house06",
                 "name": "Traditional Japanese Home - Hill side",
                 "enable": "Y",
@@ -309,7 +309,7 @@
                 "aid": "17562"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house06_BG36",
                     "index": "0"
                 },
@@ -317,7 +317,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house01",
                 "name": "Traditional Japanese Home - Garden",
                 "enable": "Y",
@@ -330,14 +330,14 @@
                 "aid": "17557"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house01_BG37",
                     "index": "0"
                 },
                 "file": "ninjaanime.house01_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house01_PROP13",
                     "index": "1"
                 },
@@ -351,7 +351,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house03",
                 "name": "Traditional Japanese Home - Entrance",
                 "enable": "Y",
@@ -364,7 +364,7 @@
                 "aid": "17559"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house03_BG39",
                     "index": "0"
                 },
@@ -372,7 +372,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house08",
                 "name": "Traditional Japanese Home - Hallway",
                 "enable": "Y",
@@ -385,7 +385,7 @@
                 "aid": "17564"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house08_BG40",
                     "index": "0"
                 },
@@ -393,7 +393,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house07",
                 "name": "Traditional Japanese Home - Walkway",
                 "enable": "Y",
@@ -406,14 +406,14 @@
                 "aid": "17563"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house07_BG41",
                     "index": "0"
                 },
                 "file": "ninjaanime.house07_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house07_PROP15",
                     "index": "1"
                 },
@@ -427,7 +427,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house04",
                 "name": "Traditional Japanese Home - Garden",
                 "enable": "Y",
@@ -440,14 +440,14 @@
                 "aid": "17560"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house04_BG44",
                     "index": "0"
                 },
                 "file": "ninjaanime.house04_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house04_PROP16",
                     "index": "1"
                 },
@@ -461,7 +461,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house05",
                 "name": "Traditional Japanese Home - Study",
                 "enable": "Y",
@@ -474,7 +474,7 @@
                 "aid": "17561"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house05_BG46",
                     "index": "0"
                 },
@@ -482,7 +482,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_house02",
                 "name": "Traditional Japanese Home - Living room",
                 "enable": "Y",
@@ -495,7 +495,7 @@
                 "aid": "17558"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_house02_BG47",
                     "index": "0"
                 },
@@ -503,7 +503,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_house02_PROP17",
                         "index": "3"
                     },
@@ -516,7 +516,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_house02_PROP18",
                         "index": "2"
                     },
@@ -529,7 +529,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_house02_PROP19",
                         "index": "1"
                     },
@@ -544,7 +544,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja01",
                 "name": "Village - Rooftops",
                 "enable": "Y",
@@ -557,7 +557,7 @@
                 "aid": "17565"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja01_BG3",
                     "index": "0"
                 },
@@ -565,7 +565,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja02",
                 "name": "Dojo",
                 "enable": "Y",
@@ -578,7 +578,7 @@
                 "aid": "17566"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja02_BG4",
                     "index": "0"
                 },
@@ -586,7 +586,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja09",
                 "name": "House - Garden",
                 "enable": "Y",
@@ -599,7 +599,7 @@
                 "aid": "17573"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja09_BG6",
                     "index": "0"
                 },
@@ -607,7 +607,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja09_PROP0",
                         "index": "1"
                     },
@@ -620,7 +620,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja09_PROP1",
                         "index": "2"
                     },
@@ -635,7 +635,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja08",
                 "name": "Dojo",
                 "enable": "Y",
@@ -648,7 +648,7 @@
                 "aid": "17572"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja08_BG10",
                     "index": "0"
                 },
@@ -656,7 +656,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja03",
                 "name": "Forest",
                 "enable": "Y",
@@ -669,7 +669,7 @@
                 "aid": "17567"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja03_BG11",
                     "index": "0"
                 },
@@ -677,7 +677,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja03_PROP2",
                         "index": "2"
                     },
@@ -690,7 +690,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja03_PROP3",
                         "index": "1"
                     },
@@ -705,7 +705,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja04",
                 "name": "Forest",
                 "enable": "Y",
@@ -718,7 +718,7 @@
                 "aid": "17568"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja04_BG14",
                     "index": "0"
                 },
@@ -726,7 +726,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja04_PROP4",
                         "index": "1"
                     },
@@ -739,7 +739,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja04_PROP5",
                         "index": "2"
                     },
@@ -754,7 +754,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja05",
                 "name": "Forest",
                 "enable": "Y",
@@ -767,7 +767,7 @@
                 "aid": "17569"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja05_BG17",
                     "index": "0"
                 },
@@ -775,7 +775,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja05_PROP6",
                         "index": "1"
                     },
@@ -788,7 +788,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja05_PROP7",
                         "index": "2"
                     },
@@ -803,7 +803,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja16",
                 "name": "Bamboo Forest",
                 "enable": "Y",
@@ -816,7 +816,7 @@
                 "aid": "17579"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja16_BG21",
                     "index": "0"
                 },
@@ -824,7 +824,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja16_PROP8",
                         "index": "2"
                     },
@@ -837,7 +837,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja16_PROP9",
                         "index": "1"
                     },
@@ -852,7 +852,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja06",
                 "name": "Desert",
                 "enable": "Y",
@@ -865,7 +865,7 @@
                 "aid": "17570"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja06_BG24",
                     "index": "0"
                 },
@@ -873,7 +873,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja07",
                 "name": "Desert",
                 "enable": "Y",
@@ -886,7 +886,7 @@
                 "aid": "17571"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja07_BG25",
                     "index": "0"
                 },
@@ -894,7 +894,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja10",
                 "name": "Village - Street",
                 "enable": "Y",
@@ -907,14 +907,14 @@
                 "aid": "17574"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja10_BG26",
                     "index": "0"
                 },
                 "file": "ninjaanime.ninja10_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja10_PROP10",
                     "index": "1"
                 },
@@ -928,7 +928,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja11",
                 "name": "Village - Street",
                 "enable": "Y",
@@ -941,7 +941,7 @@
                 "aid": "17575"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja11_BG28",
                     "index": "0"
                 },
@@ -949,7 +949,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja12",
                 "name": "Village - Street",
                 "enable": "Y",
@@ -962,7 +962,7 @@
                 "aid": "17576"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja12_BG29",
                     "index": "0"
                 },
@@ -970,7 +970,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja13",
                 "name": "Village - Street",
                 "enable": "Y",
@@ -983,7 +983,7 @@
                 "aid": "17577"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja13_BG30",
                     "index": "0"
                 },
@@ -991,7 +991,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja13_PROP11",
                         "index": "1"
                     },
@@ -1004,7 +1004,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "cbg_ninja13_PROP12",
                         "index": "2"
                     },
@@ -1019,7 +1019,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja14",
                 "name": "Village - Bridge",
                 "enable": "Y",
@@ -1032,7 +1032,7 @@
                 "aid": "17578"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja14_BG33",
                     "index": "0"
                 },
@@ -1040,7 +1040,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "cbg_ninja17",
                 "name": "Village - Bridge",
                 "enable": "Y",
@@ -1053,7 +1053,7 @@
                 "aid": "17580"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "cbg_ninja17_BG34",
                     "index": "0"
                 },
@@ -1063,7 +1063,7 @@
     ],
     "prop": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house01_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1079,7 +1079,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house02_prop01.swf",
                 "name": "Table",
                 "holdable": "0",
@@ -1095,7 +1095,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house02_prop02.swf",
                 "name": "Cupboard",
                 "holdable": "0",
@@ -1111,7 +1111,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house02_prop03.swf",
                 "name": "Screen",
                 "holdable": "0",
@@ -1127,7 +1127,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house04_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1143,7 +1143,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "house07_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1159,7 +1159,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja03_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1175,7 +1175,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja03_prop02.swf",
                 "name": "",
                 "holdable": "0",
@@ -1191,7 +1191,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja04_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1207,7 +1207,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja04_prop02.swf",
                 "name": "",
                 "holdable": "0",
@@ -1223,7 +1223,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja05_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1239,7 +1239,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja05_prop02.swf",
                 "name": "",
                 "holdable": "0",
@@ -1255,7 +1255,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja09_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1271,7 +1271,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja09_prop02.swf",
                 "name": "",
                 "holdable": "0",
@@ -1287,7 +1287,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja10_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1303,7 +1303,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja13_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1319,7 +1319,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja13_prop02.swf",
                 "name": "",
                 "holdable": "0",
@@ -1335,7 +1335,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja16_prop01.swf",
                 "name": "",
                 "holdable": "0",
@@ -1351,7 +1351,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "ninja16_prop02.swf",
                 "name": "",
                 "holdable": "0",
@@ -1367,7 +1367,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "02sword01.swf",
                 "name": "Sword",
                 "holdable": "1",
@@ -1384,7 +1384,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "02sword02.swf",
                 "name": "Sword",
                 "holdable": "1",
@@ -1401,7 +1401,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "02sword03.swf",
                 "name": "Sword",
                 "holdable": "1",
@@ -1418,7 +1418,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "02sword04.swf",
                 "name": "Sword",
                 "holdable": "1",
@@ -1435,7 +1435,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "02sword05.swf",
                 "name": "Sword",
                 "holdable": "1",

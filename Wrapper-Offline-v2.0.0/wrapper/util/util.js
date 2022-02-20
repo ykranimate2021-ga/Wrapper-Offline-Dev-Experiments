@@ -31,13 +31,8 @@ module.exports = {
 		zip.add(zipName, buffer);
 		if (zip[zipName].crc32 < 0) zip[zipName].crc32 += 4294967296;
 	},
-  readFile(path) {
-    fs.readFile(path, 'utf8', function(err, data) {
-      return data
-    });
-  },
-  readFileSync(path) {
-    return fs.readFileSync(path);
+  readFile(name) {
+    fs.readFileSync(name)
   },
   padZero(n, l = 9) {
 		return ("" + n).padStart(l, "0");
@@ -81,20 +76,46 @@ module.exports = {
 	getFileString(s, suf = ".xml", name) {
 		return `${savedFolder}/${s}${name}${suf}`;
 	},
-	addToSavedJson(options) {
+	manipulateSavedJson(func, options) {
 		var json = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
-		let entry = {
-			"id": options.id,
-			"type": options.type,
-			"name": options.name || "Untitled",
-			"description": options.desc || 0,
-			"thumb": options.thumb || 0,
-			"theme": options.theme || 0,
-			"subtype": options.subtype || 0,
-			"duration": options.duration || 0,
-			"category": options.category || 0
+		switch (func) {
+			case "add": {
+				let entry = {
+					"id": options.id,
+					"type": options.type,
+					"name": options.name || "Untitled",
+					"description": options.desc || 0,
+					"thumb": options.thumb || 0,
+					"theme": options.theme || 0,
+					"subtype": options.subtype || 0,
+					"duration": options.duration || 0,
+					"category": options.category || 0
+				}
+				json.unshift(entry);
+				break;
+			}
+			case "delete": {
+				var n = json.findIndex(x => x.id == options.id)
+				var del = json.splice(n,1);
+				break;
+			}
+			case "edit": {
+				var n = json.findIndex(x => x.id == options.id)
+				var asset = json[n];
+				var newEntry = {
+					"id": asset.id,
+					"type": asset.type,
+					"name": options.name,
+					"description": asset.desc,
+					"thumb": asset.thumb,
+					"theme": asset.theme,
+					"subtype": asset.subtype,
+					"duration": asset.duration,
+					"category": options.category
+				}
+				json.splice(n,1,newEntry);
+			}
 		}
-		json.unshift(entry);
 		var newJson = JSON.stringify(json, null, 2);
 		this.writeFile(`${savedFolder}/saved.json`, newJson)
 
@@ -150,22 +171,7 @@ module.exports = {
 			}
 		}
 	},
-	removeFromSavedJson(id) {
-		var json = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
-		var i = 0;
-		json.forEach(asset => {
-			if (asset.id == id) {
-				var n = i;
-				var del = json.splice(n,1);
-				var newJson = JSON.stringify(json, null, 2);
-				fs.writeFile(`${savedFolder}/saved.json`, newJson, (err) => {
-					if (err) throw err;
-				});
-			}
-			i++
-		})
-	},
-	setRpcActivity(string, image) {
+	setRpcActivity(string, image, details = string) {
 		rpc.setActivity({
 			state: string,
 			details: "Version 2.0.0",
@@ -173,7 +179,7 @@ module.exports = {
 			largeImageKey: "templogo",
 			largeImageText: "Comedy Studio",
 			smallImageKey: image,
-			smallImageText: string,
+			smallImageText: details,
 		});
 	},
 	changeSetting(name) {

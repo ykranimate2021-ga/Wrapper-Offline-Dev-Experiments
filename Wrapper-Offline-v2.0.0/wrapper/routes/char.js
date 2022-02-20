@@ -2,24 +2,18 @@ var express = require('express');
 var router = express.Router();
 var util = require('../util/util')
 let dotenv = require('dotenv').config()
+const fs = require("fs");
 const savedFolder = process.env.SAVED_FOLDER;
 const themeFolder = process.env.THEME_FOLDER;
 const settings = require('../util/settings.json')
-var savedjson = JSON.parse(util.readFile(`${savedFolder}/saved.json`));
+var savedjson = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
+var themelist = JSON.parse(fs.readFileSync(`${themeFolder}/themelist.json`));
+function readTheme(name) {
+  return JSON.parse(fs.readFileSync(`${themeFolder}/${name}.json`));
+}
 
 router.get('/browse/:theme', function(req, res, next) {
   var theme = req.params.theme;
-  switch (theme) {
-    case "custom":
-      var theme = "family";
-      break;
-    case "action":
-    case "animal":
-    case "space":
-    case "vietnam":
-      var theme = "cc2";
-      break;
-  }
 
   /* custom chars */
 
@@ -45,7 +39,7 @@ router.get('/browse/:theme', function(req, res, next) {
 
   /* stock chars */
 
-  var stockjson = JSON.parse(util.readFile(`${themeFolder}/${req.params.theme}.json`));
+  var stockjson = readTheme(req.params.theme);
   var stockchars = [];
   stockjson.char.forEach (asset => {
 
@@ -54,7 +48,7 @@ router.get('/browse/:theme', function(req, res, next) {
       "name": asset.attributes.name,
       "theme": asset.attributes.cc_theme_id,
       "thumb": asset.attributes.thumbnail_url,
-      "category": asset.category
+      "category": asset.category || "Stock Characters"
     }
     stockchars.push(entry)
   })
@@ -64,8 +58,11 @@ router.get('/browse/:theme', function(req, res, next) {
     stockchars = false
   }
 
+  var pos = themelist.findIndex(x => x.vm_id === theme);
+  var themeStr = themelist[pos].name;
+
   if (settings.discord_rpc == "true") {
-    util.setRpcActivity('Browsing characters', 'list')
+    util.setRpcActivity('Browsing characters', 'list', `${savedchars.length || 'No'} custom characters for ${themeStr}`)
   }
 
   /* response */
@@ -102,7 +99,7 @@ router.get('/create/:theme/copy/:id', function(req, res, next) {
 
 router.get('/:id/thumb', function(req, res, next) {
   res.set({'Content-Type': 'image/png'});
-  res.send(util.readFile(util.getThumbPath(req.params.id, 'char')));
+  res.send(fs.readFileSync(util.getThumbPath(req.params.id, 'char')));
 });
 
 router.get('/:id/file', function(req, res, next) {
@@ -115,7 +112,7 @@ router.get('/:id/file', function(req, res, next) {
     case "c":
     case "C": {
       res.set({'Content-Type': 'text/html; charset=UTF-8'});
-      res.send(util.readFile(util.getFilePath(id, 'char')));
+      res.send(fs.readFileSync(util.getFilePath(id, 'char')));
       break;
     }
   }

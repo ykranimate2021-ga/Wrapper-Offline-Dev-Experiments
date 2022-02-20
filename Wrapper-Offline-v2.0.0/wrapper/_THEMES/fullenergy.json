@@ -1,11 +1,11 @@
 {
-    "@attributes": {
+    "attributes": {
         "id": "fullenergy",
         "name": "Full Energy"
     },
     "char": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "boss_char",
                 "name": "Boss",
                 "thumb": "stand.swf",
@@ -20,7 +20,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "guitar.swf",
                         "name": "Play guitar",
                         "loop": "Y",
@@ -30,7 +30,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "leak.swf",
                         "name": "Leak energy",
                         "loop": "Y",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sit.swf",
                         "name": "Sitting",
                         "loop": "Y",
@@ -50,7 +50,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "stand.swf",
                         "name": "Standing",
                         "loop": "Y",
@@ -60,7 +60,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk.swf",
                         "name": "Talk",
                         "loop": "Y",
@@ -70,7 +70,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "weight_lift.swf",
                         "name": "Work out",
                         "loop": "Y",
@@ -82,7 +82,7 @@
             ],
             "motion": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "walk.swf",
                         "name": "Walk",
                         "loop": "Y",
@@ -92,7 +92,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "tired_walk.swf",
                         "name": "Tired Walk",
                         "loop": "Y",
@@ -104,7 +104,7 @@
             ],
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_neutral.swf",
                         "name": "Neutral",
                         "enable": "Y",
@@ -112,7 +112,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "Happy",
                         "enable": "Y",
@@ -120,7 +120,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "Angry",
                         "enable": "Y",
@@ -128,7 +128,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "Sad",
                         "enable": "Y",
@@ -136,7 +136,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "Talk",
                         "enable": "Y",
@@ -144,7 +144,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_happy.swf",
                         "name": "Talk Happy",
                         "enable": "Y",
@@ -152,7 +152,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "Talk Angry",
                         "enable": "Y",
@@ -162,7 +162,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "dave_char",
                 "name": "Dave",
                 "thumb": "stand.swf",
@@ -177,7 +177,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "stand.swf",
                         "name": "Standing",
                         "loop": "Y",
@@ -187,7 +187,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sit.swf",
                         "name": "Sitting",
                         "loop": "Y",
@@ -197,7 +197,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk.swf",
                         "name": "Talk",
                         "loop": "Y",
@@ -207,7 +207,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "get_excited.swf",
                         "name": "Excited",
                         "loop": "Y",
@@ -217,7 +217,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "drink.swf",
                         "name": "Drink Energy Drink",
                         "loop": "Y",
@@ -227,7 +227,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "rock.swf",
                         "name": "Play Guitar",
                         "loop": "Y",
@@ -238,7 +238,7 @@
                 }
             ],
             "motion": {
-                "@attributes": {
+                "attributes": {
                     "id": "walk.swf",
                     "name": "Walk",
                     "loop": "Y",
@@ -249,7 +249,7 @@
             },
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_neutral.swf",
                         "name": "Neutral",
                         "enable": "Y",
@@ -257,7 +257,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "Happy",
                         "enable": "Y",
@@ -265,7 +265,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "Angry",
                         "enable": "Y",
@@ -273,7 +273,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "Sad",
                         "enable": "Y",
@@ -281,7 +281,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "Talk",
                         "enable": "Y",
@@ -289,7 +289,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_happy.swf",
                         "name": "Talk Happy",
                         "enable": "Y",
@@ -297,7 +297,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "Talk Angry",
                         "enable": "Y",
@@ -307,7 +307,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "clyde_char",
                 "name": "Clyde",
                 "thumb": "stand.swf",
@@ -322,7 +322,7 @@
             },
             "action": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "stand.swf",
                         "name": "Standing",
                         "loop": "Y",
@@ -332,7 +332,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "sit.swf",
                         "name": "Sitting",
                         "loop": "Y",
@@ -342,7 +342,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "talk.swf",
                         "name": "Talk",
                         "loop": "Y",
@@ -352,7 +352,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "read_magazine.swf",
                         "name": "Read Magazine",
                         "loop": "Y",
@@ -362,7 +362,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "flip_beef_patty.swf",
                         "name": "Flip Beef Patty",
                         "loop": "Y",
@@ -372,7 +372,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "throw_up.swf",
                         "name": "Throw up",
                         "loop": "Y",
@@ -383,7 +383,7 @@
                 }
             ],
             "motion": {
-                "@attributes": {
+                "attributes": {
                     "id": "walk.swf",
                     "name": "Walk",
                     "loop": "Y",
@@ -394,7 +394,7 @@
             },
             "facial": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_neutral.swf",
                         "name": "Neutral",
                         "enable": "Y",
@@ -402,7 +402,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_happy.swf",
                         "name": "Happy",
                         "enable": "Y",
@@ -410,7 +410,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_angry.swf",
                         "name": "Angry",
                         "enable": "Y",
@@ -418,7 +418,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_sad.swf",
                         "name": "Sad",
                         "enable": "Y",
@@ -426,7 +426,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk.swf",
                         "name": "Talk",
                         "enable": "Y",
@@ -434,7 +434,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_happy.swf",
                         "name": "Talk Happy",
                         "enable": "Y",
@@ -442,7 +442,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "head_talk_angry.swf",
                         "name": "Talk Angry",
                         "enable": "Y",
@@ -454,7 +454,7 @@
     ],
     "background": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "bg01.swf",
                 "name": "Trailer park",
                 "enable": "Y",
@@ -466,7 +466,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "bg02.swf",
                 "name": "Inside trailer",
                 "enable": "Y",
@@ -478,7 +478,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "bg03.swf",
                 "name": "Basketball court",
                 "enable": "Y",
@@ -490,7 +490,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "bg04.swf",
                 "name": "Inside Trailer",
                 "enable": "Y",
@@ -504,7 +504,7 @@
     ],
     "prop": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "acoustic_guitar.swf",
                 "name": "Acoustic guitar",
                 "holdable": "1",
@@ -520,7 +520,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "boombox.swf",
                 "name": "Boombox",
                 "holdable": "1",
@@ -536,7 +536,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "boss_sunglasses.swf",
                 "name": "Boss Sunglasses",
                 "holdable": "0",
@@ -552,7 +552,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "burger.swf",
                 "name": "Burger",
                 "holdable": "1",
@@ -568,7 +568,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "car.swf",
                 "name": "Car",
                 "holdable": "0",
@@ -584,7 +584,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "chair.swf",
                 "name": "outdoor chair",
                 "holdable": "0",
@@ -600,7 +600,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "chair02.swf",
                 "name": "old chair",
                 "holdable": "0",
@@ -616,7 +616,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "drink.swf",
                 "name": "Energy drink",
                 "holdable": "1",
@@ -632,7 +632,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "dumbell.swf",
                 "name": "Dumbell",
                 "holdable": "1",
@@ -648,7 +648,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "fastfood.swf",
                 "name": "Fast food combo",
                 "holdable": "0",
@@ -664,7 +664,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "guitar.swf",
                 "name": "Electric guitar",
                 "holdable": "1",
@@ -680,7 +680,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_bbq",
                 "name": "BBQ",
                 "holdable": "0",
@@ -696,7 +696,7 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_bbq_grill.swf",
                         "name": "BBQ",
                         "enable": "Y",
@@ -704,7 +704,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_bbq_grill_food.swf",
                         "name": "BBQ Food",
                         "enable": "Y"
@@ -713,7 +713,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_fridge",
                 "name": "Fridge",
                 "holdable": "0",
@@ -729,7 +729,7 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_fridge_frigerator_close.swf",
                         "name": "Closed",
                         "enable": "Y",
@@ -737,7 +737,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_fridge_frigerator_open.swf",
                         "name": "Opened",
                         "enable": "Y"
@@ -746,7 +746,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "sofa01.swf",
                 "name": "Sofa",
                 "holdable": "0",
@@ -762,7 +762,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "sofa02.swf",
                 "name": "Sofa",
                 "holdable": "0",
@@ -778,7 +778,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "spatula.swf",
                 "name": "Spatula",
                 "holdable": "1",
@@ -794,7 +794,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "speaker.swf",
                 "name": "Speaker",
                 "holdable": "0",
@@ -810,7 +810,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "stove.swf",
                 "name": "Stove",
                 "holdable": "0",
@@ -826,7 +826,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "tv.swf",
                 "name": "TV",
                 "holdable": "0",
@@ -842,7 +842,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "water_gun.swf",
                 "name": "Water gun",
                 "holdable": "1",

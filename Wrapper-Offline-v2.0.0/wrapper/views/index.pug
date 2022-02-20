@@ -68,7 +68,7 @@ block content
       }
       function deleteVideo(id) {
         var http = new XMLHttpRequest();
-        http.open('POST', "/goapi/deleteUgc", true);
+        http.open('POST', "/api/ugc/delete", true);
 
         http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 

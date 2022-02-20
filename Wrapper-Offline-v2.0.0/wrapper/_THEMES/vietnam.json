@@ -1,12 +1,12 @@
 {
-    "@attributes": {
+    "attributes": {
         "id": "vietnam",
         "name": "Jungle Warfare",
         "cc_theme_id": "cc2"
     },
     "background": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_checkpoint_bg.swf",
                 "name": "Checkpoint",
                 "enable": "Y",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_sky03_bg.swf",
                 "name": "Skyline - Panning Right",
                 "enable": "Y",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_sky02_bg.swf",
                 "name": "Skyline",
                 "enable": "Y",
@@ -42,7 +42,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_sky01_bg.swf",
                 "name": "Skyline - Panning Left",
                 "enable": "Y",
@@ -54,7 +54,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_river03_bg.swf",
                 "name": "River - Panning Left",
                 "enable": "Y",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_river02_bg.swf",
                 "name": "River",
                 "enable": "Y",
@@ -78,7 +78,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_river01_bg.swf",
                 "name": "River - Panning Right",
                 "enable": "Y",
@@ -90,7 +90,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_landing02_bg.swf",
                 "name": "Grassland - Helicopter landing",
                 "enable": "Y",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_landing01_bg.swf",
                 "name": "Grassland",
                 "enable": "Y",
@@ -114,7 +114,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest04_bg.swf",
                 "name": "Forest - Panning Right",
                 "enable": "Y",
@@ -126,7 +126,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest03_bg.swf",
                 "name": "Forest - Panning Left",
                 "enable": "Y",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest02_bg.swf",
                 "name": "Forest",
                 "enable": "Y",
@@ -150,7 +150,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_underground01_bg.swf",
                 "name": "Hideout",
                 "enable": "Y",
@@ -162,7 +162,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_underground02_bg.swf",
                 "name": "Hideout - explosions",
                 "enable": "Y",
@@ -176,7 +176,7 @@
     ],
     "compositebg": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_checkpoint",
                 "name": "Checkpoint",
                 "enable": "Y",
@@ -189,7 +189,7 @@
                 "aid": "12554"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_checkpoint_BG4",
                     "index": "0"
                 },
@@ -197,7 +197,7 @@
             },
             "prop": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "rw_checkpoint_PROP2",
                         "index": "2"
                     },
@@ -210,7 +210,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "rw_checkpoint_PROP3",
                         "index": "3"
                     },
@@ -223,7 +223,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "rw_checkpoint_PROP4",
                         "index": "4"
                     },
@@ -236,7 +236,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "rw_checkpoint_PROP5",
                         "index": "5"
                     },
@@ -249,7 +249,7 @@
                     "rotation": "0"
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "rw_checkpoint_PROP6",
                         "index": "8"
                     },
@@ -264,7 +264,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest02",
                 "name": "Forest",
                 "enable": "Y",
@@ -277,14 +277,14 @@
                 "aid": "12556"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_forest02_BG27",
                     "index": "0"
                 },
                 "file": "vietnam.rw_forest02_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_forest02_PROP3",
                     "index": "2"
                 },
@@ -298,7 +298,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest03",
                 "name": "Forest - Panning Left",
                 "enable": "Y",
@@ -311,14 +311,14 @@
                 "aid": "12555"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_forest03_BG24",
                     "index": "0"
                 },
                 "file": "vietnam.rw_forest03_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_forest03_PROP2",
                     "index": "1"
                 },
@@ -332,7 +332,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest04",
                 "name": "Forest - Panning Right",
                 "enable": "Y",
@@ -345,14 +345,14 @@
                 "aid": "12557"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_forest04_BG23",
                     "index": "0"
                 },
                 "file": "vietnam.rw_forest04_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_forest04_PROP2",
                     "index": "1"
                 },
@@ -366,7 +366,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_river02",
                 "name": "River",
                 "enable": "Y",
@@ -379,7 +379,7 @@
                 "aid": "12560"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_river02_BG6",
                     "index": "0"
                 },
@@ -387,7 +387,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_river03",
                 "name": "River - Panning Left",
                 "enable": "Y",
@@ -400,14 +400,14 @@
                 "aid": "12559"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_river03_BG10",
                     "index": "0"
                 },
                 "file": "vietnam.rw_river03_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_river03_PROP2",
                     "index": "1"
                 },
@@ -421,7 +421,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_river01",
                 "name": "River - Panning Right",
                 "enable": "Y",
@@ -434,14 +434,14 @@
                 "aid": "12558"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_river01_BG20",
                     "index": "0"
                 },
                 "file": "vietnam.rw_river01_bg.swf"
             },
             "prop": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_river01_PROP2",
                     "index": "1"
                 },
@@ -455,7 +455,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_sky02",
                 "name": "Skyline",
                 "enable": "Y",
@@ -468,7 +468,7 @@
                 "aid": "12562"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_sky02_BG53",
                     "index": "0"
                 },
@@ -476,7 +476,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_sky01",
                 "name": "Skyline - Panning Left",
                 "enable": "Y",
@@ -489,7 +489,7 @@
                 "aid": "12561"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_sky01_BG49",
                     "index": "0"
                 },
@@ -497,7 +497,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_sky03",
                 "name": "Skyline - Panning Right",
                 "enable": "Y",
@@ -510,7 +510,7 @@
                 "aid": "12563"
             },
             "bg": {
-                "@attributes": {
+                "attributes": {
                     "id": "rw_sky03_BG51",
                     "index": "0"
                 },
@@ -520,7 +520,7 @@
     ],
     "prop": [
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_checkpoint01.swf",
                 "name": "Gate",
                 "holdable": "0",
@@ -536,7 +536,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest01.swf",
                 "name": "Bushes",
                 "holdable": "0",
@@ -552,7 +552,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_forest02.swf",
                 "name": "Trees",
                 "holdable": "0",
@@ -568,7 +568,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_02kabar.swf",
                 "name": "Combat knife",
                 "holdable": "1",
@@ -585,7 +585,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_car15",
                 "name": "CAR-15",
                 "holdable": "1",
@@ -603,28 +603,28 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_car15_ncc_gun_fire.swf",
                         "name": "Automatic mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_car15_ncc_gun_loop.swf",
                         "name": "Burst mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_car15_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_car15_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -634,7 +634,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m1a1",
                 "name": "M1A1",
                 "holdable": "1",
@@ -652,28 +652,28 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m1a1_ncc_gun_fire.swf",
                         "name": "Automatic mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m1a1_ncc_gun_loop.swf",
                         "name": "Burst mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m1a1_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m1a1_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -683,7 +683,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m1g",
                 "name": "M1 Garand",
                 "holdable": "1",
@@ -701,21 +701,21 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m1g_ncc_gun_loop.swf",
                         "name": "Keep shooting",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m1g_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m1g_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -725,7 +725,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m2car",
                 "name": "M2 Carbine",
                 "holdable": "1",
@@ -743,28 +743,28 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m2car_ncc_gun_fire.swf",
                         "name": "Automatic mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m2car_ncc_gun_loop.swf",
                         "name": "Burst mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m2car_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m2car_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -774,7 +774,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m14",
                 "name": "M14",
                 "holdable": "1",
@@ -792,28 +792,28 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m14_ncc_gun_fire.swf",
                         "name": "Automatic mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m14_ncc_gun_loop.swf",
                         "name": "Burst mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m14_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m14_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -823,7 +823,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m16vn",
                 "name": "M16 Vietnam",
                 "holdable": "1",
@@ -841,28 +841,28 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m16vn_ncc_gun_fire.swf",
                         "name": "Automatic mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m16vn_ncc_gun_loop.swf",
                         "name": "Burst mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m16vn_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m16vn_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -872,7 +872,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m60",
                 "name": "M60",
                 "holdable": "1",
@@ -890,28 +890,28 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m60_ncc_gun_fire.swf",
                         "name": "Automatic mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m60_ncc_gun_loop.swf",
                         "name": "Burst mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m60_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m60_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -921,7 +921,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m63",
                 "name": "M63 Mk.23 Mod.0",
                 "holdable": "1",
@@ -939,28 +939,28 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m63_ncc_gun_fire.swf",
                         "name": "Automatic mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m63_ncc_gun_loop.swf",
                         "name": "Burst mode",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m63_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m63_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -970,7 +970,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_m191",
                 "name": "1911",
                 "holdable": "1",
@@ -988,21 +988,21 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m191_ncc_gun_loop.swf",
                         "name": "Keep shooting",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m191_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_m191_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -1012,7 +1012,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_ncc_gun_winche",
                 "name": "Model 70 Sniper",
                 "holdable": "1",
@@ -1030,21 +1030,21 @@
             "tag": "gun",
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_winche_ncc_gun_loop.swf",
                         "name": "Keep shooting",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_winche_ncc_gun_once.swf",
                         "name": "Shoot once",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_ncc_gun_winche_ncc_gun_still.swf",
                         "name": "Still",
                         "enable": "Y",
@@ -1054,7 +1054,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_rw_huey01",
                 "name": "Chopper",
                 "holdable": "0",
@@ -1070,21 +1070,21 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_huey01_rw_huey_01.swf",
                         "name": "still",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_huey01_rw_huey_02.swf",
                         "name": "door",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_huey01_rw_huey_03.swf",
                         "name": "flying",
                         "enable": "Y",
@@ -1094,7 +1094,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_rw_ship",
                 "name": "Patrol boat",
                 "holdable": "0",
@@ -1110,14 +1110,14 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_ship_rw_ship_move.swf",
                         "name": "move",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_ship_rw_ship_still.swf",
                         "name": "still",
                         "enable": "Y",
@@ -1127,7 +1127,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "msp_rw_willly",
                 "name": "Jeep",
                 "holdable": "0",
@@ -1143,14 +1143,14 @@
             },
             "state": [
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_willly_rw_willysjeep_cover.swf",
                         "name": "front",
                         "enable": "Y"
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_willly_rw_willysjeep_off.swf",
                         "name": "still",
                         "enable": "Y",
@@ -1158,7 +1158,7 @@
                     }
                 },
                 {
-                    "@attributes": {
+                    "attributes": {
                         "id": "msp_rw_willly_rw_willysjeep_on.swf",
                         "name": "driving",
                         "enable": "Y"
@@ -1167,7 +1167,7 @@
             ]
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_box.swf",
                 "name": "Box",
                 "holdable": "0",
@@ -1183,7 +1183,7 @@
             }
         },
         {
-            "@attributes": {
+            "attributes": {
                 "id": "rw_sandbag.swf",
                 "name": "Sand bag",
                 "holdable": "0",
