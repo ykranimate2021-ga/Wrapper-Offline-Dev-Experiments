@@ -1,0 +1,78 @@
+extends layout
+
+block extrahead
+  link(rel='stylesheet', href='/stylesheets/settings.css')
+  script= "var themes='" + settings.truncated_themelist + "'; var rpc='" + settings.discord_rpc + "'; var debug='" + settings.debug + "';"
+
+block content
+  main 
+    .settingsheader
+      h1= "Settings"
+    .settings 
+      a.settingcontainer(onclick="changeSetting('themes')")
+        .settingcontent
+          .setting.unchecked#themes
+            img.checkimg(src='/images/icons/check.png')
+          div.stitle= "Truncate themes"
+          div.sdesc= "Reduces the amount of themes seen in the studio and on the create page. Turning this off will show all themes. Does not require a restart."
+      a.settingcontainer(onclick="changeSetting('rpc')")
+        .settingcontent
+          .setting.unchecked#rpc
+            img.checkimg(src='/images/icons/check.png')
+          div.stitle= "Discord RPC"
+          div.sdesc= "If you have Discord, this will show your activity on Comedy Studio in your status. Turning this on will enable that. Requires a restart."
+      a.settingcontainer(onclick="changeSetting('debug')")
+        .settingcontent
+          .setting.unchecked#debug
+            img.checkimg(src='/images/icons/check.png')
+          div.stitle= "Debug mode"
+          div.sdesc= "This will enable certain debug features within the program, this is mainly used for developers or for people trying to fix issues. Turning this on will enable those features. Requires a restart."
+  script. 
+    function checkSettings() {
+      const settings = [
+        {
+          "name": "themes",
+          "set": themes
+        },
+        {
+          "name": "rpc",
+          "set": rpc
+        },
+        {
+          "name": "debug",
+          "set": debug
+        }
+      ]
+
+      settings.forEach(function(setting) {
+        if (setting.set == "true") {
+          document.getElementById(setting.name).setAttribute('class', 'setting checked')
+        }
+      })
+    }
+    function changeSetting(name) {
+      var http = new XMLHttpRequest();
+      http.open('POST', "/api/changeSetting", true);
+
+      http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+      http.onreadystatechange = function() {
+          if(http.readyState == 4 && http.status == 200) {
+              var newValue = http.response;
+              switch (newValue) {
+                case "true": {
+                  document.getElementById(name).setAttribute('class', 'setting checked')
+                  break;
+                }
+                case "false": {
+                  document.getElementById(name).setAttribute('class', 'setting unchecked')
+                  break;
+                }
+              }
+              showNotif('ok', `Setting <span class="notifspan">${name}</span> successfully changed! If needed, you may have to restart.`);
+          } else if(http.readyState == 4 && http.status !== 200) {
+            showNotif('error', `Failed to change setting <span class="notifspan">${name}</span>!`);
+          }
+      }
+      http.send(`name=${name}`);
+    }

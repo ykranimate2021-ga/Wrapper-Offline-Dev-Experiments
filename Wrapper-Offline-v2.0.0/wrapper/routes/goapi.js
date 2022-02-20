@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const themelist = require('../themelist.json');
+var themelist = require('../_THEMES/themelist.json')
 const util = require('../util/util');
-const fs = require('fs');
 let dotenv = require('dotenv').config()
 const themeFolder = process.env.THEME_FOLDER;
 const savedFolder = process.env.SAVED_FOLDER;
@@ -10,6 +9,7 @@ const premadeFolder = process.env.PREMADE_FOLDER;
 const charUrl = process.env.CHAR_BASE_URL;
 const fw = process.env.FILE_WIDTH;
 const xNumWidth = process.env.XML_NUM_WIDTH;
+var savedjson = JSON.parse(util.readFile(`${savedFolder}/saved.json`));
 
 router.post('/getThemeList', function(req, res, next) {
   var themelist_xml = `<?xml version="1.0" encoding="UTF-8"?>\n<list version="1.0">\n\t<fvm_meta theme_code="" is_biz="0" />`
@@ -36,7 +36,6 @@ router.post('/getUserWatermarks', function(req, res, next) {
 });
 
 router.post('/getUserAssetsXml', function(req, res, next) {
-  var saved_json = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
   var ugc_xml = '<?xml version="1.0" encoding="UTF-8"?><ugc more="0">'
   switch (req.body.themeId) {
     case "custom":
@@ -51,7 +50,7 @@ router.post('/getUserAssetsXml', function(req, res, next) {
   }
   switch (req.body.type) {
     case "char": {
-      saved_json.forEach(asset => {
+      savedjson.forEach(asset => {
         if (asset.type == 'char' && asset.theme == theme) {
           ugc_xml += `<char id="${asset.id}" name="${asset.name}" cc_theme_id="${asset.theme}" thumbnail_url="${asset.thumb}" copyable="Y"><tags/></char>`
         }
@@ -74,15 +73,7 @@ router.post('/getCcCharCompositionXml', function(req, res, next) {
   switch (prefix) {
     case "c":
     case "C": {
-      fs.readFile(util.getCharPath(id), (e, b) => {
-        if (e) {
-          var fXml = util.xmlFail();
-          rej(Buffer.from(fXml));
-        } else {
-          res.set({'Content-Type': 'text/html; charset=UTF-8'});
-          res.send(`0${b}`);
-        }
-      });
+      util.readFile(util.getCharPath(id), 'utf-8');
       break;
     }
 
@@ -121,19 +112,19 @@ router.post('/saveCCCharacter', function(req, res, next) {
 	const suffix = id.substr(i + 1);
 	switch (prefix) {
 		case "c":
-			fs.writeFileSync(util.getFileIndex("char-", ".xml", suffix), req.body.body);
+			util.writeFile(util.getFileIndex("char-", ".xml", suffix), req.body.body);
 			break;
 		case "C":
 	}
   var thumb = Buffer.from(req.body.thumbdata, "base64");
-  fs.writeFileSync(util.getThumbPath(id, 'char'), thumb);
+  util.writeFile(util.getThumbPath(id, 'char'), thumb);
   util.addToSavedJson({id: id, type: 'char', theme: req.body.themeId, thumb: `/char/thumb/${id}`, category: ''})
 	res.send('0' + id);
 });
 
 router.post('/saveCCThumbs', function(req, res, next) {
   var thumb = Buffer.from(req.body.thumbdata, "base64");
-  fs.writeFileSync(util.getThumbPath(req.body.assetId, 'char'), thumb);
+  util.writeFile(util.getThumbPath(req.body.assetId, 'char'), thumb);
 	res.send('0' + req.body.assetId);
 });
 
@@ -145,15 +136,15 @@ router.post('/deleteUgc', function(req, res, next) {
 	switch (prefix) {
     case "c": {
       util.removeFromSavedJson(id);
-      fs.unlinkSync(util.getFilePath(id, 'char'));
-      fs.unlinkSync(util.getThumbPath(id, 'char'));
+      util.deleteFile(util.getFilePath(id, 'char'));
+      util.deleteFile(util.getThumbPath(id, 'char'));
       res.send('0');
       break;
     }
     case "v": {
       util.removeFromSavedJson(id);
-      fs.unlinkSync(util.getFilePath(id, 'video'));
-      fs.unlinkSync(util.getThumbPath(id, 'video'));
+      util.deleteFile(util.getFilePath(id, 'video'));
+      util.deleteFile(util.getThumbPath(id, 'video'));
       res.send('0');
       break;
     }
@@ -167,9 +158,8 @@ router.post('/updateAsset', function(req, res, next) {
   var id = req.body.id;
   var name = req.body.name;
   var category = req.body.category;
-  var json = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
   var i = 0;
-  json.forEach(asset => {
+  savedjson.forEach(asset => {
     if (asset.id == id) {
       var n = i;
       var newEntry = {
@@ -183,12 +173,9 @@ router.post('/updateAsset', function(req, res, next) {
         "duration": asset.duration,
         "category": category
       }
-      json.splice(n,1,newEntry);
+      savedjson.splice(n,1,newEntry);
       var newJson = JSON.stringify(json);
-      fs.writeFile(`${savedFolder}/saved.json`, newJson, (err) => {
-        if (err) throw err;
-        res.send('0');
-      });
+      util.writeFile(`${savedFolder}/saved.json`, newJson);
     }
     i++
   })

@@ -1,13 +1,15 @@
 var express = require('express');
 var router = express.Router();
-var themelist = require('../themelist.json')
+var themelist = require('../_THEMES/themelist.json')
 var util = require('../util/util')
 let dotenv = require('dotenv').config()
 const savedFolder = process.env.SAVED_FOLDER;
 var fs = require("fs");
 
+var savedjson = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
+var settings = JSON.parse(fs.readFileSync(`./util/settings.json`))
+
 router.get('/', function(req, res, next) {
-  var savedjson = JSON.parse(fs.readFileSync(`${savedFolder}/saved.json`));
   var videos = [];
   savedjson.forEach (asset => {
 		if (asset.type == "video") {
@@ -27,13 +29,24 @@ router.get('/', function(req, res, next) {
     videos = false;
   }
 
-  util.setRpcActivity('Browsing videos', 'list')
+  if (settings.discord_rpc == "true") {
+    util.setRpcActivity('Browsing videos', 'list')
+  }
   res.render('index', { title: 'Video List', videolist: videos, onloadfunction: 'getAnnouncement()' });
 });
 
 router.get('/create', function(req, res, next) {
-  util.setRpcActivity('Browsing themes', 'plus')
-  res.render('create', { title: 'Theme List', themelist: themelist } );
+  if (settings.discord_rpc == "true") {
+    util.setRpcActivity('Browsing themes', 'plus');
+  }
+  res.render('create', { title: 'Theme List', themelist: themelist, truncatedthemes: settings.truncated_themelist } );
+});
+
+router.get('/settings', function(req, res, next) {
+  if (settings.discord_rpc == "true") {
+    util.setRpcActivity('Changing settings', 'settings');
+  }
+  res.render('settings', { title: 'Settings', settings: settings, onloadfunction: 'checkSettings()' } );
 });
 
 /* redirects */

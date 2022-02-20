@@ -77,6 +77,8 @@ block content
                 var videodiv = document.querySelector("[data-id='" + id + "']")
                 videodiv.parentNode.removeChild(chardiv);
                 showNotif('ok', 'Movie <span class="notifspan">${id}</span> was deleted successfully!');
+            } else if(http.readyState == 4 && http.status !== 200) {
+              showNotif('error', `Failed to delete movie <span class="notifspan">${id}</span>!`)
             }
         }
         http.send(`id=${id}`);

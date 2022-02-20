@@ -115,12 +115,13 @@ theme
 	display: inline-block;
 }
 .checkimg {
+	width: 22px;
 	display: none;
 	transition: none;
 }
 #unchecked, #checked {
 	width: 28px;
-	height: 26px;
+	height: 28px;
 	position: absolute;
 	top: 9px;
 	right: 175px;

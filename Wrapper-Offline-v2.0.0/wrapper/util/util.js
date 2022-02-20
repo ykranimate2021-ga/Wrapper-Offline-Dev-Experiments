@@ -4,12 +4,14 @@ const https = require("https");
 let dotenv = require('dotenv').config()
 const savedFolder = process.env.SAVED_FOLDER;
 const cacheFolder = process.env.CACHE_FOLDER;
+const settings = require('./settings.json')
 const RPC = require("discord-rpc");
 
-const rpc = new RPC.Client({
-	transport: "ipc"
-});
-
+if (settings.discord_rpc == "true") {
+	var rpc = new RPC.Client({
+		transport: "ipc"
+	});
+}
 
 module.exports = {
 	makeZip(zipName, buffer) {
@@ -30,7 +32,7 @@ module.exports = {
 		if (zip[zipName].crc32 < 0) zip[zipName].crc32 += 4294967296;
 	},
   readFile(path) {
-    fs.readFile(path, 'utf8', function(err, data){
+    fs.readFile(path, 'utf8', function(err, data) {
       return data
     });
   },
@@ -94,9 +96,7 @@ module.exports = {
 		}
 		json.unshift(entry);
 		var newJson = JSON.stringify(json, null, 2);
-		fs.writeFile(`${savedFolder}/saved.json`, newJson, (err) => {
-			if (err) throw err;
-		});
+		this.writeFile(`${savedFolder}/saved.json`, newJson)
 
 		return true;
 	},
@@ -175,26 +175,70 @@ module.exports = {
 			smallImageKey: image,
 			smallImageText: string,
 		});
+	},
+	changeSetting(name) {
+		var settingname;
+		switch (name) {
+			case "themes": {
+				settingname = 'truncated_themelist';
+				break;
+			}
+			case "rpc": {
+				settingname = 'discord_rpc';
+				break;
+			}
+			default: {
+				settingname = name;
+				break;
+			}
+		}
+		var json = JSON.parse(fs.readFileSync(`./util/settings.json`));
+		var previous = json[settingname];
+		switch (previous) {
+			case "true": {
+				var changeTo = "false";
+				break;
+			}
+			case "false": {
+				var changeTo = "true";
+				break;
+			}
+		}
+		json[settingname] = changeTo;
+		var newjson = JSON.stringify(json, null, 2);
+		fs.writeFileSync(`./util/settings.json`, newjson);
+		return changeTo;
+	},
+	writeFile(name, data) {
+		fs.writeFileSync(name, data);
+	},
+	deleteFile(name) {
+		fs.unlinkSync(name);
+	},
+	readFile(name, encoding = 'utf-8') {
+		fs.readFileSync(name, encoding);
 	}
 };
 
-rpc.on("ready", () => {
-	rpc.setActivity({
-		state: 'Starting',
-		details: "Version 2.0.0",
-		startTimestamp: new Date(),
-		largeImageKey: "templogo",
-		largeImageText: "Comedy Studio",
-		smallImageKey: "Comedy Studio",
-		smallImageText: "Comedy Studio",
+if (settings.discord_rpc == "true") {
+	rpc.on("ready", () => {
+		rpc.setActivity({
+			state: 'Starting',
+			details: "Version 2.0.0",
+			startTimestamp: new Date(),
+			largeImageKey: "templogo",
+			largeImageText: "Comedy Studio",
+			smallImageKey: "Comedy Studio",
+			smallImageText: "Comedy Studio",
+		});
 	});
-});
-// Connects RPC to app
-try {
-	rpc.login({
-		clientId: "944419067140382730"
-	});
-	console.log('Rich presence is on!')
-} catch (e) {
-	console.log(e);
+	// Connects RPC to app
+	try {
+		rpc.login({
+			clientId: "944419067140382730"
+		});
+		console.log('Rich presence is on!')
+	} catch (e) {
+		console.log(e);
+	}
 }

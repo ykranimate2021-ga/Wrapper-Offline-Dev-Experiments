@@ -1,0 +1,79 @@
+main {
+	padding: 35px 40px;
+	display: block;
+	text-align: -webkit-center;
+	transition: all 0.5s;
+}
+.settingsheader {
+	position: relative;
+	width: 1200px;
+	border-bottom: 1px solid #ccc;
+}
+.settings {
+  margin-top: 10px;
+  width: 1140px;
+}
+.settingcontainer {
+  display: block;
+}
+.settingcontent {
+  float: left;
+}
+.setting {
+  background: linear-gradient(#292929, #141414);
+  box-shadow: inset 0 1px 0 0 #ffffff1a, 0 2px 0 0 #0000006e;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  max-width: 150px;
+  height: 230px;
+  border-radius: 6px;
+  transition: 0.05s linear;
+  padding: 3px;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+.stitle {
+  text-align: left;
+  max-width: 200px;
+  margin: 0;
+  position: relative;
+  right: 130px;
+}
+.sdesc {
+  display: block;
+  text-align: left;
+  max-width: 550px;
+  margin: 0;
+  font-size: 11px;
+  color: #ccc;
+}
+.checkimg {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	display: none;
+	transition: none;
+}
+.unchecked, .checked {
+	width: 35px;
+	height: 35px;
+}
+.checked {
+	transition: none;
+}
+.checked>.checkimg {
+	display: inline-block;
+	transition: none;
+}
+@media(max-width: 1280px) {
+	.settingsheader {
+		width: 100%;
+	}
+  .settings {
+    width: 95%;
+  }
+}

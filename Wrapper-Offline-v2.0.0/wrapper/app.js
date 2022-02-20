@@ -9,6 +9,7 @@ var vmRouter = require('./routes/studio');
 var ccRouter = require('./routes/char');
 var vRouter = require('./routes/video');
 var goapiRouter = require('./routes/goapi');
+var apiRouter = require('./routes/api');
 
 var app = express();
 let dotenv = require('dotenv').config()
@@ -28,6 +29,7 @@ app.use('/studio', vmRouter);
 app.use('/char', ccRouter);
 app.use('/video', vRouter);
 app.use('/goapi', goapiRouter);
+app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

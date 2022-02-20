@@ -10,26 +10,28 @@ block content
       h1= "Themes"
       a.filter(onclick="filter()")
         .theme.pick_creation#unchecked
-          img.checkimg(src='/images/themelist/tick.png')
+          img.checkimg(src='/images/icons/check.png')
         p.ftext= "Filter Non-CC Themes"
     .themes
       each theme in themelist
-        if theme.has_cc 
-          - var ccstr = 'has-cc'
+        if theme.isextra == true && truncatedthemes == "true"
         else
-          - var ccstr = 'no-cc'
-        .theme(data-tags=ccstr)
-          .imgholder
-            .pick
-              if theme.has_cc == true
+          if theme.has_cc 
+            - var ccstr = 'has-cc'
+          else
+            - var ccstr = 'no-cc'
+          .theme(data-tags=ccstr)
+            .imgholder
+              .pick
+                if theme.has_cc == true
+                  .theme.pick_creation
+                    a(href='/char/browse/' + theme.cc_id)
+                      img.pickimg(src='/images/themelist/Character.png', alt="Create a character" title="Create a character")
                 .theme.pick_creation
-                  a(href='/char/browse/' + theme.cc_id)
-                    img.pickimg(src='/images/themelist/Character.png', alt="Create a character" title="Create a character")
-              .theme.pick_creation
-                a(href='/studio/' + theme.vm_id)
-                  img.pickimg(src='/images/themelist/Movie.png', alt="Make a movie" title="Make a movie")
-            img.themeimg(src='/images/themelist/' + theme.thumb, alt=theme.name title=theme.name)
-          p.themename= theme.name
+                  a(href='/studio/' + theme.vm_id)
+                    img.pickimg(src='/images/themelist/Movie.png', alt="Make a movie" title="Make a movie")
+              img.themeimg(src='/images/themelist/' + theme.thumb, alt=theme.name title=theme.name)
+            p.themename= theme.name
   script. 
     var filterOn = false;
     function filter() {
